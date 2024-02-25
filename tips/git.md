@@ -1,5 +1,3 @@
-
-
 # Git
 
 ## Repositorio temporal
@@ -48,3 +46,12 @@ git push origin nombre_de_tu_rama
 git remote -v
 git remote remove nombre_de_tu_repo(origin ...)
 ```
+
+## Git pull
+
+Traer los cambios del remoto (repositorio nube Github) al local (maquina)
+
+- Abre tu terminal o línea de comandos.
+- Navega hasta el directorio de tu repositorio local utilizando el comando `cd`.
+- Asegúrate de que estás en la rama correcta utilizando el comando `git branch`. Si no estás en la rama correcta, cambia a la rama adecuada usando `git checkout <nombre_de_rama>`.
+- Una vez estés en la rama correcta, utiliza el comando `git pull` para traer los cambios del repositorio remoto a tu repositorio local.
