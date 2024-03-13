@@ -3,7 +3,7 @@
 *Documentación de lenguajes, tecnologias (frameworks, librerias...) de programación que utilizo*
 
 <p align="center">
- <a href="">
+ <a href="#">
     <img src="https://skillicons.dev/icons?i=solidity,git,ipfs,express,github,html,css,styledcomponents,tailwind,js,ts,md,prisma,mongodb,nextjs,nodejs,react,redux,threejs,ableton,bash,java,vscode,firebase,py,tensorflow,discord,docker&perline=14" />
  </a>
 </p>
