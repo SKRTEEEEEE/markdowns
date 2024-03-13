@@ -29,9 +29,9 @@ git pull origin main --allow-unrelated-histories
 git remote add origin nombre_de_tu_repositorio
 ```
 
-## Git push new "rama"
+## Git push NEW "rama"
 
-*Hacer el add y commit, despues:*
+**Hacer el add y commit, despues:**
 
 ```bash
 git checkout -b nombre_de_tu_rama
@@ -40,7 +40,7 @@ git push origin nombre_de_tu_rama
 
 ## Unfollow a Github
 
-*Dejar de seguir al repositorio actual en la nube*
+Dejar de seguir al repositorio actual en la nube
 
 ```bash
 git remote -v
@@ -55,3 +55,17 @@ Traer los cambios del remoto (repositorio nube Github) al local (maquina)
 - Navega hasta el directorio de tu repositorio local utilizando el comando `cd`.
 - Asegúrate de que estás en la rama correcta utilizando el comando `git branch`. Si no estás en la rama correcta, cambia a la rama adecuada usando `git checkout <nombre_de_rama>`.
 - Una vez estés en la rama correcta, utiliza el comando `git pull` para traer los cambios del repositorio remoto a tu repositorio local.
+
+## Eliminar git
+
+### Borrando todo el interior de la carpeta
+
+- Abre la terminal o el símbolo del sistema en tu sistema operativo.
+- Navega al directorio que contiene el repositorio local que deseas dejar de seguir.
+- Utiliza el comando `rm -rf <nombre_del_repositorio>` para eliminar el directorio del repositorio local y todos sus contenidos.
+
+### Borrando solo el git
+*Eliminando el archivo . git*
+
+- Navega al directorio raíz del repositorio local que deseas dejar de seguir.
+- Utiliza el comando `rm -rf .git` para eliminar el directorio `.git` y todos sus contenidos.
