@@ -12,8 +12,9 @@
 ### Frameworks 
 #### [![Next.js](https://img.shields.io/badge/Next.js-%23111111.svg?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/docs)
 #### [![React](https://img.shields.io/badge/-React-61DAFB?style=for-the-badge&logo=react&logoColor=white)](https://react.dev/learn)
-- [React-icons github](https://react-icons.github.io/react-icons/) - basic icons from React.
 ### Librerias
+- [React-icons github](https://react-icons.github.io/react-icons/) - **favorite icons** from React.
+- [Lucide dev](https://lucide.dev/icons/link): Beautiful & consistent icons 
 - [Font Awesome](https://fontawesome.com/): icon library and toolkit
 #### [![jQuery](https://img.shields.io/badge/-jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white)](https://jquery.com/)
 - [Slick carousel library ](https://kenwheeler.github.io/slick/) - jQuery based carousel library.

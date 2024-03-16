@@ -1,7 +1,8 @@
 # Git
 
 ## Repositorio temporal
-
+Clonar a un repositorio temporal para luego extraer en la carpeta raiz e eliminar la carpeta original(copiada de github con el seguimiento)
+*Sirve para copiar repos sin permiso del autor y dejar de seguir* Para ejecutar correctamente se debe lanzar los codigos en **la carpeta donde se va a crear el proyecto**
 - 1 Clona el repositorio en una carpeta temporal.
 - 2 Mueve los archivos del repositorio clonado a la ubicación deseada.
 - 3 Elimina la carpeta temporal.
@@ -11,6 +12,7 @@ git clone URL_del_repositorio tmp_repo
 mv tmp_repo/* .
 rm -rf tmp_repo
 ```
+
 
 ## Git pull especial
 Comando para cuando tenemos un repositorio que no tiene un seguimiento y lo queremos subir a continuacion de un repositiorio ya existente

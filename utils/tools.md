@@ -18,7 +18,8 @@
 ## Edicion
 - [Crear videos microsoft](https://clipchamp.com/es/): Editor de vídeo rápido y sencillo
 - [Modificador de formatos de imagen](https://squoosh.app/editor): Modificador de formatos (.jpg, .avif, .png, ...) para mejorar rendimientos
-- [Tool online para gif](https://ezgif.com/): Mejor editor con diferencia para crear, modificar editar etc, gif y mucho mas
+- [SVG gradients](https://fffuel.co/): free SVG generators for gradients, patterns, shapes, textures & cool backgrounds
+- [Best online para gif](https://ezgif.com/): Mejor editor con diferencia para crear, modificar editar etc, gif y mucho mas
 - [Video cutter](https://online-video-cutter.com/es/): Video cutter online senzillo por si fallan otros
 ## Diseño
 - [Identificacion de pantalla](https://www.mydevice.io/): para ver los px de la pantalla, media queries, etc
