@@ -5,9 +5,9 @@
 
 ### Desarollo de aplicaciones con tecnologia web (520h)
 
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![HTML](https://img.shields.io/badge/-HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/-CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white) ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+[![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![HTML](https://img.shields.io/badge/-HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/-CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white) ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
  ![Express.js](https://img.shields.io/badge/-Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
- ![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white) ![BDD](https://img.shields.io/badge/-BDD-222222?style=for-the-badge) ![OOP](https://img.shields.io/badge/-OOP-FFA500?style=for-the-badge) ![DOM](https://img.shields.io/badge/-DOM-009933?style=for-the-badge) 
+ ![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white) ![BDD](https://img.shields.io/badge/-BDD-222222?style=for-the-badge) ![OOP](https://img.shields.io/badge/-OOP-FFA500?style=for-the-badge) ![DOM](https://img.shields.io/badge/-DOM-009933?style=for-the-badge)](#)
 
 Curso Fullstack Javascript
 
@@ -28,7 +28,7 @@ Curso Fullstack Javascript
     - *UF1847: Implementacion de apps en el entorno de Internet, intranet y extranet*  
 
 ### Introduccion a Docker 
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+[![Docker](https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](#)
 
 Introduccion al uso basico de Docker
 
@@ -37,7 +37,7 @@ Introduccion al uso basico de Docker
 - [📃 Contenidos](https://github.com/carlesalonso/CursDocker/)
 
 ### Big Data I
-![Python](https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+[![Python](https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](#)
 
 **Curso oficial** *Codi Expedient PT20220058*
 
@@ -54,8 +54,8 @@ Introduccion al uso de bases de datos, scrapping y tratamiento de datos
     - *Explotacion y visualización de datos*  
 
 ### Introduccion a la programacion en Java
-![Java](https://img.shields.io/badge/-Java-007396?style=for-the-badge&logo=java&logoColor=white)
- ![OOP](https://img.shields.io/badge/-OOP-FFA500?style=for-the-badge)
+[![Java](https://img.shields.io/badge/-Java-007396?style=for-the-badge&logo=java&logoColor=white)
+ ![OOP](https://img.shields.io/badge/-OOP-FFA500?style=for-the-badge)](#)
 
 **Curso oficial** *Codi Expedient PT20220058*
 
@@ -71,7 +71,7 @@ Curso de introduccion al lenguaje de programacion para backend Java
     - *Recopilacion y depuracion de codigo*
     
 ### Introduccion a la programacion en Javascript
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+[![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](#)
 
 **Curso oficial** *Codi Expedient PT20220058*
 
@@ -87,8 +87,8 @@ Curso de introduccion al lenguaje de programacion Javascript enfocado al lado cl
     - *Formularios HTML*
 
 ### Introduccion a la programacion frontend con React JS
-![React](https://img.shields.io/badge/-React-61DAFB?style=for-the-badge&logo=react&logoColor=white)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+[![React](https://img.shields.io/badge/-React-61DAFB?style=for-the-badge&logo=react&logoColor=white)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](#)
 
 
 Introduccion al uso de React, componentes (tambien de classe) y hooks.
@@ -97,7 +97,7 @@ Introduccion al uso de React, componentes (tambien de classe) y hooks.
 - 📆 13/02/23-15/02/23
 
 ### Introduccion al lenguaje Javascript
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+[![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](#)
 
 Curso de introduccion al lenguaje de programacion Javascript, uso de objetos y sintaxis ES7
 
@@ -105,7 +105,7 @@ Curso de introduccion al lenguaje de programacion Javascript, uso de objetos y s
 - 📆 01/02/23-03/02/23
 
 ### Introduccionn a la programacion
-![OOP](https://img.shields.io/badge/-OOP-FFA500?style=for-the-badge) ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![PHP](https://img.shields.io/badge/-PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+[![OOP](https://img.shields.io/badge/-OOP-FFA500?style=for-the-badge) ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![PHP](https://img.shields.io/badge/-PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)](#)
 
 Curso de introduccion a la programacion, para lenguajes orientados a objetos.
 
@@ -113,7 +113,7 @@ Curso de introduccion a la programacion, para lenguajes orientados a objetos.
 - 📆 27/01/23-31/01/23
 
 ### Clean Code y buenas practicas
-![Clean Code](https://img.shields.io/badge/-Clean%20Code-008000?style=for-the-badge)
+[![Clean Code](https://img.shields.io/badge/-Clean%20Code-008000?style=for-the-badge)](#)
 
 Curso para aprender las claves del Clean Code y las buenas practicas de programacion.
 
@@ -132,14 +132,14 @@ Curso de introduccion a los conceptos basicos de la inteligencia artificial, sus
 
 ### [Chainlink bootcamp 2024](https://collectors.poap.xyz/token/7063140)
 
-<img alt="certificate chainlink bootcamp 2024" src="https://assets.poap.xyz/232a27ca-cc01-44a0-9729-108ed05765e1.png" width="35px" > [![Chainlink](https://img.shields.io/badge/-Chainlink-2C3A42?style=for-the-badge&logo=chainlink&logoColor=white)](#)
+<img alt="certificate chainlink bootcamp 2024" src="https://assets.poap.xyz/232a27ca-cc01-44a0-9729-108ed05765e1.png" width="35px" > [![Chainlink](https://img.shields.io/badge/-Chainlink-2C3A42?style=for-the-badge&logo=chainlink&logoColor=white)
 ![Blockchain](https://img.shields.io/badge/-Blockchain-121D33?style=for-the-badge&logo=blockchain.com&logoColor=white)
 ![Solidity](https://img.shields.io/badge/-Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white)
 ![ERC721](https://img.shields.io/badge/-ERC721-363636?style=for-the-badge)
 ![ERC20](https://img.shields.io/badge/-ERC20-363636?style=for-the-badge)
 ![Blockchain Oracles](https://img.shields.io/badge/-Oracles-121D33?style=for-the-badge&logo=blockchain.com)
 ![CCIP](https://img.shields.io/badge/-CCIP-2C3A42?style=for-the-badge&logo=chainlink&logoColor=white)
-![Chainlink Functions](https://img.shields.io/badge/-Chainlink%20Functions-2C3A42?style=for-the-badge&logo=chainlink&logoColor=white)
+![Chainlink Functions](https://img.shields.io/badge/-Chainlink%20Functions-2C3A42?style=for-the-badge&logo=chainlink&logoColor=white)](#)
 
 Bootcamp oficial para aprender a usar las tecnologias de Oraculo chainlink
 
