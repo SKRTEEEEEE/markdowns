@@ -16,6 +16,7 @@
 - [Edition Drop 1155](https://blog.thirdweb.com/guides/how-to-create-an-open-edition-nft-drop/): Guia para integrar contratos predefinidos Edition Drop, del tipo ERC1155
 #### [ThirdWeb Support](https://support.thirdweb.com/): Blog del desarollador?
 ## Edicion
+- [Crear videos microsoft](https://clipchamp.com/es/): Editor de vídeo rápido y sencillo
 - [Modificador de formatos de imagen](https://squoosh.app/editor): Modificador de formatos (.jpg, .avif, .png, ...) para mejorar rendimientos
 - [Tool online para gif](https://ezgif.com/): Mejor editor con diferencia para crear, modificar editar etc, gif y mucho mas
 - [Video cutter](https://online-video-cutter.com/es/): Video cutter online senzillo por si fallan otros

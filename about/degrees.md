@@ -4,9 +4,10 @@
 ## Cursos presenciales
 
 ### Desarollo de aplicaciones con tecnologia web (520h)
+<a href="#">
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![HTML](https://img.shields.io/badge/-HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/-CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white) ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
  ![Express.js](https://img.shields.io/badge/-Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
- ![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white) ![BDD](https://img.shields.io/badge/-BDD-222222?style=for-the-badge) ![OOP](https://img.shields.io/badge/-OOP-FFA500?style=for-the-badge) ![DOM](https://img.shields.io/badge/-DOM-009933?style=for-the-badge) 
+ ![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white) ![BDD](https://img.shields.io/badge/-BDD-222222?style=for-the-badge) ![OOP](https://img.shields.io/badge/-OOP-FFA500?style=for-the-badge) ![DOM](https://img.shields.io/badge/-DOM-009933?style=for-the-badge) </a>
 
 Curso Fullstack Javascript
 
@@ -32,7 +33,8 @@ Curso Fullstack Javascript
 Introduccion al uso basico de Docker
 
 - 🏫 [Cibernarium Barcelona](https://cibernarium.barcelonactiva.cat/)
-- 📆 09/01/24-11/02/24 
+- 📆 09/01/24-11/02/24
+- [📃 Contenidos](https://github.com/carlesalonso/CursDocker/)
 
 ### Big Data I
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -129,6 +131,7 @@ Curso de introduccion a los conceptos basicos de la inteligencia artificial, sus
 ## Bootcamps
 
 ### [Chainlink bootcamp 2024](https://collectors.poap.xyz/token/7063140)
+<a href="#">
 <img alt="certificate chainlink bootcamp 2024" src="https://assets.poap.xyz/232a27ca-cc01-44a0-9729-108ed05765e1.png" width="35px" > ![Chainlink](https://img.shields.io/badge/-Chainlink-2C3A42?style=for-the-badge&logo=chainlink&logoColor=white)
 ![Blockchain](https://img.shields.io/badge/-Blockchain-121D33?style=for-the-badge&logo=blockchain.com&logoColor=white)
 ![Solidity](https://img.shields.io/badge/-Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white)
@@ -136,7 +139,7 @@ Curso de introduccion a los conceptos basicos de la inteligencia artificial, sus
 ![ERC20](https://img.shields.io/badge/-ERC20-363636?style=for-the-badge)
 ![Blockchain Oracles](https://img.shields.io/badge/-Oracles-121D33?style=for-the-badge&logo=blockchain.com)
 ![CCIP](https://img.shields.io/badge/-CCIP-2C3A42?style=for-the-badge&logo=chainlink&logoColor=white)
-![Chainlink Functions](https://img.shields.io/badge/-Chainlink%20Functions-2C3A42?style=for-the-badge&logo=chainlink&logoColor=white)
+![Chainlink Functions](https://img.shields.io/badge/-Chainlink%20Functions-2C3A42?style=for-the-badge&logo=chainlink&logoColor=white)</a>
 
 Bootcamp oficial para aprender a usar las tecnologias de Oraculo chainlink
 

@@ -1,4 +1,4 @@
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+<a href="#"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
 
 <div id="user-content-toc">
   <ul align="center">
@@ -7,8 +7,9 @@
 </div>
 
 <div align="center">
+  <a href="#">
   <img  src="https://github.com/SKRTEEEEEE/SKRTEEEEEE/blob/main/resources/img/grid-snake.svg"
-       alt="snake" />
+       alt="snake" /></a>
 </div>
 
 <!--Intro start-->
@@ -43,7 +44,7 @@
 </div>
 
 <p align="center">
- <a href="https://skillicons.dev">
+ <a href="https://github.com/SKRTEEEEEE/markdowns/blob/main/utils/techs-lenguajes.md">
     <img src="https://skillicons.dev/icons?i=solidity,git,ipfs,express,github,html,css,styledcomponents,tailwind,js,ts,md,prisma,mongodb,nextjs,nodejs,react,redux,threejs,ableton,bash,java,vscode,firebase,py,tensorflow,discord,docker&perline=14" />
  </a>
 </p>
