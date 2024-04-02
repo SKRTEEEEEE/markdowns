@@ -1,6 +1,6 @@
 # Tecnologías y Lenguajes de Programación
 
-*Documentación de lenguajes, tecnologias (frameworks, librerias...) de programación que utilizo*
+*Documentación de lenguajes, tecnologías (frameworks, librerías...) de programación que utilizo*
 
 <p align="center">
  <a href="#">
@@ -16,10 +16,11 @@
 - [React-icons github](https://react-icons.github.io/react-icons/) - **favorite icons** from React.
 - [Lucide dev](https://lucide.dev/icons/link): Beautiful & consistent icons 
 - [Font Awesome](https://fontawesome.com/): icon library and toolkit
+- [Swiper.js](https://swiperjs.com/): The Most Modern Mobile Touch Slider
 #### [![jQuery](https://img.shields.io/badge/-jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white)](https://jquery.com/)
 - [Slick carousel library ](https://kenwheeler.github.io/slick/) - jQuery based carousel library.
 ### Herramientas
-- [CDN JS](https://cdnjs.com/): cdnjs is a free and open-source CDN service, *you can find here libreries for js*
+- [CDN JS](https://cdnjs.com/): cdnjs is a free and open-source CDN service, *you can find here library for js*
 - [CDN Font Awesome](https://cdnjs.com/libraries/font-awesome): cdnjs inject font awesome in js
 
 
@@ -27,7 +28,7 @@
 ### [![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-%231a202c.svg?style=for-the-badge&logo=tailwind-css&logoColor=38b2ac)](https://tailwindcss.com/)
 - [Floatui Tailwind ui ](https://floatui.com/) - free modern tailwind ui.
 - [Flowbite Tailwind ui](https://flowbite.com/) - fast tailwind ui with Figma integration.
-- [Chakra UI](https://chakra-ui.com/getting-started/nextjs-app-guide): Documentation de ChakraUI(integracion en NextJs)
+- [Chakra UI](https://chakra-ui.com/getting-started/nextjs-app-guide): Documentation de ChakraUI(integración en NextJs)
 ## [![Solidity](https://img.shields.io/badge/-Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white)](https://docs.soliditylang.org/en/v0.8.23/)
 
 
