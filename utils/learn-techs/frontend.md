@@ -1,1 +1,2 @@
-# Frontend resources that i recommend for learn
+# Frontend resources
+Frontend resources that i recommend for learn:

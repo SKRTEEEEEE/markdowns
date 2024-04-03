@@ -6,6 +6,7 @@ _Podemos crear una base de datos, la cual dentro va a tener tablas._
 - Importar, podemos importar bases de datos
 
 **Es case sensitive para los valores no para las instrucciones**
+
 _En SQL, la distinción entre mayúsculas y minúsculas se aplica a los valores almacenados en las tablas de la base de datos, lo que significa que "Juan" y "juan" se consideran diferentes. Sin embargo, para las instrucciones SQL, como SELECT o INSERT, la distinción entre mayúsculas y minúsculas no importa; por lo tanto, las instrucciones como SELECT, select o SeLeCt son equivalentes y funcionan de la misma manera._
 
 ## Datos
@@ -22,7 +23,6 @@ Los valores en SQL son los datos reales que se almacenan en las tablas o se util
 `NULL`, `TRUE`, `FALSE`, etc
 
 ### Tipos de datos
-
 Los tipos de datos en SQL son los diferentes tipos de valores que pueden ser almacenados en las columnas de una tabla. Determinan qué tipo de datos puede almacenar una columna y cómo se almacenan y manipulan esos datos. Algunos de los tipos de datos comunes en SQL incluyen:
 
 #### 1. VARCHAR(n):
@@ -67,13 +67,14 @@ Las instrucciones son comandos que se utilizan para realizar operaciones en la b
 Se utiliza para manipular datos en una base de datos. Los principales son los siguientes:
 
 _Tambien conocidos como CRUD._
+
 #### Insert (Create)
 Esto es una sentencia basica para insertar datos. 
 ```sql
 INSERT INTO `productos`(`id_productos`, `nombre`, `descripcion`, `fecha`) VALUES ('[value-1]','[value-2]','[value-3]','[value-4]')
 ```
-Podemos prescindir de id_productos ya se que se autoincrementa
-La fecha tambien podemos prescindir ya que se pone automaticamente, si pusieramos algo se sobreescribiria.
+- Podemos prescindir de id_productos ya se que se autoincrementa
+- La fecha tambien podemos prescindir ya que se pone automaticamente, si pusieramos algo se sobreescribiria.
 ```sql
 INSERT INTO `productos`( `nombre`, `descripcion`) 
 VALUES ('peras','peras ecologicas de temporada muy ricas')
