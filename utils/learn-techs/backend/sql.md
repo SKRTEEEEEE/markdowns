@@ -250,7 +250,6 @@ Algunas características importantes de MariaDB incluyen:
 - **Almacenamiento y motores de almacenamiento:** MariaDB admite una variedad de motores de almacenamiento, incluidos XtraDB (una versión mejorada de InnoDB), Aria, TokuDB, y otros. Esto proporciona flexibilidad para adaptarse a diferentes tipos de aplicaciones y cargas de trabajo.
 - **Características adicionales:** MariaDB incluye características adicionales que no están presentes en MySQL, como la compatibilidad con ciertos tipos de datos, funciones y almacenamiento de alto rendimiento.
 
-
 #### Ejecucción MariaDB
 - En `C:\xampp\mysql\bin>dir mysql.exe` tenemos el ejecutable.
 - Para ejecutarlo `mysql -u root -h localhost -p`, y entramos en MariaDB.
