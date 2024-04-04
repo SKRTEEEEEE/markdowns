@@ -66,7 +66,7 @@ Las instrucciones son comandos que se utilizan para realizar operaciones en la b
 ### SQL DML (Data Manipulation Language):
 Se utiliza para manipular datos en una base de datos. Los principales son los siguientes:
 
-_Tambien conocidos como CRUD._
+_Tambien conocidos como **CRUD**._
 
 #### Insert (Create)
 Esto es una sentencia basica para insertar datos. 
@@ -97,12 +97,92 @@ Podemos eliminar la informacion desde phpMyAdmin (como si fuera una tabla, clica
 ```sql
 DELETE FROM productos WHERE `productos`.`id_productos` = 1
 ```
+- `DELETE FROM alumnos` -> Limpiamos o vaciamos tabla alumnos
+- `DROP TABLE alumnos` -> Borramos tabla alumnos
+- `DROP DATABASE escuela;` -> Borrar base de datos escuela
+
+Aunque podemos encontrar muchas otras y las podemos clasificar segun sus **principales funciones**.
+
+#### Manipulación de Datos
+1. **Insertar, Actualizar y Eliminar Datos**
+
+- Insertar registros en una tabla (`INSERT INTO`).
+- Actualizar registros en una tabla (`UPDATE`).
+- Eliminar registros de una tabla (`DELETE FROM`).
+
+2. **Operadores y Funciones de Agregado**
+- Operadores de comparación y lógicos.
+    Operadores
+	`UPDATE productos SET IVA="0.10" WHERE fecha!="2024-03-30";`, diferente a `!=`
+        `UPDATE productos SET IVA="0.10" WHERE fecha > "2024-03-31"` mayor que `>` o menor que `<`
+
+- Funciones de agregado (`SUM()`, `AVG()`, `MAX()`, `MIN()`, etc.).
+      Funciones matematicas
+          `SELECT precio FROM productos ORDER BY precio DESC LIMIT 1;` "o" -> `SELECT MAX(precio) FROM productos;`, nos mostrara el maximo de un valor(en este caso precio)
+          `SELECT AVG(precio) FROM productos;` nos mostrara el promedio "average" de un valor(en este caso precio)
+
+
+3. **Funciones de Texto y Caracteres**
+- Funciones para manipular cadenas de texto (`CONCAT()`, `UPPER()`, `LOWER()`, etc.).
+
+4. **Funciones de Fecha y Hora**
+- Funciones para trabajar con valores de fecha y hora (`DATE()`, `MONTH()`, `YEAR()`, etc.).
+
+#### Consultas y Filtrado
+5. **Consultas Básicas y Avanzadas**
+- Consultas básicas (`SELECT`).
+- Consultas avanzadas con funciones y operadores.
+      Contar _Podemos usar el count para saber la cantidad de algo dentro de la tabla_
+              ```sql
+            SELECT COUNT(*) FROM productos;
+    	-- Por ejemplo aqui contariamos cuantos productos distintos hay
+            SELECT COUNT(DISTINCT*) FROM productos;
+        ```
+  
+6. **Agrupamiento y Ordenamiento**
+- Agrupamiento de resultados (`GROUP BY`).
+- Ordenamiento de resultados (`ORDER BY`).
+
+7. **Filtrado y Selección de Datos**
+- Filtrado de resultados (`WHERE`).
+- Selección condicional de datos (`CASE`).
+
+8. **Funciones de Conjunto de Resultados**
+- Funciones para manipular resultados de consultas (`ROW_NUMBER()`, `RANK()`, etc.).
+
+#### Transacciones y Control de Datos
+9. **Transacciones y Bloqueo**
+- Instrucciones para gestionar transacciones (`BEGIN`, `COMMIT`, `ROLLBACK`).
+- Instrucciones para bloquear filas (`LOCK TABLES`).
+
+10. **Control de Flujo y Excepciones**
+- Funciones para controlar el flujo de ejecución (`IF`, `CASE`, etc.).
+- Manejo de excepciones (`TRY-CATCH`, `RAISE_ERROR`, etc.).
+
+### Otros
+11. **Variables y Funciones Personalizadas**
+- Declaración y uso de variables.
+- Creación y uso de funciones personalizadas.
+
+12. **Optimización y Gestión de Usuarios**
+- Técnicas de optimización de consultas.
+- Gestión de usuarios y permisos.
+
+13. **Manipulación Avanzada de Datos**
+- Operaciones avanzadas con conjuntos de datos (`UNION`, `INTERSECT`, etc.).
+- Manipulación de imágenes y multimedia.
 
 ### SQL DDL (Data Definition Language)
 Se utiliza para definir y modificar la estructura de la base de datos y sus objetos. Incluye comandos como:
-- `CREATE` se utiliza para crear nuevos objetos de base de datos, como tablas, índices y vistas.
-- `ALTER` se usa para modificar la estructura de los objetos existentes, como agregar, modificar o eliminar columnas de una tabla.
-- `DROP` se utiliza para eliminar objetos de la base de datos, como tablas o índices.
+#### `CREATE` 
+Se utiliza para crear nuevos objetos de base de datos, como tablas, índices y vistas.
+#### `ALTER` 
+Se usa para modificar la estructura de los objetos existentes, como agregar, modificar o eliminar columnas de una tabla.
+```sql
+ALTER TABLE 'productos' ADD 'precio' DECIMAL(5,2)NOT NULL AFTER 'fecha', ADD 'IVA' DECIMAL(3,2) NOT NULL DEFAULT '0.03' AFTER 'precio';
+```
+#### `DROP` 
+Se utiliza para eliminar objetos de la base de datos, como tablas o índices.
 
 ### SQL DCL (Data Control Language)
 Se utiliza para controlar los permisos y la seguridad de los datos en la base de datos. Incluye comandos como: 
@@ -156,14 +236,14 @@ Cada uno tiene sus propias características y se utiliza en diferentes contextos
 - Para implementar esta relación en una base de datos relacional, se requiere una tabla intermedia, también conocida como tabla de unión o tabla de asociación, que relaciona las dos tablas.
 - Es común en situaciones donde los elementos de ambas tablas pueden tener múltiples asociaciones entre sí. Por ejemplo, en una base de datos de estudiantes y clases, donde un estudiante puede estar inscrito en múltiples clases y una clase puede tener múltiples estudiantes inscritos.
 
-## MariaDB
+## Herramientas y Plataformas
+### MariaDB
 - MariaDB es un sistema de gestión de bases de datos relacional (RDBMS) que es una bifurcación de MySQL.
 - Ofrece un servidor de base de datos que almacena, recupera y maneja datos para aplicaciones y usuarios.
 - MariaDB proporciona características adicionales y mejoras de rendimiento sobre MySQL.
 - Se utiliza para crear, modificar y consultar bases de datos, y es el servidor real donde se almacenan los datos.
 
 Algunas características importantes de MariaDB incluyen:
-
 - **Compatibilidad con MySQL:** MariaDB está diseñada para ser compatible con MySQL, lo que significa que muchas aplicaciones y herramientas que funcionan con MySQL también pueden trabajar con MariaDB sin necesidad de modificaciones significativas.
 - **Licencia de código abierto:** MariaDB se distribuye bajo los términos de la Licencia Pública General de GNU (GPL), lo que permite su uso, modificación y distribución libremente.
 - **Rendimiento mejorado:** MariaDB incluye mejoras de rendimiento en comparación con MySQL, incluyendo optimizaciones de consultas y nuevas características de almacenamiento.
@@ -171,110 +251,19 @@ Algunas características importantes de MariaDB incluyen:
 - **Características adicionales:** MariaDB incluye características adicionales que no están presentes en MySQL, como la compatibilidad con ciertos tipos de datos, funciones y almacenamiento de alto rendimiento.
 
 
-### Ejecucción MariaDB
+#### Ejecucción MariaDB
 - En `C:\xampp\mysql\bin>dir mysql.exe` tenemos el ejecutable.
 - Para ejecutarlo `mysql -u root -h localhost -p`, y entramos en MariaDB.
 - _Saltamos al [tutorial](#tutorial-mariadb)_
 
-### Delete
-- `DELETE FROM alumnos` -> Limpiamos o vaciamos tabla alumnos
-- ` DROP TABLE alumnos` -> Borramos tabla alumnos
-- `DROP DATABASE escuela;` -> Borrar base de datos escuela
-
-### Acceso
+## Administración y acceso
+1. `USE <nombre_base_de_datos>;`: Cambiar a una base de datos específica.
 - Con `use tienda;` accedemos a la base de datos 'tienda'
+  
+2. `SHOW TABLES;`: Mostrar las tablas dentro de la base de datos actual.
 - Con `show tienda` mostramos las tablas dentro de 'tienda'
 
-### Contar
-Podemos usar el count para saber la cantidad de algo dentro de la tabla
-
-```sql
-SELECT COUNT(*) FROM productos;
-```
-
-Por ejemplo aqui contariamos cuantos productos distintos hay
-
-```sql
-SELECT COUNT(DISTINCT*) FROM productos;
-```
-
-### Alterar
-Alterar una tabla ya existente:
-
-```sql
-ALTER TABLE 'productos' ADD 'precio' DECIMAL(5,2)NOT NULL AFTER 'fecha', ADD 'IVA' DECIMAL(3,2) NOT NULL DEFAULT '0.03' AFTER 'precio';
-```
-
-### Operadores
-- `UPDATE productos SET IVA="0.10" WHERE fecha!="2024-03-30";`, diferente a `!=`
-- `UPDATE productos SET IVA="0.10" WHERE fecha > "2024-03-31"` mayor que `>` o menor que `<`
-
-### Funciones matematicas
-- `SELECT precio FROM productos ORDER BY precio DESC LIMIT 1;` "o" -> `SELECT MAX(precio) FROM productos;`, nos mostrara el maximo de un valor(en este caso precio)
-- `SELECT AVG(precio) FROM productos;` nos mostrara el promedio "average" de un valor(en este caso precio)
-
-
-### Tutorial MariaDB
-_Para aprender a ejecutar MariaDB, [ves a la seccion Ejecución MariaDB](#ejecución-mariadb)_
-
-- En MariaDB ponemos `show databases;` y nos muestra las bases de datos.
-- `create database escuela;` para crear una nueva base de datos llamada escuela.
-- `use escuela` para entrar dentro de la tabla.
-- Para crear una nueva tabla:
-```sql
-create table `alumnos` (`id_alumno` INT(2) NOT NULL AUTO_INCREMENT, `nombre` VARCHAR(20), PRIMARY KEY(id_alumno) );
-```
-- `INSERT INTO alumnos (nombre) VALUES ('Maria');` insertamos un alumno llamado Maria
-- `INSERT INTO alumnos (nombre) VALUES ('Marta'), ('Pepe'), ('Juan');` insertamos un grupo de alumnos(varios values)
-- `DELETE FROM alumnos WHERE id_alumno = 3;` eliminamos el alumno con el id 3
-- `show tables;` mostramos las tablas
-- `DELETE FROM alumnos WHERE nombre = 'Marta';` eliminamos los alumnos con ese nombre
-- `SELECT nombre FROM alumnos WHERE nombre LIKE 'J%';` seleccionamos los alumnos que empiezan con J
-- `SELECT nombre FROM alumnos WHERE nombre LIKE '_a%';` seleccionamos los alumnos que tengas `a` como segunda letra
-- `UPDATE alumnos SET nombre = "Bill" WHERE id_alumno = 7;` modificamos el alumno 7 por Bill.
-- `INSERT INTO alumnos (id_alumno, nombre) VALUES (3, "Sofia");` introducimos varios datos a la vez.
-- `SELECT nombre, fecha FROM productos ORDER BY fecha DESC, nombre ASC;` nos muestra todos los productos ordenador por fecha, de forma descendente, cuando haya empate, que los ordene por nombre y ascendente.
-- `SELECT nombre, fecha FROM productos ORDER BY fecha DESC, nombre ASC LIMIT 2;` lo mismo que lo anterior pero limitandolo a los dos primeros resualtados.
-- Con el siguiente query creamos una tabla relacional:
-    ```sql
-    CREATE TABLE `tienda-test`.`facturas` (
-        `id_factura` INT NOT NULL AUTO_INCREMENT,
-        `id_cliente` INT NOT NULL,
-        `id_producto` INT NOT NULL,
-        `unidades` INT NOT NULL,
-        `total` INT NOT NULL,
-        `IVA` INT NOT NULL,
-        `fecha_venta` DATE NOT NULL DEFAULT CURRENT_TIMESTAMP,
-        PRIMARY KEY (`id_factura`),
-        FOREIGN KEY (`id_producto`) REFERENCES `productos`(`id_producto`),
-        FOREIGN KEY (`id_cliente`) REFERENCES `clientes`(`id_cliente`)
-    ) ENGINE = InnoDB;
-    ```
-- Con el siguiente query relacionamos los id entre las tablas:
-  ```sql
-  -- Añadir la columna precio\producto a la tabla de facturas 
-      ALTER TABLE `facturas` ADD `precio_producto` INT NOT NULL AFTER `fecha_venta`; 
-  -- Actualizar el precio\producto con el precio del producto correspondiente 
-      UPDATE `facturas` AS f 
-      INNER JOIN `productos` AS p ON f.`id_producto` = p.`id_producto` SET f.`precio_producto` = p.`precio`;
-  ```
-_Primero agregamos la columna `precio_producto` a la tabla de facturas. Luego, utilizamos una consulta `UPDATE` para asignar el precio del producto correspondiente al `id_producto` en la tabla de productos a la columna `precio_producto` en la tabla de facturas. Utilizamos un `INNER JOIN` para combinar las filas de ambas tablas en función del `id_producto`._
-
-- #### Ejemplo grafico de tablas relacionadas entre si:
-
-![sql1.png](../../../img/tutos/sql1.png)
-- #### ["Export/querys" de dichas tablas](sql1.sql)
-
-- Query para consultar el nombre de: la gente que haya comprado, que sea de Barcelona y limitado a 25 respuestas:
-```sql
-SELECT CONCAT(cl.nombre_cliente, ' ', cl.apellido_cliente) as nombre_completo
-FROM clientes cl, poblaciones po
-WHERE cl.id_poblacion = po.id_poblacion
-and po.nombre_poblacion = "Barcelona"
-LIMIT 0, 25;
-```
-
-## PHPMyAdmin
+### PHPMyAdmin
 
 - phpMyAdmin es una herramienta de administración basada en web para bases de datos MySQL o MariaDB.
 - Proporciona una interfaz gráfica de usuario para administrar y manipular bases de datos, tablas, consultas, usuarios y privilegios.
@@ -282,7 +271,7 @@ LIMIT 0, 25;
 - Facilita tareas como la creación de bases de datos y tablas, la ejecución de consultas SQL, la importación y exportación de datos, entre otras.
 - **Es una herramienta que ayuda mucho al aprendizaje**, bastante intuitiva y facil de usar, aunque un poco anticuado su UX.
 
-### Acceso
+#### Acceso
 
 - 1. **Inicia XAMPP:**
 
@@ -296,6 +285,17 @@ LIMIT 0, 25;
 - Inicia sesión, **si requiere**:
 En la página de inicio de sesión de phpMyAdmin, deberías ver un formulario de inicio de sesión. Por lo general, el nombre de usuario por defecto es "root" y la contraseña es en blanco. Sin embargo, si has configurado una contraseña diferente para el usuario "root" de MySQL o MariaDB, deberás ingresar esa contraseña.
 - **Explora y administra tus bases de datos**
+
+### MySQL
+#### Iniciar MySQL
+
+Para iniciar MySQL tenemos que tener parado XAMPP, ejecutar la aplicación `MySQL Workbench`. Y darle a conectar. 
+_Si aparece un error, en el `administrador de tareas`, en `Servicios`, buscar `MySQL80`, y este **NO debe estar en `Detenido`**, si lo esta, cambiar a `en ejecucion`, con el boton derecho._
+
+#### Uso de MySQL WorkBench
+- En `file`, con `Open SQL script` podemos abrir archivos SQL.
+- Una vez abierto el archivo, podemos ejecutarlo entero usando el boton de rayo.
+- Si seleccionamos un Script o parte del codigo SQL y le damos al rayo, solo se ejecuta dicha parte.
 
 ## Tips
 
