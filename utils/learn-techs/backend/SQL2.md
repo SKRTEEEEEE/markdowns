@@ -61,4 +61,4 @@ LIMIT 0, 25;
 ```
 ### Tutorial MySQL
  [Ejecutar este archivo en MySQL.](sql2.sql)
- _Para aprender a ejecutar MySQL, cargar archivos o utilizarlos, ve a la seccion [MySQL del archivo SQL.md](sql.md/#mysql)
+ _Para aprender a ejecutar MySQL, cargar archivos o utilizarlos, ve a la seccion [MySQL del archivo SQL.md](sql.md/#iniciar-mysql)_
