@@ -1,9 +1,8 @@
 # Git
 ## Estandar commits
-![commits-standard.png](../../../../Pictures/Screenshots/commits-standard.png)
+![commits-standard.png](../../img/tips/commits-standard.png "commits-standard.png")
 - Estructura general:
-  
-![IMG_20240405_094224.jpg](../../../../Downloads/IMG_20240405_094224.jpg)
+![commits-structure.jpg](../../img/tips/commits-structure.jpg)
 
 ## Repositorio temporal
 Clonar a un repositorio temporal para luego extraer en la carpeta raiz e eliminar la carpeta original(copiada de github con el seguimiento)
