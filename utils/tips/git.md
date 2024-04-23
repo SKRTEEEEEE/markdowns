@@ -1,4 +1,4 @@
-# Git
+# Git tips
 ## Estandar commits
 ![commits-standard.png](../../img/tips/commits-standard.png "commits-standard.png")
 - Estructura general:
