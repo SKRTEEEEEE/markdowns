@@ -23,12 +23,9 @@ _Documentación de lenguajes, tecnologías (frameworks, librerías...) de progra
 
 > ### [![React](https://img.shields.io/badge/-React-61DAFB?style=for-the-badge&logo=react&logoColor=white)](https://react.dev/learn) ![Afinidad Moderada](https://img.shields.io/badge/Afinidad-Moderada-yellow "Afinidad Moderada")
 > - #### [![Chakra UI](https://img.shields.io/badge/Chakra_UI-319795?style=for-the-badge&logo=Chakra-UI&logoColor=white)](https://chakra-ui.com/) ![Afinidad Baja](https://img.shields.io/badge/Afinidad-Baja-orange "Afinidad Baja")
+> - #### [![React Icons](https://img.shields.io/badge/React_Icons-61DAFB?style=for-the-badge)](https://react-icons.github.io/react-icons/) ![Afinidad Máxima](https://img.shields.io/badge/Afinidad-Máxima-brightgreen)
 
-### Icons
 
-- [React-icons github](https://react-icons.github.io/react-icons/) - **favorite icons** from React.
-- [Lucide dev](https://lucide.dev/icons/link): Beautiful & consistent icons 
-- [Font Awesome](https://fontawesome.com/): icon library and toolkit
 
 > ### [![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white)](https://threejs.org/) ![Afinidad Alta](https://img.shields.io/badge/Afinidad-Alta-blue "Afinidad Alta")
 
@@ -85,6 +82,8 @@ _Documentación de lenguajes, tecnologías (frameworks, librerías...) de progra
 <br>
 
 - ## [![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)](https://www.markdownguide.org/) ![Afinidad Máxima](https://img.shields.io/badge/Afinidad-Máxima-brightgreen)
+> ### [![Zettlr](https://img.shields.io/badge/Zettlr-00897B?style=for-the-badge)](https://www.zettlr.com/) ![Afinidad Alta](https://img.shields.io/badge/Afinidad-Alta-blue "Afinidad Alta")
+
 
 
 
