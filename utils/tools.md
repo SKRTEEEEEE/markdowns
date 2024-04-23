@@ -5,6 +5,10 @@
 - [CDN JS](https://cdnjs.com/): cdnjs is a free and open-source CDN service _you can find here library for js_
 - [CDN Font Awesome](https://cdnjs.com/libraries/font-awesome): cdnjs inject font awesome in js
 
+### Frontend/UI
+- [Lucide dev](https://lucide.dev/icons/link): Beautiful & consistent icons 
+- [Font Awesome](https://fontawesome.com/): icon library and toolkit
+
 ### Git
 - [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/): A specification for adding human and machine readable meaning to commit messages
 ### Desarrollo Blockchain (dev)
