@@ -22,6 +22,8 @@
 
 - 📫 **[Feel free to reach me out](mailto:adanreh.m@gmail.com)**
 
+
+
 <details>
 <summary ><pre>  ℹ️  Folders <b>Structure </b></pre></summary>
 
@@ -36,16 +38,11 @@
 <li><h3>Learn <i>about</i> web3</h3></li>
 </ul>
 </details>
-<details>
-<summary><pre>  🌩️ Fast <b>Links to</b></pre></summary>
-<h2>Go Fast to:</h2>
-<ul>
-<li><a href="https://github.com/SKRTEEEEEE/markdowns/blob/main/utils/tips/git.md#estandar-commits"><h3> <i>Standard </i>Commits</h3></a></li>
-<li><a href="https://github.com/SKRTEEEEEE/markdowns/blob/main/utils/tools.md"><h3><i>Used</i> tools</h3></a></li>
-</ul>
 
-
-</details>
+>  # 🌩️ Fast **Links to**
+>   
+> [Standard Commits](utils/tips/git.md#estandar-commits) | [Used tools](/utils/tips.md) 
+> |---|---|
 
 <!--tech stack icons-->
 <div id="user-content-toc">
