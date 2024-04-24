@@ -8,6 +8,7 @@
 ### Frontend/UI
 - [Lucide dev](https://lucide.dev/icons/link): Beautiful & consistent icons 
 - [Font Awesome](https://fontawesome.com/): icon library and toolkit
+- [Svg repo](https://www.svgrepo.com/): Pagina que facilita buenos recursos en svg como iconos o logos y algunas herramientas.
 
 ### Git
 - [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/): A specification for adding human and machine readable meaning to commit messages
@@ -26,7 +27,7 @@
 - [Update NFT metadata](https://blog.thirdweb.com/changelog/updating-and-freezing-nft-metadata/): Guía en la que se explica cómo actualizar los metadatos de una colección NFT de thirdweb
 - [Edition Drop 1155](https://blog.thirdweb.com/guides/how-to-create-an-open-edition-nft-drop/): Guía para integrar contratos predefinidos Edition Drop, del tipo ERC1155
 #### [ThirdWeb Support](https://support.thirdweb.com/): Blog del desarrollador?
-## Edicion
+## Edición
 - [Crear videos microsoft](https://clipchamp.com/es/): Editor de vídeo rápido y sencillo
 - [Modificador de formatos de imagen](https://squoosh.app/editor): Modificador de formatos (.jpg, .avif, .png, ...) para mejorar rendimientos
 - [SVG gradients](https://fffuel.co/): free SVG generators for gradients, patterns, shapes, textures & cool backgrounds

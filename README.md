@@ -23,17 +23,28 @@
 - 📫 **[Feel free to reach me out](mailto:adanreh.m@gmail.com)**
 
 <details>
-<summary style="list-style-type: none;"><pre>  💻 GitHub <b>Profile Stats</b></pre></summary>
+<summary ><pre>  ℹ️  Folders <b>Structure </b></pre></summary>
 
-<a href="https://github.com/ashutosh00710/github-readme-activity-graph">
-  <img alt="SKRTEEEEEE's Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph?username=SKRTEEEEEE&theme=github-compact&hide_border=true">
-</a>
+<h2 align="center"> About </h2>
+<p> Info about me <i>like a dev</i> </p>
 
-<p align="center">
-  
-| <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SKRTEEEEEE&theme=radical&hide_border=false&no-bg=true&no-frame=true&langs_count=10"/> | <img align="center" src="https://github-readme-stats.vercel.app/api?username=SKRTEEEEEE&theme=radical&show_icons=true&count_private=true" /> | <a href="https://skillicons.dev"> <img align="center" width="80%" src="https://github-profile-trophy.vercel.app/?username=SKRTEEEEEE&theme=radical&row=3&column=2&margin-h=10&margin-w=5&no-bg=true" alt="TROPHY" /> </a> |
-|---|---|---|
-</p> 
+<h2 align="center"> Utils </h2>
+<p> Things that help <i>like a dev</i> </p>
+<ul align="center">
+<li><h3>How Start <i>with techs</i></h3></li>
+<li><h3>Learn <i>about</i> techs</h3></li>
+<li><h3>Learn <i>about</i> web3</h3></li>
+</ul>
+</details>
+<details>
+<summary><pre>  🌩️ Fast <b>Links to</b></pre></summary>
+<h2>Go Fast to:</h2>
+<ul>
+<li><a href="https://github.com/SKRTEEEEEE/markdowns/blob/main/utils/tips/git.md#estandar-commits"><h3> <i>Standard </i>Commits</h3></a></li>
+<li><a href="https://github.com/SKRTEEEEEE/markdowns/blob/main/utils/tools.md"><h3><i>Used</i> tools</h3></a></li>
+</ul>
+
+
 </details>
 
 <!--tech stack icons-->
@@ -44,7 +55,7 @@
 </div>
 
 <p align="center">
- <a href="https://github.com/SKRTEEEEEE/markdowns/blob/main/utils/techs-lenguajes.md">
+ <a href="https://github.com/SKRTEEEEEE/markdowns/blob/main/about/techs-lenguajes.md">
     <img src="https://skillicons.dev/icons?i=solidity,git,ipfs,express,github,html,css,styledcomponents,tailwind,js,ts,md,prisma,mongodb,nextjs,nodejs,react,redux,threejs,ableton,bash,java,vscode,firebase,py,tensorflow,discord,docker&perline=14" />
  </a>
 </p>
