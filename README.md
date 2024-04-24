@@ -53,7 +53,7 @@
 
 <p align="center">
  <a href="https://github.com/SKRTEEEEEE/markdowns/blob/main/about/techs-lenguajes.md">
-    <img src="https://skillicons.dev/icons?i=solidity,git,ipfs,express,github,html,css,styledcomponents,tailwind,js,ts,md,prisma,mongodb,nextjs,nodejs,react,redux,threejs,ableton,bash,java,vscode,firebase,py,tensorflow,discord,docker&perline=14" />
+     <img src="https://skillicons.dev/icons?i=solidity,ipfs,git,github,md,html,css,styledcomponents,tailwind,js,ts,mysql,mongodb,firebase,vercel,nextjs,nodejs,express,react,redux,threejs,py,bash,powershell,npm,vscode,ableton,discord&perline=14" />
  </a>
 </p>
 </br>
