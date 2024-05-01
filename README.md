@@ -2,7 +2,7 @@
 
 <div id="user-content-toc">
   <ul align="center">
-    <h1 style="display: inline-block">SKRTEEEEEE</h1>
+    <h1 style="display: inline-block">SKRTEEEEEE Resources</h1>
   </ul>
 </div>
 
@@ -41,7 +41,7 @@
 
 >  # 🌩️ Fast **Links to**
 >   
-> [Standard Commits](utils/tips/git.md#estandar-commits) | [Used tools](/utils/tips.md) 
+> [Standard Commits](utils/tips/git.md#estandar-commits) | [Used tools](/utils/tools.md) 
 > |---|---|
 
 <!--tech stack icons-->
