@@ -68,4 +68,4 @@ _Herramientas de desarrollo que se usan pueden usar indiferentemente del lenguaj
 
 ## Notas
 ### Mismos creadores
-[^fam1]
+[^fam1]: 
