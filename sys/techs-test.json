@@ -18,5 +18,9 @@
   {
     "name": "Node.js",
     "afinidad": "alta"
+  },
+  {
+    "name": "React",
+    "afinidad": "moderada"
   }
 ]
