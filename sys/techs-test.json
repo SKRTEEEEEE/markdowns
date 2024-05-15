@@ -2,19 +2,19 @@
   {
     "name": "Javascript",
     "afinidad": 90,
-    "color": "darkgreen"
+    "color": "darkgreen",
     "value": "Máxima"
   },
   {
     "name": "Typescript",
     "afinidad": 60,
-    "color": "brightgreen"
+    "color": "brightgreen",
     "value": "Moderada"
   },
   {
     "name": "Node.js",
     "afinidad": 80,
-    "color": "darkgreen"
+    "color": "darkgreen",
     "value": "Alta"
   }
 ]
