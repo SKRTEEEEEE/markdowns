@@ -9,12 +9,18 @@
     "name": "Typescript",
     "afinidad": 60,
     "color": "brightgreen",
-    "value": "Moderada"
+    "value": "alta"
   },
   {
     "name": "Node.js",
     "afinidad": 80,
     "color": "darkgreen",
-    "value": "Alta"
+    "value": "Máxima"
+  },
+  {
+    "name": "Node.js",
+    "afinidad": 80,
+    "color": "darkgreen",
+    "value": "Máxima"
   }
 ]
