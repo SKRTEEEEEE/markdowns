@@ -14,5 +14,9 @@
   {
     "name": "MongoDB",
     "afinidad": "alta"
+  },
+  {
+    "name": "Node.js",
+    "afinidad": "alta"
   }
 ]
