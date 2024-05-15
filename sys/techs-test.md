@@ -13,6 +13,8 @@ _Documentación de lenguajes, tecnologías (frameworks, librerías...) de progra
 
 <br>
 
-- undefined ![Afinidad](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$[?(@.name=='Javascript')].afinidad&label=Afinidad&color=$[0].color&style=flat),- undefined ![Afinidad](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$[?(@.name=='Typescript')].afinidad&label=Afinidad&color=$[0].color&style=flat)
+# - undefined ![Afinidad](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$[?(@.name=='Javascript')].afinidad&label=Afinidad&color=$[0].color&style=flat)
 
-- [![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/) ![Afinidad](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$[?(@.name=='Node.js')].afinidad&label=Afinidad&color=$[0].color&style=flat)
+# - undefined ![Afinidad](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$[?(@.name=='Typescript')].afinidad&label=Afinidad&color=$[0].color&style=flat)
+
+# - [![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/) ![Afinidad](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$[?(@.name=='Node.js')].afinidad&label=Afinidad&color=$[0].color&style=flat)
