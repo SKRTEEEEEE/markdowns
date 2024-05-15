@@ -1,18 +1,18 @@
 [
   {
     "name": "Javascript",
-    "afinidad": 70
+    "afinidad": "maxima"
   },
   {
     "name": "Typescript",
-    "afinidad": 60
+    "afinidad": "moderada"
   },
   {
     "name": "Express",
-    "afinidad": 60
+    "afinidad": "moderada"
   },
   {
     "name": "MongoDB",
-    "afinidad": 90
+    "afinidad": "alta"
   }
 ]
