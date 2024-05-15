@@ -16,11 +16,5 @@
     "afinidad": 80,
     "color": "darkgreen",
     "value": "Máxima"
-  },
-  {
-    "name": "Node.js",
-    "afinidad": 80,
-    "color": "darkgreen",
-    "value": "Máxima"
   }
 ]
