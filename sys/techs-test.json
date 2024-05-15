@@ -6,21 +6,6 @@
   {
     "name": "Typescript",
     "afinidad": "moderada"
-  },
-  {
-    "name": "Express",
-    "afinidad": "moderada"
-  },
-  {
-    "name": "MongoDB",
-    "afinidad": "alta"
-  },
-  {
-    "name": "Node.js",
-    "afinidad": "alta"
-  },
-  {
-    "name": "React",
-    "afinidad": "moderada"
   }
+ 
 ]
