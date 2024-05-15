@@ -1,11 +1,13 @@
 [
   {
     "name": "Javascript",
-    "afinidad": "maxima"
+    "afinidad": 90,
+    "color": "darkgreen"
   },
   {
     "name": "Typescript",
-    "afinidad": "moderada"
+    "afinidad": 60,
+    "color": "blue",
   }
  
 ]
