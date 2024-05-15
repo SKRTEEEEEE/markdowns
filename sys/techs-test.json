@@ -1,6 +1,14 @@
 [
-    {
-        "name": "Typescript",
-        "afinidad": 90
-      }
+  {
+    "name": "Javascript",
+    "afinidad": 70
+  },
+  {
+    "name": "Typescript",
+    "afinidad": 60
+  },
+  {
+    "name": "Express",
+    "afinidad": 60
+  }
 ]
