@@ -1,4 +1,5 @@
-{
-  "name": "Typescript",
-  "afinidad": 90
-}
+# Tecnologías
+
+- Javascript (Afinidad: 70)
+- Typescript (Afinidad: 60)
+- Express (Afinidad: 60)
