@@ -19,5 +19,12 @@
     "value": "Alta",
     "experiencia": 70,
     "valueexp": "Alta"
+  },
+  {
+    "name": "Next.js",
+    "afinidad": 100,
+    "value": "Máxima",
+    "experiencia": 90,
+    "valueexp": "Máxima"
   }
 ]
