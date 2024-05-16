@@ -13,5 +13,10 @@
     "name": "Node.js",
     "afinidad": 75,
     "value": "Alta"
+  },
+  {
+    "name": "Next.js",
+    "afinidad": 100,
+    "value": "Máxima"
   }
 ]
