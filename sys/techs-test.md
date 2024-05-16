@@ -13,6 +13,12 @@ _Documentación de lenguajes, tecnologías (frameworks, librerías...) de progra
 
 <br>
 
+>- ## [![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
+>![Afinidad](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$[?(@.name=='Node.js')].value&label=Afinidad&color=339933&style=flat&logo=Node.js)![Afinidad %](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$[?(@.name=='Node.js')].afinidad&color=339933&style=flat&label=%20&suffix=%25)
+
+>![Static Badge](https://img.shields.io/badge/%C2%A1_novedad_%F0%9F%91%8D_!-NEW_%F0%9F%93%A5_%F0%9F%97%92%EF%B8%8F-blue?style=social)
+
+
 
 
 >- ## [![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/es/docs/Web/JavaScript)
@@ -20,5 +26,3 @@ _Documentación de lenguajes, tecnologías (frameworks, librerías...) de progra
 
 >- ## [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 >![Afinidad](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$[?(@.name=='Typescript')].value&label=Afinidad&color=3178C6&style=flat&logo=Typescript)![Afinidad %](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$[?(@.name=='Typescript')].afinidad&color=3178C6&style=flat&label=%20&suffix=%25)
-
-
