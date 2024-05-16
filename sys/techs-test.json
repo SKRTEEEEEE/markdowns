@@ -2,36 +2,26 @@
   {
     "name": "Javascript",
     "afinidad": 90,
-    "value": "Máxima"
+    "value": "Máxima",
+    "valueexp": "Mínima"
   },
   {
     "name": "Typescript",
     "afinidad": 60,
-    "value": "Alta"
+    "value": "Alta",
+    "valueexp": "Mínima"
   },
   {
     "name": "Node.js",
     "afinidad": 75,
-    "value": "Alta"
+    "value": "Alta",
+    "valueexp": "Mínima"
   },
   {
-    "name": "Next.js",
-    "afinidad": 100,
-    "value": "Máxima"
-  },
-  {
-    "name": "NextUI",
-    "afinidad": 65,
-    "value": "Alta"
-  },
-  {
-    "name": "Express",
-    "afinidad": 100,
-    "value": "Máxima"
-  },
-  {
-    "name": "Express",
-    "afinidad": 100,
-    "value": "Máxima"
+    "name": "Node.js",
+    "afinidad": 75,
+    "value": "Alta",
+    "experiencia": 70,
+    "valueexp": "Alta"
   }
 ]
