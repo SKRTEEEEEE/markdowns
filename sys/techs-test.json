@@ -9,5 +9,9 @@
     "afinidad": 60,
     "value": "Alta"
   },
-
+  {
+    "name": "Node.js",
+    "afinidad": 75,
+    "value": "Alta"
+  }
 ]
