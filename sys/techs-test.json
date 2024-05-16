@@ -26,5 +26,12 @@
     "value": "Máxima",
     "experiencia": 90,
     "valueexp": "Máxima"
+  },
+  {
+    "name": "NextUI",
+    "afinidad": 80,
+    "value": "Alta",
+    "experiencia": 65,
+    "valueexp": "Alta"
   }
 ]
