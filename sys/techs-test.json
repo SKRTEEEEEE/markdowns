@@ -3,19 +3,15 @@
     "name": "Javascript",
     "afinidad": 90,
     "value": "Máxima",
-    "valueexp": "Mínima"
+    "experiencia": 80,
+    "valueexp": "Máxima"
   },
   {
     "name": "Typescript",
     "afinidad": 60,
     "value": "Alta",
-    "valueexp": "Mínima"
-  },
-  {
-    "name": "Node.js",
-    "afinidad": 75,
-    "value": "Alta",
-    "valueexp": "Mínima"
+    "experiencia": 65,
+    "valueexp": "Alta"
   },
   {
     "name": "Node.js",
