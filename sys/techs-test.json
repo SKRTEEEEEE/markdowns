@@ -19,12 +19,5 @@
     "value": "Alta",
     "experiencia": 70,
     "valueexp": "Alta"
-  },
-  {
-    "name": "Juan",
-    "afinidad": "30",
-    "value": "Baja",
-    "experiencia": "52.5",
-    "valueexp": "Moderada"
   }
 ]
