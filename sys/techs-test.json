@@ -33,5 +33,12 @@
     "value": "Alta",
     "experiencia": 65,
     "valueexp": "Alta"
+  },
+  {
+    "name": "React",
+    "afinidad": 55,
+    "value": "Moderada",
+    "experiencia": 70,
+    "valueexp": "Alta"
   }
 ]
