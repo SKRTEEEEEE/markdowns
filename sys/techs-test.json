@@ -11,7 +11,12 @@
   },
   {
     "name": "Node.js",
-    "afinidad": 80,
-    "value": "Máxima"
+    "afinidad": 75,
+    "value": "Alta"
+  },
+  {
+    "name": "Node.js",
+    "afinidad": 75,
+    "value": "Alta"
   }
 ]
