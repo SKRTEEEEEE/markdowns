@@ -40,5 +40,12 @@
     "value": "Alta",
     "experiencia": 55,
     "valueexp": "Moderada"
+  },
+  {
+    "name": "Express",
+    "afinidad": 75,
+    "value": "Alta",
+    "experiencia": 55,
+    "valueexp": "Moderada"
   }
 ]
