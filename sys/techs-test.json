@@ -36,20 +36,6 @@
   },
   {
     "name": "React",
-    "afinidad": 55,
-    "value": "Moderada",
-    "experiencia": 70,
-    "valueexp": "Alta"
-  },
-  {
-    "name": "React",
-    "afinidad": 70,
-    "value": "Alta",
-    "experiencia": 55,
-    "valueexp": "Moderada"
-  },
-  {
-    "name": "React",
     "afinidad": 70,
     "value": "Alta",
     "experiencia": 55,
