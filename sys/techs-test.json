@@ -21,31 +21,10 @@
     "valueexp": "Alta"
   },
   {
-    "name": "Next.js",
-    "afinidad": 100,
-    "value": "Máxima",
-    "experiencia": 90,
-    "valueexp": "Máxima"
-  },
-  {
-    "name": "NextUI",
-    "afinidad": 80,
-    "value": "Alta",
-    "experiencia": 65,
-    "valueexp": "Alta"
-  },
-  {
-    "name": "React",
-    "afinidad": 70,
-    "value": "Alta",
-    "experiencia": 55,
-    "valueexp": "Moderada"
-  },
-  {
-    "name": "Express",
+    "name": "Node.js",
     "afinidad": 75,
     "value": "Alta",
-    "experiencia": 55,
-    "valueexp": "Moderada"
+    "experiencia": 70,
+    "valueexp": "Alta"
   }
 ]
