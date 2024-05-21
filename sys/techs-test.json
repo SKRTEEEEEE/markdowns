@@ -36,6 +36,15 @@
     "valueuso": "Dominante"
   },
   {
+    "name": "NextUI",
+    "afinidad": 85,
+    "experiencia": 65,
+    "value": "Máxima",
+    "valueexp": "Alta",
+    "usogithub": 1.81,
+    "valueuso": "Moderado"
+  },
+  {
     "name": "React",
     "afinidad": 60,
     "experiencia": 55,
@@ -45,12 +54,12 @@
     "valueuso": "Moderado"
   },
   {
-    "name": "NextUI",
-    "afinidad": 85,
-    "experiencia": 65,
+    "name": "Next.js",
+    "afinidad": 100,
+    "experiencia": 87.5,
     "value": "Máxima",
-    "valueexp": "Alta",
-    "usogithub": 1.81,
-    "valueuso": "Moderado"
+    "valueexp": "Máxima",
+    "usogithub": 14.1,
+    "valueuso": "Dominante"
   }
 ]
