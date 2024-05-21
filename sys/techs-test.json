@@ -20,19 +20,10 @@
   {
     "name": "Node.js",
     "afinidad": 75,
-    "experiencia": 72.5,
+    "experiencia": 70,
     "value": "Alta",
     "valueexp": "Alta",
     "usogithub": 3.58,
     "valueuso": "Notable"
-  },
-  {
-    "name": "React",
-    "afinidad": 55,
-    "experiencia": 60,
-    "value": "Moderada",
-    "valueexp": "Moderada",
-    "usogithub": 2.48,
-    "valueuso": "Moderado"
   }
 ]
