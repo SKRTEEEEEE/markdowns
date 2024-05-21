@@ -6,8 +6,7 @@
     "experiencia": 80,
     "valueexp": "Alta",
     "usogithub": 3.71,
-    "valueuso": "Notable",
-    "iconsuso": "%F0%9F%9F%A1%F0%9F%9F%A1%F0%9F%9F%A1%F0%9F%9F%A1%F0%9F%94%98"
+    "valueuso": "Notable"
   },
   {
     "name": "Typescript",
@@ -16,8 +15,7 @@
     "experiencia": 65,
     "valueexp": "Alta",
     "usogithub": 12.25,
-    "valueuso": "Superior",
-    "iconsuso": "%F0%9F%9F%A1%F0%9F%9F%A1%F0%9F%9F%A1%F0%9F%9F%A1%F0%9F%9F%A1"
+    "valueuso": "Superior"
   },
   {
     "name": "Node.js",
@@ -26,7 +24,15 @@
     "experiencia": 70,
     "valueexp": "Alta",
     "usogithub": 3.58,
-    "valueuso": "Notable",
-    "iconsuso": "%F0%9F%9F%A1%F0%9F%9F%A1%F0%9F%9F%A1%F0%9F%9F%A1%F0%9F%94%98"
+    "valueuso": "Notable"
+  },
+  {
+    "name": "Node.js",
+    "afinidad": 75,
+    "value": "Alta",
+    "experiencia": 70,
+    "valueexp": "Alta",
+    "usogithub": 3.58,
+    "valueuso": "Notable"
   }
 ]
