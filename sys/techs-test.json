@@ -2,8 +2,8 @@
   {
     "name": "Javascript",
     "afinidad": 90,
-    "value": "Máxima",
     "experiencia": 80,
+    "value": "Máxima",
     "valueexp": "Alta",
     "usogithub": 3.71,
     "valueuso": "Notable"
@@ -11,8 +11,8 @@
   {
     "name": "Typescript",
     "afinidad": 60,
-    "value": "Moderada",
     "experiencia": 65,
+    "value": "Moderada",
     "valueexp": "Alta",
     "usogithub": 12.25,
     "valueuso": "Superior"
@@ -20,8 +20,8 @@
   {
     "name": "Node.js",
     "afinidad": 75,
+    "experiencia": 67.5,
     "value": "Alta",
-    "experiencia": 70,
     "valueexp": "Alta",
     "usogithub": 3.58,
     "valueuso": "Notable"
@@ -29,8 +29,8 @@
   {
     "name": "Next.js",
     "afinidad": 100,
-    "value": "Máxima",
     "experiencia": 90,
+    "value": "Máxima",
     "valueexp": "Máxima",
     "usogithub": 14.1,
     "valueuso": "Dominante"
@@ -38,8 +38,8 @@
   {
     "name": "React",
     "afinidad": 60,
-    "value": "Moderada",
     "experiencia": 55,
+    "value": "Moderada",
     "valueexp": "Moderada",
     "usogithub": 2.48,
     "valueuso": "Moderado"
