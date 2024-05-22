@@ -36,6 +36,15 @@
     "valueuso": "Moderado"
   },
   {
+    "name": "Next.js",
+    "afinidad": 100,
+    "value": "Máxima",
+    "experiencia": 90,
+    "valueexp": "Máxima",
+    "usogithub": 14.1,
+    "valueuso": "Dominante"
+  },
+  {
     "name": "Css3",
     "afinidad": 55,
     "value": "Moderada",
