@@ -27,24 +27,6 @@
     "valueuso": "Notable"
   },
   {
-    "name": "React",
-    "afinidad": 65,
-    "value": "Alta",
-    "experiencia": 67.5,
-    "valueexp": "Alta",
-    "usogithub": 2.48,
-    "valueuso": "Moderado"
-  },
-  {
-    "name": "ChakraUI",
-    "afinidad": 50,
-    "value": "Moderada",
-    "experiencia": 55,
-    "valueexp": "Moderada",
-    "usogithub": 1.28,
-    "valueuso": "Menor"
-  },
-  {
     "name": "Next.js",
     "afinidad": 100,
     "value": "Máxima",
