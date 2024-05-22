@@ -41,8 +41,8 @@
     "value": "Moderada",
     "experiencia": 55,
     "valueexp": "Moderada",
-    "usogithub": 0,
-    "valueuso": "Ninguno"
+    "usogithub": 1.28,
+    "valueuso": "Menor"
   },
   {
     "name": "Next.js",
@@ -61,5 +61,14 @@
     "valueexp": "Máxima",
     "usogithub": 1.81,
     "valueuso": "Moderado"
+  },
+  {
+    "name": "Three.js",
+    "afinidad": 70,
+    "value": "Alta",
+    "experiencia": 55,
+    "valueexp": "Moderada",
+    "usogithub": 3.7,
+    "valueuso": "Notable"
   }
 ]
