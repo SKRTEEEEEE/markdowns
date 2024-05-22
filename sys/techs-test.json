@@ -36,6 +36,15 @@
     "valueuso": "Moderado"
   },
   {
+    "name": "ChakraUI",
+    "afinidad": 50,
+    "value": "Moderada",
+    "experiencia": 55,
+    "valueexp": "Moderada",
+    "usogithub": 0,
+    "valueuso": "Ninguno"
+  },
+  {
     "name": "Next.js",
     "afinidad": 100,
     "value": "Máxima",
