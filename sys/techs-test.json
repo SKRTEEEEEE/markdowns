@@ -27,13 +27,13 @@
     "valueuso": "Notable"
   },
   {
-    "name": "Css3",
-    "afinidad": 55,
-    "value": "Moderada",
-    "experiencia": 75,
+    "name": "React",
+    "afinidad": 65,
+    "value": "Alta",
+    "experiencia": 70,
     "valueexp": "Alta",
-    "usogithub": 0,
-    "valueuso": "Ninguno"
+    "usogithub": 2.48,
+    "valueuso": "Moderado"
   },
   {
     "name": "Css3",
