@@ -54,6 +54,15 @@
     "valueuso": "Moderado"
   },
   {
+    "name": "Express",
+    "afinidad": 75,
+    "value": "Alta",
+    "experiencia": 77.5,
+    "valueexp": "Alta",
+    "usogithub": 3.58,
+    "valueuso": "Notable"
+  },
+  {
     "name": "Css3",
     "afinidad": 55,
     "value": "Moderada",
