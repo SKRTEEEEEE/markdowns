@@ -63,6 +63,15 @@
     "valueuso": "Dominante"
   },
   {
+    "name": "NextUI",
+    "afinidad": 80,
+    "value": "Alta",
+    "experiencia": 67.5,
+    "valueexp": "Alta",
+    "usogithub": 1.81,
+    "valueuso": "Moderado"
+  },
+  {
     "name": "Css3",
     "afinidad": 55,
     "value": "Moderada",
