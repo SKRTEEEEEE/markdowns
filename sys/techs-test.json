@@ -30,19 +30,10 @@
     "name": "React",
     "afinidad": 65,
     "value": "Alta",
-    "experiencia": 67.5,
+    "experiencia": 62.5,
     "valueexp": "Alta",
     "usogithub": 2.47,
     "valueuso": "Moderado"
-  },
-  {
-    "name": "ChakraUI",
-    "afinidad": 65,
-    "value": "Alta",
-    "experiencia": 55,
-    "valueexp": "Moderada",
-    "usogithub": 1.28,
-    "valueuso": "Menor"
   },
   {
     "name": "Express",
