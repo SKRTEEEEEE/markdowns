@@ -43,14 +43,5 @@
     "valueexp": "Alta",
     "usogithub": 1.81,
     "valueuso": "Moderado"
-  },
-  {
-    "name": "Express",
-    "afinidad": 75,
-    "value": "Alta",
-    "experiencia": 80,
-    "valueexp": "Alta",
-    "usogithub": 3.58,
-    "valueuso": "Notable"
   }
 ]
