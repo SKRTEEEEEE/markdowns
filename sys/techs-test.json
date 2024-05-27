@@ -16,5 +16,14 @@
     "valueexp": "Alta",
     "usogithub": 12.25,
     "valueuso": "Superior"
+  },
+  {
+    "name": "Node.js",
+    "afinidad": 65,
+    "value": "Alta",
+    "experiencia": 72.5,
+    "valueexp": "Alta",
+    "usogithub": 3.58,
+    "valueuso": "Notable"
   }
 ]
