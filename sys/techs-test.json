@@ -27,15 +27,6 @@
     "valueuso": "Notable"
   },
   {
-    "name": "React",
-    "afinidad": 65,
-    "value": "Alta",
-    "experiencia": 67.5,
-    "valueexp": "Alta",
-    "usogithub": 2.47,
-    "valueuso": "Moderado"
-  },
-  {
     "name": "Express",
     "afinidad": 75,
     "value": "Alta",
