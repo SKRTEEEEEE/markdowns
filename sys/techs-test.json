@@ -5,7 +5,7 @@
     "value": "Máxima",
     "experiencia": 80,
     "valueexp": "Alta",
-    "usogithub": 3.71,
+    "usogithub": 3.68,
     "valueuso": "Notable"
   },
   {
@@ -14,7 +14,7 @@
     "value": "Moderada",
     "experiencia": 65,
     "valueexp": "Alta",
-    "usogithub": 12.25,
+    "usogithub": 12.26,
     "valueuso": "Superior"
   },
   {
@@ -23,7 +23,7 @@
     "value": "Alta",
     "experiencia": 67.5,
     "valueexp": "Alta",
-    "usogithub": 3.58,
+    "usogithub": 3.55,
     "valueuso": "Notable"
   },
   {
@@ -41,7 +41,7 @@
     "value": "Alta",
     "experiencia": 70,
     "valueexp": "Alta",
-    "usogithub": 1.81,
+    "usogithub": 1.9,
     "valueuso": "Moderado"
   },
   {
@@ -50,7 +50,7 @@
     "value": "Alta",
     "experiencia": 62.5,
     "valueexp": "Alta",
-    "usogithub": 2.48,
+    "usogithub": 2.46,
     "valueuso": "Moderado"
   },
   {
@@ -59,7 +59,16 @@
     "value": "Moderada",
     "experiencia": 50,
     "valueexp": "Moderada",
-    "usogithub": 1.28,
+    "usogithub": 1.27,
     "valueuso": "Menor"
+  },
+  {
+    "name": "Three.js",
+    "afinidad": 85,
+    "value": "Máxima",
+    "experiencia": 55,
+    "valueexp": "Moderada",
+    "usogithub": 3.67,
+    "valueuso": "Notable"
   }
 ]
