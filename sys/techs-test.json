@@ -14,7 +14,7 @@
     "value": "Moderada",
     "experiencia": 65,
     "valueexp": "Alta",
-    "usogithub": 12.27,
+    "usogithub": 12.26,
     "valueuso": "Superior"
   },
   {
@@ -25,14 +25,5 @@
     "valueexp": "Alta",
     "usogithub": 3.55,
     "valueuso": "Notable"
-  },
-  {
-    "name": "Next.js",
-    "afinidad": 90,
-    "value": "Máxima",
-    "experiencia": 77.5,
-    "valueexp": "Alta",
-    "usogithub": 14.1,
-    "valueuso": "Dominante"
   }
 ]
