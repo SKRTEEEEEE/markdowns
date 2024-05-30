@@ -16,6 +16,11 @@ _Herramientas de desarrollo que se usan pueden usar indiferentemente del lenguaj
 
 - [Shyft api key](https://shyft.to/get-api-key): Get API Key para Indexer o proveedor blockchain?, proviene la posibilidad de acceder a funciones descentralizadas dentro de la red?, para Solana?
 - [Juno.build docs datastore](https://juno.build/docs/build/datastore): Datastore Juno build docs
+- [Hello.app](https://hello.app/space/api): IPFS based storage, _5gb free, with API_
+
+
+- [Cron comprobar](https://crontab.cronhub.io/): Creador y verificar crons
+- [Password generator](https://1password.com/password-generator/): Generador de contraseñas
 #### [ThirdWeb Docs](https://portal.thirdweb.com/): Documentación de ThirdWeb.
 - [DefaultChains](https://portal.thirdweb.com/react/v4/ThirdwebProvider#default-chains): Cadenas que admite por defecto el Wrapper de ThirdWeb
 ##### [ThirdWeb Blog](https://blog.thirdweb.com/): Blog de la comunidad de desarrolladores de ThirdWeb.
