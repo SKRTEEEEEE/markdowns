@@ -54,6 +54,15 @@
     "valueuso": "Moderado"
   },
   {
+    "name": "ChakraUI",
+    "afinidad": 80,
+    "value": "Alta",
+    "experiencia": 57.5,
+    "valueexp": "Moderada",
+    "usogithub": 1.27,
+    "valueuso": "Menor"
+  },
+  {
     "name": "Express",
     "afinidad": 90,
     "value": "Máxima",
