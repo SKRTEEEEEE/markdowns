@@ -312,3 +312,197 @@ git branch | grep -v "^\* \| v01$ \| v01.03$" | xargs git branch -d
     Ten cuidado con este comando, ya que eliminará las ramas sin preguntar si tienen cambios no fusionados.
 
 Esto asegura que las ramas `v01` y `v01.03` no se eliminen y todas las demás ramas locales sean eliminadas.
+
+
+
+## Git fetch
+**Actualizar rama de Git con la rama de Github**
+Para traer los cambios que han ocurrido en una rama de un repositorio remoto de GitHub a tu repositorio local, puedes seguir estos pasos:
+
+### Paso 1: Configurar el repositorio remoto
+
+Primero, asegúrate de que tu repositorio local esté configurado para rastrear el repositorio remoto de GitHub.
+
+Si no lo has hecho, añade el repositorio remoto:
+
+```bash
+git remote add origin https://github.com/tu-usuario/tu-repositorio.git
+```
+
+### Paso 2: Actualizar las referencias remotas
+
+Actualiza la información de las ramas remotas:
+
+```bash
+git fetch origin
+```
+
+### Paso 3: Integrar los cambios
+
+Dependiendo de si quieres integrar los cambios en tu rama actual o en una rama específica, puedes usar `merge` o `rebase`.
+
+#### Opción 1: Usar `merge`
+
+1. **Cambiar a la rama en la que deseas integrar los cambios** (por ejemplo, `main`):
+
+    ```bash
+    git checkout main
+    ```
+
+2. **Hacer el merge** de los cambios de la rama remota:
+
+    ```bash
+    git merge origin/nombre-de-la-rama
+    ```
+
+#### Opción 2: Usar `rebase`
+
+1. **Cambiar a la rama en la que deseas integrar los cambios** (por ejemplo, `main`):
+
+    ```bash
+    git checkout main
+    ```
+
+2. **Hacer el rebase** de los cambios de la rama remota:
+
+    ```bash
+    git rebase origin/nombre-de-la-rama
+    ```
+
+### Ejemplo práctico
+
+Supongamos que tienes una rama llamada `feature-branch` en tu repositorio remoto en GitHub, y quieres traer esos cambios a tu rama local `main`.
+
+#### Usar `merge`
+
+1. Cambia a la rama `main`:
+
+    ```bash
+    git checkout main
+    ```
+
+2. Trae los cambios de la rama remota `feature-branch`:
+
+    ```bash
+    git fetch origin
+    git merge origin/feature-branch
+    ```
+
+#### Usar `rebase`
+
+1. Cambia a la rama `main`:
+
+    ```bash
+    git checkout main
+    ```
+
+2. Trae los cambios de la rama remota `feature-branch`:
+
+    ```bash
+    git fetch origin
+    git rebase origin/feature-branch
+    ```
+
+### Nota
+
+- Si no tienes la rama local correspondiente, puedes crearla directamente desde la rama remota:
+
+    ```bash
+    git checkout -b nombre-de-la-rama-local origin/nombre-de-la-rama-remota
+    ```
+
+- Después de hacer `merge` o `rebase`, si deseas actualizar el repositorio remoto con tus cambios locales (en caso de que haya nuevos commits), usa:
+
+    ```bash
+    git push origin nombre-de-la-rama
+    ```
+
+Siguiendo estos pasos, podrás traer los cambios de una rama de tu repositorio de GitHub a tu repositorio local de manera eficiente.
+
+## Git fetch vs git pull
+### Diferencias entre `git fetch` y `git pull`
+
+- **`git fetch`**:
+  - `git fetch` actualiza tu repositorio local con los cambios más recientes del repositorio remoto. No fusiona esos cambios en tu rama actual; simplemente actualiza las referencias remotas.
+  - Esto te permite revisar los cambios antes de integrarlos.
+
+- **`git pull`**:
+  - `git pull` es equivalente a ejecutar `git fetch` seguido de `git merge`. Trae los cambios del repositorio remoto y los fusiona directamente en tu rama actual.
+
+### Cuándo usar `git fetch`
+
+Usar `git fetch` seguido de un comando como `git merge` o `git rebase` te da más control sobre cómo y cuándo integras los cambios. Este enfoque es útil cuando deseas revisar los cambios antes de aplicarlos.
+
+### Ejemplo práctico usando `git fetch`
+
+1. **Actualizar las referencias remotas**:
+
+    ```bash
+    git fetch origin
+    ```
+
+2. **Revisar los cambios (opcional)**:
+
+    Puedes revisar los cambios que se han traído con `fetch` antes de fusionarlos.
+
+    ```bash
+    git log origin/nombre-de-la-rama
+    ```
+
+3. **Integrar los cambios**:
+    - **Usando `merge`**:
+
+        Cambia a la rama en la que deseas integrar los cambios (por ejemplo, `main`):
+
+        ```bash
+        git checkout main
+        ```
+
+        Haz el merge con la rama remota:
+
+        ```bash
+        git merge origin/nombre-de-la-rama
+        ```
+
+    - **Usando `rebase`**:
+
+        Cambia a la rama en la que deseas integrar los cambios (por ejemplo, `main`):
+
+        ```bash
+        git checkout main
+        ```
+
+        Haz el rebase con la rama remota:
+
+        ```bash
+        git rebase origin/nombre-de-la-rama
+        ```
+
+### Ejemplo práctico usando `git pull`
+
+Si deseas traer y fusionar los cambios en un solo paso, puedes usar `git pull`.
+
+1. **Cambiar a la rama en la que deseas integrar los cambios** (por ejemplo, `main`):
+
+    ```bash
+    git checkout main
+    ```
+
+2. **Traer y fusionar los cambios de la rama remota**:
+
+    ```bash
+    git pull origin nombre-de-la-rama
+    ```
+
+### ¿Cuál usar?
+
+- **`git fetch` seguido de `merge` o `rebase`**:
+  - Más control sobre la integración de cambios.
+  - Puedes revisar los cambios antes de integrarlos.
+  - Útil en entornos de desarrollo colaborativos donde deseas evitar conflictos de integración inesperados.
+
+- **`git pull`**:
+  - Más rápido y conveniente si confías en los cambios y deseas fusionarlos directamente.
+  - Útil para mantener ramas de desarrollo sincronizadas rápidamente.
+
+Ambos métodos son válidos, y la elección depende de tu flujo de trabajo y necesidades específicas.
