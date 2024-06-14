@@ -506,3 +506,47 @@ Si deseas traer y fusionar los cambios en un solo paso, puedes usar `git pull`.
   - Útil para mantener ramas de desarrollo sincronizadas rápidamente.
 
 Ambos métodos son válidos, y la elección depende de tu flujo de trabajo y necesidades específicas.
+
+## Revertir commit en Git (local)
+Para revertir un commit en Git y volver el HEAD a un commit anterior, puedes seguir estos pasos:
+
+### 1. Verificar el commit que deseas deshacer
+Primero, asegúrate de cuál es el commit al que quieres regresar el HEAD. En este ejemplo vamos a revertir el commit más reciente _
+_"anterior al actual"_ `ef1794f`.
+
+### 2. Usar `git reset` para mover el HEAD
+Abre tu terminal y navega hasta el directorio de tu repositorio local. Luego, ejecuta el siguiente comando:
+
+```bash
+git reset --hard HEAD^
+```
+
+Este comando hará lo siguiente:
+- `git reset --hard`: Revertirá el HEAD y el índice al commit especificado.
+- `HEAD^`: Este es un atajo para referirse al commit anterior al actual.
+
+Después de ejecutar este comando, el commit `ef1794f` y todos los cambios realizados en él serán eliminados del árbol de confirmaciones y el HEAD se moverá al commit anterior (`e61d56b` en tu caso).
+
+### 3. Verificar el estado del repositorio
+Puedes usar `git log` para verificar que el HEAD esté ahora en el commit correcto:
+
+```bash
+git log --oneline
+```
+
+Esto mostrará los últimos commits en una línea cada uno, para que puedas asegurarte de que el HEAD esté donde quieres que esté.
+
+### 4. Ajustar la rama remota (si es necesario)
+Si ya has empujado el commit `ef1794f` a la rama remota y necesitas ajustarla también, puedes usar `git push --force` para forzar la actualización de la rama remota:
+
+```bash
+git push origin v01.03 --force
+```
+
+**Nota de precaución:** Ten cuidado al usar `git push --force` ya que sobrescribirá la historia del repositorio remoto. Esto puede causar problemas si otros colaboradores ya tienen copias del repositorio con el commit que estás eliminando.
+
+### Resumen
+- `git reset --hard HEAD^`: Revierte el HEAD al commit anterior y elimina todos los cambios hechos en el commit que quieres deshacer.
+- Después de esto, verifica el estado del repositorio local y decide si necesitas ajustar la rama remota.
+
+Siguiendo estos pasos, podrás deshacer el commit no deseado y regresar el HEAD a su estado anterior en tu rama local.
