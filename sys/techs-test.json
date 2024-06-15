@@ -36,15 +36,6 @@
     "valueuso": "Dominante"
   },
   {
-    "name": "NextUI",
-    "afinidad": 75,
-    "value": "Alta",
-    "experiencia": 72.5,
-    "valueexp": "Alta",
-    "usogithub": 1.89,
-    "valueuso": "Moderado"
-  },
-  {
     "name": "Express",
     "afinidad": 85,
     "value": "Máxima",
