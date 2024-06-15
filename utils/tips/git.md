@@ -550,3 +550,110 @@ git push origin v01.03 --force
 - Después de esto, verifica el estado del repositorio local y decide si necesitas ajustar la rama remota.
 
 Siguiendo estos pasos, podrás deshacer el commit no deseado y regresar el HEAD a su estado anterior en tu rama local.
+
+## Git fork 
+Realizar un "fork" en Git es una acción común cuando deseas copiar un repositorio existente a tu cuenta personal en una plataforma de alojamiento como GitHub, GitLab o Bitbucket. Esto te permite trabajar en tu propia versión del proyecto sin afectar el repositorio original. Aquí te explico cómo hacerlo:
+
+### Pasos para hacer un "fork":
+
+1. **Accede al repositorio original:**
+   Ve al sitio web donde está alojado el repositorio que deseas forkear. Por ejemplo, si es GitHub, navega a la página del repositorio en tu navegador.
+
+2. **Haz clic en el botón "Fork":**
+   En la página del repositorio original, busca y haz clic en el botón "Fork" en la esquina superior derecha de la página. Esto iniciará el proceso de copia del repositorio a tu cuenta.
+
+3. **Selecciona la cuenta o la organización:**
+   Si tienes varias cuentas u organizaciones bajo las cuales quieres realizar el fork, selecciona la adecuada.
+
+4. **Espera a que se complete el proceso:**
+   La plataforma copiará automáticamente el repositorio a tu cuenta. Dependiendo del tamaño del repositorio y la velocidad del servidor, esto puede tomar algunos segundos o minutos.
+
+### Clonar el repositorio forked localmente:
+
+Una vez que hayas hecho el fork, puedes clonar tu repositorio forked localmente en tu máquina usando Git. Aquí está cómo hacerlo:
+
+1. **Obtén la URL del repositorio forked:**
+   En la página del repositorio forked en la plataforma (por ejemplo, GitHub), haz clic en el botón verde "Code" y copia la URL proporcionada.
+
+2. **Abre tu terminal:**
+   Navega al directorio donde deseas clonar el repositorio y abre tu terminal.
+
+3. **Clona el repositorio:**
+   Ejecuta el siguiente comando en tu terminal, reemplazando `<URL>` con la URL que copiaste:
+
+   ```bash
+   git clone <URL>
+   ```
+
+   Por ejemplo:
+
+   ```bash
+   git clone https://github.com/tu-usuario/repo-forked.git
+   ```
+
+4. **Accede al repositorio clonado:**
+   Una vez que el comando haya completado la descarga, puedes acceder al directorio del repositorio clonado usando `cd repo-forked`.
+
+### Realizar cambios y trabajar en tu repositorio forked:
+
+Ahora que tienes el repositorio forked en tu cuenta y clonado en tu máquina, puedes trabajar en él como lo harías con cualquier otro repositorio Git:
+
+- Crea, modifica y elimina archivos según sea necesario.
+- Usa `git add`, `git commit` y `git push` para gestionar tus cambios localmente y luego enviarlos a tu repositorio forked en la plataforma.
+
+### Mantener tu repositorio forked actualizado:
+
+Es posible que desees mantener tu repositorio forked actualizado con respecto al repositorio original del que hiciste el fork. Para hacer esto, puedes agregar el repositorio original como un "remote" en tu repositorio forked y fusionar los cambios cuando sea necesario. Aquí está cómo hacerlo:
+
+1. **Agregar el repositorio original como un remote:**
+   
+   ```bash
+   git remote add upstream <URL-del-repositorio-original>
+   ```
+
+   Por ejemplo:
+
+   ```bash
+   git remote add upstream https://github.com/usuario-original/repo-original.git
+   ```
+
+2. **Actualizar y fusionar los cambios desde el repositorio original:**
+
+   ```bash
+   git fetch upstream
+   git merge upstream/main  # o la rama principal que esté usando el repositorio original
+   ```
+
+   Esto traerá los cambios más recientes del repositorio original a tu repositorio forked local.
+
+Siguiendo estos pasos, podrás hacer un "fork" de un repositorio existente a tu cuenta personal y trabajar en tu propia versión del proyecto.
+
+## Git "fork" con git clone
+**Clonar un repositorio del cual no tienes permisos y realizar cambios en un repositorio de tu github**
+
+Para hacer el git clone de un repositorio del cual no tenemos permisos para subir cambios, primero:
+- Clonamos, haciendo uso de git clone, el repositorio con el cual queremos trabajar.
+- Creamos un repositorio o buscamos su url de acceso remoto, en nuestro Github, Gitlab, etc..
+
+
+Después de hacer el "fork"(clone) de un repositorio en plataformas como GitHub, GitLab, etc., el remote `origin` por defecto seguirá apuntando al repositorio original del cual hiciste el fork, no a tu cuenta personal automáticamente. Para configurarlo correctamente:
+
+1. **Verifica los remotes actuales:**
+   ```bash
+   git remote -v
+   ```
+   Esto muestra los remotes configurados, donde `origin` apunta al repositorio original.
+
+2. **Cambia `origin` a tu repositorio forked:**
+   ```bash
+   git remote set-url origin https://github.com/tu-usuario/repo-forked.git
+   ```
+   Reemplaza `https://github.com/tu-usuario/repo-forked.git` con la URL de tu repositorio forked en la plataforma correspondiente.
+
+3. **Verifica el cambio:**
+   ```bash
+   git remote -v
+   ```
+   Debe mostrar que `origin` ahora apunta a tu repositorio forked en tu cuenta personal.
+
+Con estos pasos, `origin` estará configurado correctamente para reflejar tu repositorio forked, permitiéndote trabajar y empujar cambios a tu propia versión del proyecto sin afectar el repositorio original.
