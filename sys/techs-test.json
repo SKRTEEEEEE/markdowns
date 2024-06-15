@@ -43,14 +43,5 @@
     "valueexp": "Alta",
     "usogithub": 1.89,
     "valueuso": "Moderado"
-  },
-  {
-    "name": "Css3",
-    "afinidad": 65,
-    "value": "Alta",
-    "experiencia": 70,
-    "valueexp": "Alta",
-    "usogithub": 0,
-    "valueuso": "Ninguno"
   }
 ]
