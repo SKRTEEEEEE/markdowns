@@ -34,5 +34,14 @@
     "valueexp": "Máxima",
     "usogithub": 14.05,
     "valueuso": "Dominante"
+  },
+  {
+    "name": "NextUI",
+    "afinidad": 85,
+    "value": "Máxima",
+    "experiencia": 77.5,
+    "valueexp": "Alta",
+    "usogithub": 1.89,
+    "valueuso": "Moderado"
   }
 ]
