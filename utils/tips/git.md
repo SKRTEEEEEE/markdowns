@@ -657,3 +657,56 @@ Después de hacer el "fork"(clone) de un repositorio en plataformas como GitHub,
    Debe mostrar que `origin` ahora apunta a tu repositorio forked en tu cuenta personal.
 
 Con estos pasos, `origin` estará configurado correctamente para reflejar tu repositorio forked, permitiéndote trabajar y empujar cambios a tu propia versión del proyecto sin afectar el repositorio original.
+
+## Git cherry-pick
+Para mover los cambios que has guardado en una rama incorrecta a la rama correspondiente, puedes seguir estos pasos:
+
+1. **Identificar el commit**: Primero, asegúrate de conocer el hash del commit que quieres mover. En tu caso, es `eb1307f`.
+
+2. **Cambiar a la rama correcta**: Ve a la rama donde deberían estar los cambios.
+
+3. **Cherry-pick el commit**: Aplica el commit a la rama correcta usando `git cherry-pick`.
+
+4. **Revertir el commit en la rama incorrecta**: Si deseas eliminar el commit de la rama incorrecta, puedes hacerlo usando `git reset` o `git revert`.
+
+A continuación, los pasos detallados:
+
+### Paso 1: Identificar el commit
+Ya tienes el hash del commit `eb1307f`.
+
+### Paso 2: Cambiar a la rama correcta
+Supongamos que la rama correcta es `feature/correct-branch`. Cambia a esa rama:
+
+```sh
+git checkout feature/correct-branch
+```
+
+### Paso 3: Cherry-pick el commit
+Aplica el commit específico a la rama correcta:
+
+```sh
+git cherry-pick eb1307f
+```
+
+### Paso 4: Revertir el commit en la rama incorrecta
+Vuelve a la rama donde hiciste el commit original:
+
+```sh
+git checkout v01
+```
+
+#### Opción 1: Usar `git reset` (si no has compartido la rama con otros)
+Si nadie más ha trabajado en esta rama y es seguro cambiar el historial, puedes usar `git reset` para eliminar el commit:
+
+```sh
+git reset --hard HEAD~1
+```
+
+#### Opción 2: Usar `git revert` (si ya has compartido la rama)
+Si ya has compartido esta rama con otros y necesitas mantener el historial, usa `git revert` para deshacer el commit sin cambiar el historial:
+
+```sh
+git revert eb1307f
+```
+
+Esto creará un nuevo commit que deshace los cambios introducidos por `eb1307f`.
