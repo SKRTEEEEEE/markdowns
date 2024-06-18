@@ -27,15 +27,6 @@
     "valueuso": "Notable"
   },
   {
-    "name": "Next.js",
-    "afinidad": 90,
-    "value": "Máxima",
-    "experiencia": 82.5,
-    "valueexp": "Máxima",
-    "usogithub": 14.05,
-    "valueuso": "Dominante"
-  },
-  {
     "name": "React",
     "afinidad": 70,
     "value": "Alta",
