@@ -43,3 +43,7 @@ _Documentación de lenguajes, tecnologías (frameworks, librerías...) de progra
 > ### [![React](https://img.shields.io/badge/-React-61DAFB?style=for-the-badge&logo=react&logoColor=white)](https://react.dev/learn)
 >![Afinidad](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$[?(@.name=='React')].value&label=Afinidad&color=61DAFB&style=flat&logo=React)![Afinidad %](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$[?(@.name=='React')].afinidad&color=61DAFB&style=flat&label=%20&suffix=%25)
 ![Experiencia](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$[?(@.name=='React')].valueexp&label=Experiencia&color=61DAFB&style=flat&logo=React)![Experiencia %](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$[?(@.name=='React')].experiencia&color=61DAFB&style=flat&label=%20&suffix=%25)
+{
+  "name": "Javascript",
+  "afinidad": 90
+}
