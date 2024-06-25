@@ -1,8 +1,6 @@
-¡Claro! Vamos a desarrollar el contenido del **Módulo 2: Configuración del entorno de desarrollo**.
+# **Módulo 2: Configuración del entorno de desarrollo**
 
-### **Módulo 2: Configuración del entorno de desarrollo**
-
-#### **Objetivos del Módulo:**
+**Objetivos del Módulo:**
 - Configurar TypeScript en un proyecto.
 - Configurar Jest para TypeScript.
 - Integrar TypeScript y Jest con Visual Studio Code.
@@ -10,7 +8,7 @@
 
 ---
 
-#### **Sección 2.1: Configuración de TypeScript**
+## **Sección 2.1: Configuración de TypeScript**
 
 **Objetivo:**
 Configurar TypeScript en un proyecto para aprovechar todas sus características, como el tipado estático y la verificación de tipos.
@@ -55,7 +53,7 @@ npx tsc --init
 
 ---
 
-#### **Sección 2.2: Configuración de Jest para TypeScript**
+## **Sección 2.2: Configuración de Jest para TypeScript**
 
 **Objetivo:**
 Configurar Jest para que funcione con TypeScript y permita realizar pruebas unitarias eficientemente.
@@ -97,7 +95,7 @@ module.exports = {
 
 ---
 
-#### **Sección 2.3: Integración con Visual Studio Code**
+## **Sección 2.3: Integración con Visual Studio Code**
 
 **Objetivo:**
 Configurar Visual Studio Code para un desarrollo eficiente con TypeScript y Jest.
@@ -207,7 +205,7 @@ npm install prettier eslint-config-prettier eslint-plugin-prettier --save-dev
 
 ---
 
-### **Ejercicio práctico: Configuración y prueba inicial**
+## **Practica: Configuración y prueba inicial**
 
 **Objetivo:**
 Configurar un proyecto TypeScript con Jest y ejecutar una prueba inicial para verificar la configuración.

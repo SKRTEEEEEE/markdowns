@@ -1,5 +1,5 @@
 
-# Mejoras de rendimiento
+# Rendimiento en aplicaciones
 
 ## Uso correcto de campos en bdd con mucho uso
 ### Rendimiento: Campo `isAdmin` vs. Colección Separada

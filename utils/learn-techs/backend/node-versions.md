@@ -1,8 +1,9 @@
-##Versiones
+## Versiones
 
 `Versions` de los paquetes npm en la sección de dependencias de su archivo package.json siguen lo que se llama Control de versiones semántico (SemVer), un estándar de la industria para el control de versiones de software que tiene como objetivo facilitar la gestión de dependencias. Las bibliotecas, marcos u otras herramientas publicadas en npm deben usar SemVer para comunicar claramente qué tipo de cambios pueden esperar los proyectos si se actualizan.
 
 Conocer SemVer puede resultar útil cuando desarrollas software que utiliza dependencias externas (lo que casi siempre haces). Un día, su comprensión de estos números le evitará introducir accidentalmente cambios importantes en su proyecto sin comprender por qué las cosas que funcionaron ayer de repente no funcionan hoy. Así funciona el Versionado Semántico según el sitio web oficial:
+
 ```json
 "package": "MAJOR.MINOR.PATCH"
 ```

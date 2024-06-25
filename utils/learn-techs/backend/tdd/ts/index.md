@@ -78,19 +78,6 @@
    - Identificar y eliminar duplicación.
    - Mejorar la legibilidad de las pruebas.
 
-#### **Módulo 5: Proyecto Final**
-
-1. **Descripción del Proyecto Final**
-   - Objetivos del proyecto.
-   - Requisitos y funcionalidades.
-
-2. **Desarrollo del Proyecto Final**
-   - Aplicar TDD para desarrollar el proyecto.
-   - Documentación del proceso de desarrollo.
-
-3. **Revisión y entrega**
-   - Revisión del código.
-   - Feedback y mejoras.
 
 #### **Conclusión**
 
@@ -107,7 +94,7 @@
 
 ---
 
-### **Detalles de cada módulo**
+### **Detalles de cada módulo** EJEMPLO!
 
 #### **Introducción**
 
@@ -128,11 +115,11 @@
 
 **1. Conceptos básicos de TDD**
 - Explicación del ciclo TDD.
-- Ejemplo simple (test de suma de dos números).
 
 **2. Primeras pruebas con Jest**
+_Ejemplo simple (test de suma de dos números)._
 - Instalación de Jest en un proyecto TypeScript.
-- Crear y ejecutar la primera prueba unitaria.
+- Crear y ejecutar prueba unitaria.
 
 #### **Módulo 2: Configuración del entorno de desarrollo**
 
@@ -163,7 +150,7 @@
 **3. Pruebas unitarias avanzadas**
 - Uso de datos dinámicos en las pruebas.
 - Manejo de excepciones en pruebas.
-- Introducción a mocking y stubbing.
+- Introducción a mocking y stubbing. _Esta hecho hasta aquí, intro sin incluir_
 
 #### **Módulo 4: Buenas prácticas y patrones en TDD**
 
@@ -177,20 +164,6 @@
 **3. Re-factorización de pruebas**
 - Técnicas para mejorar y mantener las pruebas.
 - Identificación y eliminación de código duplicado.
-
-#### **Módulo 5: Proyecto Final**
-
-**1. Descripción del Proyecto Final**
-- Detalles del proyecto a desarrollar.
-- Especificaciones y requisitos funcionales.
-
-**2. Desarrollo del Proyecto Final**
-- Guía paso a paso para aplicar TDD en el desarrollo del proyecto.
-- Documentación del proceso de desarrollo y pruebas.
-
-**3. Revisión y entrega**
-- Revisión del proyecto desarrollado.
-- Feedback y sugerencias para mejoras.
 
 #### **Conclusión**
 

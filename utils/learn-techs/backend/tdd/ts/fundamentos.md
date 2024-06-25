@@ -1,12 +1,10 @@
 
 
-### **Módulo 1: Fundamentos de TDD**
+# **Módulo 1: Fundamentos de TDD**
 
-#### **Sección 1: Conceptos básicos de TDD**
+## **Sección 1: Conceptos básicos de TDD**
 
----
-
-#### **1.1 Conceptos básicos de TDD**
+### **1.1 Conceptos básicos de TDD**
 
 **Objetivos de esta sección:**
 - Entender qué es el Test-Driven Development (TDD).
@@ -50,7 +48,7 @@ Este ciclo se repite para cada pequeña funcionalidad o cambio que se desee impl
 
 ---
 
-### **Ejercicio práctico 1: Primer ciclo TDD**
+## **Sección 2: Primer pruebas con JEST**
 
 Vamos a realizar un ejercicio práctico para entender cómo funciona el ciclo TDD.
 
@@ -143,7 +141,7 @@ export function sum(a: number, b: number): number {
 **Paso 3: Refactor**
 
 1. **Revisa el código:**
-   - En este caso, el código es bastante simple y no requiere refactorización.
+   - En este caso, el código es bastante simple y no requiere re-factorización.
    - Asegúrate de que todo está bien estructurado y que no hay redundancias.
 
 ---
@@ -154,7 +152,7 @@ Has aprendido los conceptos básicos de TDD y has aplicado el ciclo TDD en un ej
 
 ---
 
-### **Preguntas y ejercicios adicionales:**
+## **Practica: Preguntas y ejercicios adicionales.**
 
 1. **Ejercicio: Multiplicación**
    - Escribe pruebas y el código para una función `multiply` que multiplique dos números.
