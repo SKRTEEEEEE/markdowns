@@ -45,15 +45,6 @@
     "valueuso": "Moderado"
   },
   {
-    "name": "React",
-    "afinidad": 75,
-    "value": "Alta",
-    "experiencia": 67.5,
-    "valueexp": "Alta",
-    "usogithub": 2.44,
-    "valueuso": "Moderado"
-  },
-  {
     "name": "Express",
     "afinidad": 85,
     "value": "Máxima",
