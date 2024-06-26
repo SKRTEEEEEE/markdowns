@@ -5,7 +5,7 @@
     "value": "Máxima",
     "experiencia": 80,
     "valueexp": "Alta",
-    "usogithub": 3.71,
+    "usogithub": 3.75,
     "valueuso": "Notable"
   },
   {
@@ -14,7 +14,7 @@
     "value": "Moderada",
     "experiencia": 65,
     "valueexp": "Alta",
-    "usogithub": 12.22,
+    "usogithub": 12.17,
     "valueuso": "Superior"
   },
   {
@@ -23,7 +23,7 @@
     "value": "Alta",
     "experiencia": 77.5,
     "valueexp": "Alta",
-    "usogithub": 3.58,
+    "usogithub": 3.62,
     "valueuso": "Notable"
   },
   {
@@ -32,8 +32,8 @@
     "value": "Máxima",
     "experiencia": 92.5,
     "valueexp": "Máxima",
-    "usogithub": 14.05,
-    "valueuso": "Dominante"
+    "usogithub": 13.99,
+    "valueuso": "Superior"
   },
   {
     "name": "NextUI",
@@ -41,7 +41,7 @@
     "value": "Máxima",
     "experiencia": 72.5,
     "valueexp": "Alta",
-    "usogithub": 1.9,
+    "usogithub": 1.89,
     "valueuso": "Moderado"
   },
   {
@@ -50,7 +50,7 @@
     "value": "Alta",
     "experiencia": 67.5,
     "valueexp": "Alta",
-    "usogithub": 2.45,
+    "usogithub": 2.44,
     "valueuso": "Moderado"
   },
   {
@@ -59,16 +59,7 @@
     "value": "Máxima",
     "experiencia": 77.5,
     "valueexp": "Alta",
-    "usogithub": 3.58,
+    "usogithub": 3.62,
     "valueuso": "Notable"
-  },
-  {
-    "name": "Css3",
-    "afinidad": 65,
-    "value": "Alta",
-    "experiencia": 72.5,
-    "valueexp": "Alta",
-    "usogithub": 0,
-    "valueuso": "Ninguno"
   }
 ]
