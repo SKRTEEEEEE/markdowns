@@ -25,6 +25,9 @@ _Documentación de lenguajes, tecnologías (frameworks, librerías...) de progra
 
 > ### [![React](https://img.shields.io/badge/-React-61DAFB?style=for-the-badge&logo=react&logoColor=white)](https://react.dev/learn) ![Afinidad Moderada](https://img.shields.io/badge/Afinidad-Moderada-blue "Afinidad Moderada")
 > - #### [![Chakra UI](https://img.shields.io/badge/Chakra_UI-319795?style=for-the-badge&logo=Chakra-UI&logoColor=white)](https://chakra-ui.com/) ![Afinidad Baja](https://img.shields.io/badge/Afinidad-Baja-yellow "Afinidad Baja")
+>- #### [Prime React](https://primereact.org/)
+>  Increíble librería para React
+
 > - #### [![React Icons](https://img.shields.io/badge/React_Icons-61DAFB?style=for-the-badge)](https://react-icons.github.io/react-icons/) ![Afinidad Máxima](https://img.shields.io/badge/Afinidad-Máxima-darkgreen "Afinidad Máxima")
 
 
@@ -50,6 +53,12 @@ _Documentación de lenguajes, tecnologías (frameworks, librerías...) de progra
   
 - ## [![CSS](https://img.shields.io/badge/-CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/es/docs/Web/CSS) ![Afinidad Moderada](https://img.shields.io/badge/Afinidad-Moderada-blue "Afinidad Moderada")
 > ### [![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-%231a202c.svg?style=for-the-badge&logo=tailwind-css&logoColor=38b2ac)](https://tailwindcss.com/) ![Afinidad Alta](https://img.shields.io/badge/Afinidad-Alta-brightgreen "Afinidad Alta")
+>- #### [![shadcnui](https://img.shields.io/badge/-ShadcnUI-131223?style=for-the-badge&logo=shadcnui&logoColor=white)](https://ui.shadcn.com/docs/theming) ![Afinidad Alta](https://img.shields.io/badge/Afinidad-Alta-brightgreen "Afinidad Alta")
+>- #### [Aceternity](https://ui.aceternity.com)
+>  Increíble repo/librería basada en tailwind y enfocada en NextJS
+>- #### [MagicUI](https://magicui.design/)
+>  Increíble repo/librería basada en tailwind y inspirada en ui.shadcn
+
 >- #### [![FloatUI](https://img.shields.io/badge/FloatUI-2F5BEA?style=for-the-badge)](https://floatui.com/) ![Afinidad Alta](https://img.shields.io/badge/Afinidad-Alta-brightgreen "Afinidad Alta")
 >- #### [![Flowbite](https://img.shields.io/badge/Flowbite-4E6FFF?style=for-the-badge)](https://flowbite.com/) ![Afinidad Moderada](https://img.shields.io/badge/Afinidad-Moderada-blue "Afinidad Moderada")
 
