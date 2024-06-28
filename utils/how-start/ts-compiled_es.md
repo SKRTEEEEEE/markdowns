@@ -1,5 +1,3 @@
-Entendido, vamos a ajustar la guía de inicio para un proyecto de TypeScript compilado dirigido a aplicaciones Node.js:
-
 # Iniciando con Proyectos de TypeScript Compilado para Node.js
 
 ## Instalación de Dependencias
