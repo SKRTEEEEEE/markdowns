@@ -13,6 +13,7 @@ npm install
 Asegúrate de configurar tu archivo `.env` o `.env.local` si es necesario para tu entorno de desarrollo.
 
 ## Compilación de TypeScript
+**Si en el README principal NO hay especificaciones:**
 
 Para compilar tu código TypeScript a JavaScript, utiliza el TypeScript Compiler (tsc). Asegúrate de tener TypeScript instalado como una dependencia de desarrollo:
 
