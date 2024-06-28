@@ -12,6 +12,14 @@ _Documentación de lenguajes, tecnologías (frameworks, librerías...) de progra
 ***
 <br>
 
+>- ## [![React](https://img.shields.io/badge/-React-61DAFB?style=for-the-badge&logo=react&logoColor=white)](https://react.dev/learn)
+>![Afinidad](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$[?(@.name=='React')].value&label=%F0%9F%92%97%20Afinidad&color=61DAFB&style=flat&logo=React)![Afinidad %](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$[?(@.name=='React')].afinidad&color=61DAFB&style=flat&label=%20&suffix=%25)
+        ![Experiencia](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$[?(@.name=='React')].valueexp&label=%F0%9F%8F%85%20Experiencia&color=61DAFB&style=flat&logo=React)![Experiencia %](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$[?(@.name=='React')].experiencia&color=61DAFB&style=flat&label=%20&suffix=%25)
+        ![Uso En Github](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$[?(@.name=='React')].valueuso&label=%F0%9F%98%BB%20Uso%20en%20github&color=61DAFB&style=flat&logo=React)![Uso en Github %](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$[?(@.name=='React')].usogithub&color=61DAFB&style=flat&label=%20&suffix=%25)
+>
+>![New Badge](https://img.shields.io/badge/%C2%A1_novedad_%F0%9F%91%8D_!-NEW_%F0%9F%93%A5_%F0%9F%97%92%EF%B8%8F-blue?style=social)
+
+
 
 
 >- ## [![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/es/docs/Web/JavaScript)
