@@ -54,15 +54,6 @@
     "valueuso": "Notable"
   },
   {
-    "name": "React",
-    "afinidad": 75,
-    "value": "Alta",
-    "experiencia": 62.5,
-    "valueexp": "Alta",
-    "usogithub": 2.44,
-    "valueuso": "Moderado"
-  },
-  {
     "name": "Css3",
     "afinidad": 60,
     "value": "Moderada",
