@@ -1,0 +1,524 @@
+
+# Introducción a TypeScript
+## Introducción básica a TypeScript
+### ¿Qué es TypeScript?
+
+TypeScript, comúnmente abreviado como TS, es un lenguaje de programación desarrollado y mantenido por Microsoft. Se trata de un superconjunto tipado de JavaScript, lo que significa que se basa en JavaScript y agrega características adicionales que facilitan el desarrollo de aplicaciones a gran escala. Una de las características más importantes de TypeScript es su sistema de tipos estáticos, que ayuda a detectar errores en el código durante el desarrollo, antes de la ejecución.
+
+### ¿Qué es un Superset?
+
+El término "superset" en programación se refiere a un lenguaje que contiene todas las características de otro lenguaje (el subconjunto) y agrega nuevas funcionalidades propias. En este caso, TypeScript es un superset de JavaScript. Esto significa que cualquier código JavaScript válido también es válido en TypeScript, pero TypeScript añade características adicionales, como tipos estáticos, interfaces, enumeraciones y la capacidad de utilizar las últimas características de JavaScript, incluso si no son compatibles con todos los entornos aún.
+
+### Historia de TypeScript
+
+TypeScript fue desarrollado por Microsoft bajo la dirección de Anders Hejlsberg, el creador de C# y Turbo Pascal. Fue presentado públicamente en octubre de 2012 como una respuesta a la creciente complejidad de los proyectos JavaScript a gran escala, ofreciendo una solución para mejorar la mantenibilidad y escalabilidad del código.
+
+**Línea de tiempo destacada:**
+
+- **2012**: Lanzamiento inicial de TypeScript. Desde su inicio, TypeScript se diseñó para mejorar el desarrollo de aplicaciones JavaScript a gran escala mediante la introducción de un sistema de tipos estáticos.
+- **2014**: Lanzamiento de TypeScript 1.0. Este lanzamiento fue crucial ya que marcó la primera versión oficial y estable del lenguaje, lo que permitió su adopción por parte de la comunidad de desarrolladores.
+- **2015**: Lanzamiento de TypeScript 1.5, que introdujo muchas características nuevas, incluyendo módulos ES6 y decoradores. Esta versión fue particularmente importante ya que empezó a alinearse más estrechamente con las características emergentes de ECMAScript.
+- **2016**: TypeScript 2.0 fue lanzado, introduciendo características clave como los tipos no nulos y el control de flujo basado en tipos. Estas mejoras aumentaron significativamente la capacidad del lenguaje para evitar errores en tiempo de desarrollo.
+- **2018**: Con el lanzamiento de TypeScript 3.0, se introdujeron características avanzadas como los proyectos de referencia y los parámetros de tipo predeterminados, haciendo aún más fácil el manejo de grandes bases de código.
+- **2020**: TypeScript 4.0 trajo mejoras en la inferencia de tipos, operadores lógicos y la experiencia general del desarrollador, reafirmando el compromiso de Microsoft con la evolución continua del lenguaje.
+
+### Popularidad y Adopción
+
+Desde su lanzamiento, TypeScript ha ganado una adopción significativa en la industria del software. Grandes empresas y proyectos de código abierto han migrado a TypeScript para beneficiarse de su sistema de tipos y las mejoras en la mantenibilidad del código. Herramientas y frameworks populares como Angular, Vue, y React tienen un soporte robusto para TypeScript, lo que ha contribuido a su popularidad.
+
+### Beneficios de Usar TypeScript
+
+- **Detección temprana de errores**: Gracias a su sistema de tipos estáticos, TypeScript permite detectar errores en tiempo de desarrollo, reduciendo la cantidad de errores en tiempo de ejecución.
+- **Mejor mantenimiento del código**: Los tipos y las interfaces facilitan la comprensión del código, lo que es especialmente útil en equipos grandes o en proyectos a largo plazo.
+- **Compatibilidad con JavaScript**: Al ser un superset de JavaScript, TypeScript permite utilizar todo el ecosistema de JavaScript, incluyendo bibliotecas y frameworks, con la ventaja añadida de los tipos estáticos.
+- **Funcionalidades modernas**: TypeScript permite usar las últimas características de ECMAScript, incluso si no son compatibles con todos los navegadores o entornos, ya que el código TypeScript se transpila a JavaScript estándar.
+
+
+## Transpilación en TypeScript
+
+### TypeScript y la Transpilación a JavaScript
+
+Es importante entender que los navegadores web no pueden ejecutar directamente código TypeScript. Los navegadores solo pueden interpretar JavaScript, por lo que cualquier código TypeScript debe ser convertido (o "transpilado") a JavaScript antes de ser ejecutado. Este proceso de transpilación asegura que el código TypeScript, con todas sus características y tipos, se transforme en un JavaScript que los navegadores puedan entender.
+
+Para realizar esta transpilación, se utiliza el compilador oficial de TypeScript (tsc), que convierte los archivos .ts (TypeScript) en archivos .js (JavaScript). Veamos un ejemplo básico para ilustrar este proceso:
+
+1. **Archivo TypeScript (`app.ts`)**:
+    ```typescript
+    function greet(name: string): string {
+        return `Hello, ${name}!`;
+    }
+
+    let user = "John";
+    console.log(greet(user));
+    ```
+
+2. **Transpilación**:
+    Ejecutar el comando `tsc app.ts` en la línea de comandos generará un archivo JavaScript (`app.js`) equivalente:
+    ```javascript
+    function greet(name) {
+        return "Hello, " + name + "!";
+    }
+
+    var user = "John";
+    console.log(greet(user));
+    ```
+
+3. **Ejecución en el navegador**:
+    El archivo `app.js` generado se puede incluir en un archivo HTML y ejecutarse en cualquier navegador.
+#### Diferencias entre Transpilación y Compilación
+
+En el contexto de TypeScript y JavaScript, es importante entender las diferencias entre transpilación y compilación, ya que estos términos se utilizan de manera diferente debido a las características y requisitos de cada lenguaje.
+
+##### Compilación
+
+La compilación se refiere al proceso de traducir código fuente de alto nivel (como C++, Java, etc.) a un código de bajo nivel (normalmente código máquina o ensamblador) que puede ser ejecutado directamente por la máquina objetivo. Aquí hay algunos puntos clave sobre la compilación:
+
+- **Idiomas de Alto Nivel**: Los idiomas compilados suelen ser de alto nivel y más cercanos al lenguaje humano que al código de máquina.
+- **Código Resultante**: El resultado de la compilación es un código binario específico de la arquitectura de la máquina.
+- **Ejecución Directa**: El código compilado se ejecuta directamente en el hardware de la máquina objetivo.
+
+##### Transpilación
+
+La transpilación es un proceso similar a la compilación, pero con una diferencia clave: se traduce código de un lenguaje a otro dentro del mismo nivel de abstracción o de uno más alto a uno ligeramente más bajo. En el caso de TypeScript a JavaScript, la transpilación implica lo siguiente:
+
+- **De TypeScript a JavaScript**: TypeScript, al ser un superconjunto de JavaScript, se transpila a JavaScript estándar para asegurar la compatibilidad con todos los navegadores web.
+- **Mantener Características del Lenguaje**: Durante la transpilación, se conservan características específicas de TypeScript, como tipos estáticos y decoradores, que no están presentes en JavaScript estándar.
+- **Ejecución en Navegadores**: El código JavaScript resultante de la transpilación puede ser ejecutado por cualquier navegador web moderno, ya que todos los navegadores son compatibles con JavaScript.
+
+##### Principales Diferencias
+
+1. **Naturaleza del Lenguaje**: La compilación traduce de un lenguaje de alto nivel a uno de bajo nivel, mientras que la transpilación traduce entre lenguajes de un mismo nivel o de un nivel más alto a uno más bajo.
+   
+2. **Objetivo del Proceso**: La compilación genera código binario para ejecutar directamente en la máquina, mientras que la transpilación genera código que debe ser interpretado por otro entorno (como un navegador).
+
+3. **Ejemplos Prácticos**:
+   - **Compilación**: Convertir código C++ en un archivo ejecutable (.exe) para Windows.
+   - **Transpilación**: Convertir TypeScript en JavaScript para que los navegadores web puedan interpretarlo.
+
+Entiendo tu pregunta. Vamos a profundizar en la transpilación de TypeScript y por qué los tipos no se verifican durante la ejecución del código en el navegador, a diferencia de entornos como Solidity en la blockchain Ethereum.
+
+### Características de la transpilación de TypeScript
+
+#### 1. **Proceso de Transpilación**: 
+
+   - TypeScript es un superconjunto de JavaScript que incluye características adicionales como tipos estáticos. 
+   - El código TypeScript se escribe con tipos y características que no son parte del estándar de JavaScript.
+   - Para que el código TypeScript pueda ser ejecutado en un navegador o en cualquier entorno que entienda JavaScript estándar, debe ser transpilado.
+   - La transpilación convierte el código TypeScript en código JavaScript equivalente, donde los tipos estáticos son eliminados ya que JavaScript no los soporta nativamente.
+
+#### 2. **Por qué no se Comprueban los Tipos en Tiempo de Ejecución**:
+
+   - En TypeScript, los tipos son estáticos, lo que significa que se comprueban en tiempo de compilación, no en tiempo de ejecución.
+   - Durante la transpilación, el compilador de TypeScript verifica la corrección de los tipos según las reglas establecidas en el código.
+   - Una vez que el código TypeScript se convierte en JavaScript, los tipos están ausentes y no hay un sistema de tipos para verificar en tiempo de ejecución.
+   - En el navegador o en cualquier entorno de ejecución de JavaScript, el código ejecutable simplemente ejecuta las instrucciones JavaScript sin ninguna verificación de tipos.
+
+   Para comparar la transpilación de TypeScript, donde los tipos se verifican estáticamente durante la compilación y luego se eliminan para la ejecución en JavaScript, con un lenguaje que mantiene la verificación de tipos durante la ejecución, como Solidity en Ethereum, podemos considerar un ejemplo con Java.
+
+#### 3. **Comparación con Java**
+
+Java es un lenguaje de programación que utiliza un sistema de tipos estáticos y realiza verificaciones de tipos tanto en tiempo de compilación como en tiempo de ejecución. A continuación, se detallan los puntos clave de comparación:
+
+##### Sistema de Tipos
+
+- **TypeScript**:
+  - Es un superconjunto de JavaScript que añade tipos estáticos opcionales.
+  - Los tipos se verifican durante la compilación por el compilador de TypeScript (tsc).
+  - Durante la transpilación a JavaScript, los tipos son eliminados y no se verifican durante la ejecución en el navegador.
+
+- **Java**:
+  - Es un lenguaje de programación con tipos estáticos fuertemente tipado.
+  - Los tipos se verifican tanto en tiempo de compilación como en tiempo de ejecución por el JVM (Java Virtual Machine).
+  - La verificación de tipos en tiempo de ejecución garantiza la seguridad y la integridad de los datos durante la ejecución del programa.
+
+##### Ejemplo de Código
+
+Veamos un ejemplo simple en ambos lenguajes para ilustrar la diferencia en la verificación de tipos:
+
+- **TypeScript (Transpilado a JavaScript):**
+
+```typescript
+function add(a: number, b: number): number {
+    return a + b;
+}
+
+let result = add(5, '10'); // Esto es válido en TypeScript, pero puede dar un resultado inesperado en JavaScript
+console.log(result);
+```
+
+En TypeScript, el código anterior compila sin problemas porque TypeScript permite la sobrecarga de tipos. Sin embargo, durante la ejecución en JavaScript, `'10'` se concatenará en lugar de sumarse, lo cual puede no ser el comportamiento esperado.
+
+- **Java:**
+
+```java
+public class Main {
+    public static void main(String[] args) {
+        int result = add(5, "10"); // Error de compilación en Java: tipos incompatibles
+        System.out.println(result);
+    }
+
+    public static int add(int a, int b) {
+        return a + b;
+    }
+}
+```
+
+En Java, el código anterior genera un error de compilación porque el método `add` espera dos enteros (`int`), pero se le pasa una cadena (`String`). Este tipo de verificación de tipos en tiempo de compilación ayuda a prevenir errores durante la ejecución del programa.
+
+##### Conclusión
+
+- **TypeScript** proporciona verificación de tipos estáticos durante la compilación, lo que mejora la robustez y el mantenimiento del código, pero no verifica los tipos durante la ejecución en JavaScript.
+  
+- **Java** utiliza un sistema de tipos estáticos que se verifican tanto en tiempo de compilación como en tiempo de ejecución, garantizando así la integridad de los tipos durante la ejecución del programa.
+
+En resumen, mientras que TypeScript ofrece ventajas significativas con tipos estáticos para mejorar el desarrollo y la detección de errores, lenguajes como Java y Solidity van más allá al mantener la verificación de tipos durante la ejecución, lo que es crucial en entornos donde la seguridad y la integridad de los datos son fundamentales, como en sistemas distribuidos o blockchain.
+
+#### 4. **Comparación con Solidity en Ethereum**:
+
+   - En Solidity (el lenguaje utilizado para programar contratos inteligentes en Ethereum), la situación es diferente.
+   - Solidity es un lenguaje con tipos estáticos diseñado para la ejecución en una blockchain, donde la precisión y la exactitud de los datos son críticas.
+   - Los contratos inteligentes en Solidity son ejecutados por los nodos de la red Ethereum, y cualquier error en los tipos de datos puede tener consecuencias graves, como la pérdida de fondos o vulnerabilidades de seguridad.
+   - Por lo tanto, Solidity está diseñado para verificar y validar tipos de datos incluso durante la ejecución, para garantizar la consistencia y seguridad de las operaciones en la blockchain.
+
+
+## Herramientas recomendadas
+### Visual Studio Code y la Extensión Pretty TypeScript Errors
+
+Visual Studio Code (VS Code) es un entorno de desarrollo ligero y poderoso desarrollado por Microsoft. Se ha convertido en una de las herramientas preferidas por desarrolladores debido a su capacidad para ser altamente personalizable mediante extensiones y su soporte integrado para una variedad de lenguajes de programación, incluido TypeScript.
+
+#### Por qué se Recomienda Visual Studio Code
+
+- **Desarrollado por Microsoft**: Visual Studio Code es desarrollado por Microsoft, el mismo equipo detrás de TypeScript. Esto garantiza una integración sólida y un soporte continuo para TypeScript y otras tecnologías de Microsoft.
+
+- **Altamente Personalizable**: VS Code permite personalizar el entorno de desarrollo según las necesidades del desarrollador. Esto incluye la instalación de extensiones que añaden funcionalidades adicionales para mejorar la productividad y la experiencia de desarrollo.
+
+- **Soporte Integrado para TypeScript**: VS Code proporciona soporte nativo para TypeScript, lo que facilita la edición, depuración y administración de proyectos TypeScript directamente desde el editor.
+
+#### Extensión Pretty TypeScript Errors
+
+Una de las extensiones útiles para mejorar la experiencia de desarrollo con TypeScript en Visual Studio Code es **Pretty TypeScript Errors**. Esta extensión tiene como objetivo mejorar la legibilidad y comprensión de los mensajes de error generados por el compilador de TypeScript dentro del editor.
+
+- **Mejora la Legibilidad**: Transforma los mensajes de error estándar de TypeScript en formatos más legibles y estructurados, lo cual facilita la identificación y corrección de problemas en el código TypeScript.
+
+- **Personalización**: Permite ajustar la apariencia y el formato de los mensajes de error para adaptarse mejor a las preferencias individuales del desarrollador.
+
+- **Integración con VS Code**: Se integra perfectamente con Visual Studio Code, lo que significa que puede instalarse y utilizarse de manera sencilla desde el marketplace de extensiones de VS Code.
+
+
+### Usando el Playground Oficial de TypeScript
+
+El Playground oficial de TypeScript es una herramienta en línea que permite experimentar con TypeScript directamente en el navegador sin necesidad de instalar nada en tu computadora. Es especialmente útil para aprender y probar rápidamente fragmentos de código TypeScript. Puedes acceder al playground en la siguiente URL: [TypeScript Playground](https://www.typescriptlang.org/play).
+
+#### Características del Playground:
+
+1. **Editor de Código**: Puedes escribir código TypeScript en el lado izquierdo del editor.
+2. **Transpilación en Tiempo Real**: A medida que escribes código TypeScript, el playground lo transpila automáticamente a JavaScript, mostrando el resultado en el lado derecho del editor.
+3. **Mensajes de Error y Advertencias**: El playground proporciona retroalimentación inmediata sobre errores de sintaxis y tipo, ayudándote a entender mejor cómo funciona TypeScript.
+4. **Ejemplos y Documentación**: El playground incluye ejemplos integrados y enlaces a la documentación oficial, facilitando el aprendizaje de nuevas características del lenguaje.
+
+#### Ejemplo Práctico en el Playground:
+
+1. **Escribe el siguiente código TypeScript en el editor**:
+    ```typescript
+    interface Person {
+        firstName: string;
+        lastName: string;
+    }
+
+    function greeter(person: Person) {
+        return `Hello, ${person.firstName} ${person.lastName}`;
+    }
+
+    let user = { firstName: "Jane", lastName: "Doe" };
+    console.log(greeter(user));
+    ```
+
+2. **Observa la transpilación a JavaScript**:
+    A medida que escribes el código, el playground mostrará el código JavaScript equivalente en el panel derecho:
+    ```javascript
+    function greeter(person) {
+        return "Hello, " + person.firstName + " " + person.lastName;
+    }
+
+    var user = { firstName: "Jane", lastName: "Doe" };
+    console.log(greeter(user));
+    ```
+
+3. **Verifica los errores**:
+    Intenta cambiar `firstName` en `let user = { firstName: "Jane", lastName: "Doe" };` a `firstName: 123`. El playground te mostrará un error indicando que `123` no es del tipo `string`.
+
+### Ventajas del Playground:
+
+- **Accesibilidad**: No se requiere configuración ni instalación. Puedes acceder y empezar a escribir código TypeScript desde cualquier dispositivo con conexión a Internet.
+- **Aprendizaje Interactivo**: La retroalimentación inmediata facilita el aprendizaje de la sintaxis y las características de TypeScript.
+- **Compartir Código**: Puedes compartir tu código fácilmente mediante enlaces, permitiendo colaboraciones y discusiones en tiempo real.
+
+
+## Introducción práctica
+
+### Ejemplo 1: Suma sin TypeScript (JavaScript)
+
+En JavaScript, la falta de tipos puede llevar a errores inesperados. Consideremos el siguiente ejemplo de una función que suma dos números:
+
+```javascript
+// Ejemplo en JavaScript
+function sum(a, b) {
+    return a + b;
+}
+
+console.log(sum(2, 3));     // Salida esperada: 5
+console.log(sum('hello', 3)); // Salida inesperada: "hello3"
+```
+
+En este ejemplo, JavaScript permite sumar un número y una cadena de texto, lo que resulta en una concatenación en lugar de una suma numérica. Esto puede causar errores difíciles de detectar.
+
+### Ejemplo 2: Suma en TypeScript
+
+Con TypeScript, podemos evitar este tipo de errores especificando los tipos de los parámetros:
+
+```typescript
+// Ejemplo en TypeScript
+function sum(a: number, b: number): number {
+    return a + b;
+}
+
+console.log(sum(2, 3));     // Salida esperada: 5
+console.log(sum('hello', 3)); // Error de compilación: Argument of type 'string' is not assignable to parameter of type 'number'.
+```
+
+En este caso, TypeScript genera un error de compilación cuando intentamos pasar una cadena en lugar de un número, ayudándonos a detectar el error antes de ejecutar el código.
+
+### Ejemplo 3: Clase con Constructor y TypeScript
+
+Ahora veamos un ejemplo más complejo utilizando clases e interfaces en TypeScript:
+
+```typescript
+// Definición de una interfaz
+interface Shape {
+    area(): number;
+}
+
+// Clase que implementa la interfaz Shape
+class Rectangle implements Shape {
+    constructor(public width: number, public height: number) {}
+
+    area(): number {
+        return this.width * this.height;
+    }
+}
+
+// Clase que implementa la interfaz Shape
+class Circle implements Shape {
+    constructor(public radius: number) {}
+
+    area(): number {
+        return Math.PI * this.radius * this.radius;
+    }
+}
+
+// Función que toma un objeto de tipo Shape
+function printArea(shape: Shape): void {
+    console.log(`El área es: ${shape.area()}`);
+}
+
+const rectangle = new Rectangle(10, 5);
+const circle = new Circle(7);
+
+printArea(rectangle); // Salida esperada: El área es: 50
+printArea(circle);    // Salida esperada: El área es: 153.93804002589985
+```
+
+En este ejemplo, usamos interfaces para definir un contrato que las clases `Rectangle` y `Circle` deben seguir. Esto garantiza que ambas clases implementen un método `area`, proporcionando un diseño más robusto y fácil de mantener.
+
+
+### Ejemplo 4: Clase "Directa" con TypeScript utilizando propiedades y métodos estáticos
+
+En este ejemplo, igual que el anterior en funcionalidad, utilizamos propiedades y métodos estáticos para definir la lógica de las clases sin necesidad de utilizar `this`.
+
+#### Definición de Clases
+
+```typescript
+// Definición de una interfaz
+interface Shape {
+    area(): number;
+}
+
+// Clase que implementa la interfaz Shape
+class Rectangle implements Shape {
+    static width: number = 10;
+    static height: number = 5;
+
+    static area(): number {
+        return Rectangle.width * Rectangle.height;
+    }
+
+    area(): number {
+        return Rectangle.area();
+    }
+}
+
+// Clase que implementa la interfaz Shape
+class Circle implements Shape {
+    static radius: number = 7;
+
+    static area(): number {
+        return Math.PI * Circle.radius * Circle.radius;
+    }
+
+    area(): number {
+        return Circle.area();
+    }
+}
+
+// Función que toma un objeto de tipo Shape
+function printArea(shape: Shape): void {
+    console.log(`El área es: ${shape.area()}`);
+}
+
+// Crear instancias de las clases
+const rectangle = new Rectangle();
+const circle = new Circle();
+
+printArea(rectangle); // Salida esperada: El área es: 50
+printArea(circle);    // Salida esperada: El área es: 153.93804002589985
+```
+
+#### Explicación del Código
+
+1. **Interface `Shape`**: Define un contrato que asegura que cualquier clase que lo implemente tendrá un método `area`.
+2. **Clase `Rectangle`**: 
+    - Usa propiedades estáticas `width` y `height` con valores predeterminados.
+    - Define un método estático `area` que calcula el área utilizando las propiedades estáticas.
+    - Implementa el método de instancia `area` para cumplir con la interfaz `Shape`, simplemente llamando al método estático `area`.
+3. **Clase `Circle`**:
+    - Usa una propiedad estática `radius` con un valor predeterminado.
+    - Define un método estático `area` que calcula el área utilizando la propiedad estática.
+    - Implementa el método de instancia `area` para cumplir con la interfaz `Shape`, simplemente llamando al método estático `area`.
+4. **Función `printArea`**: Toma un objeto que implementa la interfaz `Shape` y llama al método `area` de ese objeto para imprimir el área.
+
+##### Beneficios de esta Aproximación
+
+- **Evita el uso de `this`**: Utilizando propiedades y métodos estáticos, no se necesita el uso de `this`.
+- **Claridad**: El código es claro y directo, definiendo propiedades y métodos estáticos que pueden ser reutilizados sin instanciar la clase.
+
+
+
+
+## Ejercicios
+
+Ahora que hemos visto algunos ejemplos prácticos, aquí tienes algunos ejercicios para que practiques con TypeScript:
+
+### Ejercicio 1: Crear una función de bienvenida
+
+1. Crea una función en TypeScript llamada `welcome` que tome un parámetro `name` de tipo `string` y devuelva un saludo de bienvenida.
+2. La función debe devolver un mensaje en formato: "Bienvenido, [nombre]".
+
+#### Solución Esperada
+
+```typescript
+function welcome(name: string): string {
+    return `Bienvenido, ${name}`;
+}
+
+let userName = "Carlos";
+console.log(welcome(userName)); // Salida esperada: Bienvenido, Carlos
+```
+
+#### Explicación del Ejercicio
+
+Este ejercicio te ayuda a familiarizarte con la declaración de funciones y el uso de tipos básicos en TypeScript. Al definir el tipo del parámetro como `string`, aseguramos que la función `welcome` siempre reciba un texto, evitando posibles errores que podrían ocurrir si se le pasara un valor no deseado.
+
+### Ejercicio 2: Crear una calculadora simple
+
+1. Crea una clase `Calculator` que tenga métodos para sumar, restar, multiplicar y dividir dos números.
+2. Asegúrate de que los métodos tomen dos parámetros de tipo `number` y devuelvan un `number`.
+3. Añade una comprobación en el método de división para evitar la división por cero, devolviendo `null` en ese caso.
+
+#### Solución Esperada
+
+```typescript
+class Calculator {
+    add(a: number, b: number): number {
+        return a + b;
+    }
+
+    subtract(a: number, b: number): number {
+        return a - b;
+    }
+
+    multiply(a: number, b: number): number {
+        return a * b;
+    }
+
+    divide(a: number, b: number): number | null {
+        if (b === 0) {
+            return null; // Evita la división por cero
+        }
+        return a / b;
+    }
+}
+
+const calculator = new Calculator();
+console.log(calculator.add(10, 5));        // Salida esperada: 15
+console.log(calculator.subtract(10, 5));   // Salida esperada: 5
+console.log(calculator.multiply(10, 5));   // Salida esperada: 50
+console.log(calculator.divide(10, 5));     // Salida esperada: 2
+console.log(calculator.divide(10, 0));     // Salida esperada: null
+```
+
+#### Explicación del Ejercicio
+
+Este ejercicio te ayuda a practicar la creación de clases y métodos en TypeScript. Además, aprendes a manejar situaciones especiales, como la división por cero, utilizando condicionales para asegurar que tu programa maneje errores de manera adecuada.
+
+### Preguntas Teóricas
+
+Aquí tienes algunas preguntas teóricas para evaluar tu comprensión de TypeScript:
+
+1. **¿Qué es TypeScript?**
+    - A) Un superconjunto de JavaScript que añade tipos estáticos.
+    - B) Un nuevo lenguaje de programación independiente de JavaScript.
+    - C) Un preprocesador de CSS.
+    - D) Un entorno de desarrollo integrado (IDE).
+
+    **Respuesta Correcta: A) Un superconjunto de JavaScript que añade tipos estáticos.**
+
+2. **¿Cuál de las siguientes afirmaciones es verdadera sobre TypeScript?**
+    - A) TypeScript solo puede ejecutarse en navegadores modernos.
+    - B) TypeScript se transpila a JavaScript antes de ejecutarse.
+    - C) TypeScript no soporta programación orientada a objetos.
+    - D) TypeScript no puede ser utilizado con bibliotecas JavaScript existentes.
+
+    **Respuesta Correcta: B) TypeScript se transpila a JavaScript antes de ejecutarse.**
+
+3. **¿Qué palabra clave se utiliza para definir una interfaz en TypeScript?**
+    - A) `class`
+    - B) `module`
+    - C) `interface`
+    - D) `type`
+
+    **Respuesta Correcta: C) `interface`**
+
+4. **¿Cuál es la salida de la siguiente función en TypeScript?**
+
+    ```typescript
+    function greet(name: string): string {
+        return `Hello, ${name}`;
+    }
+
+    console.log(greet("Alice"));
+    ```
+
+    - A) Hello,
+    - B) Hello, undefined
+    - C) Hello, Alice
+    - D) Error de compilación
+
+    **Respuesta Correcta: C) Hello, Alice**
+
+5. **¿Cuál de los siguientes tipos básicos NO es un tipo de dato en TypeScript?**
+    - A) `string`
+    - B) `boolean`
+    - C) `number`
+    - D) `char`
+
+    **Respuesta Correcta: D) `char`**
