@@ -208,7 +208,8 @@ Para configurar Tailwind CSS en un servidor básico utilizando Node.js, sigue es
 ### Integración
 
 
-#### Aplicación estática que usa TypeScript
+#### Aplicación estática con TypeScript
+##### Tailwind con Ts
 
 Para integrar Tailwind CSS en una aplicación estática que también utiliza TypeScript y necesita compilar ambos, puedes seguir estos pasos:
 
@@ -305,6 +306,174 @@ Para integrar Tailwind CSS en una aplicación estática que también utiliza Typ
 
    Esto compilará `src/styles.css` utilizando Tailwind CSS y generará `dist/styles.css` con los estilos optimizados.
 
-##### Resumen
+**Resumen:**
 
 Este ejemplo muestra cómo integrar Tailwind CSS en una aplicación estática que utiliza TypeScript. Asegúrate de ejecutar los comandos adecuados (`npm run build:ts` para TypeScript y `npm run build:css` para Tailwind CSS) para compilar tanto el TypeScript como los estilos antes de desplegar la aplicación estática.
+
+##### Tailwind, Ts y NodeJS (Sin PostCSS)
+
+
+**Estructura del proyecto**
+
+```
+/proyecto
+├── /public
+│   ├── index.html
+│   ├── app.js
+│   ├── styles.css
+├── /src
+│   ├── app.ts
+│   ├── server.ts
+│   ├── other.ts
+├── /dist
+│   ├── app.js
+│   ├── server.js
+│   ├── other.js
+├── package.json
+├── tsconfig.json
+├── tailwind.config.js
+```
+
+Para configurar en este caso sera un poco distinto.
+
+1. **Configuración de TypeScript**
+
+   Instala TypeScript como una dependencia de desarrollo:
+
+   ```bash
+   npm install typescript --save-dev
+   ```
+
+   Configura `tsconfig.json` para compilar los archivos de TypeScript en la carpeta `/src` y poner los archivos compilados en la carpeta `/dist`:
+
+   ```json
+   {
+     "compilerOptions": {
+       "target": "ES5",
+       "outDir": "./dist",
+       "rootDir": "./src",
+       "strict": true,
+       "moduleResolution": "node",
+       "esModuleInterop": true
+     },
+     "include": ["src/**/*.ts"]
+   }
+   ```
+
+2. **Instalación de Tailwind CSS CLI**
+
+   Instala Tailwind CSS como una dependencia de desarrollo:
+
+   ```bash
+   npm install tailwindcss --save-dev
+   ```
+
+3. **Configuración de Tailwind CSS**
+
+   Crea el archivo de configuración de Tailwind CSS:
+
+   ```bash
+   npx tailwindcss init
+   ```
+
+   Configura `tailwind.config.js` para especificar las rutas de los archivos que Tailwind CSS debe analizar para generar los estilos:
+
+   ```javascript
+   // tailwind.config.js
+   module.exports = {
+     content: [
+       './public/**/*.{html,js}',
+       './src/**/*.{js,ts}',
+     ],
+     theme: {
+       extend: {},
+     },
+     plugins: [],
+   };
+   ```
+
+4. **Utilización de Tailwind CSS en HTML**
+
+   En `public/index.html`, usa las clases utilitarias de Tailwind CSS:
+
+   ```html
+   <!DOCTYPE html>
+   <html lang="en">
+   <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Tailwind CSS Example</title>
+     <link href="/public/output.css" rel="stylesheet">
+   </head>
+   <body class="bg-gray-100">
+     <div class="container mx-auto p-4">
+       <h1 class="text-3xl font-bold text-center mb-4">Ejemplo con Tailwind CSS</h1>
+       <p class="text-lg text-gray-700">Este es un ejemplo de integración de Tailwind CSS con TypeScript.</p>
+     </div>
+     <script src="/public/app.js"></script>
+   </body>
+   </html>
+   ```
+
+5. **Compilación de estilos con Tailwind CSS CLI**
+
+   En `src/styles.css`, importa las directivas de Tailwind CSS:
+
+   ```css
+   /* src/styles.css */
+   @tailwind base;
+   @tailwind components;
+   @tailwind utilities;
+   ```
+
+   Agrega un script de compilación en `package.json` para compilar los estilos CSS usando la CLI de Tailwind CSS:
+
+   ```json
+   "scripts": {
+     "build:css": "tailwindcss -i ./public/styles.css -o ./public/output.css",
+     "build:ts": "tsc",
+     "start": "node dist/server.js"
+   }
+   ```
+
+   Ejecuta la compilación:
+
+   ```bash
+   npm run build:css
+   npm run build:ts
+   ```
+
+6. **Configuración del servidor con Node.js**
+
+   Crea un servidor básico en `src/server.ts` para servir los archivos estáticos desde la carpeta `/public`:
+
+   ```typescript
+   // src/server.ts
+   import express from 'express';
+   import path from 'path';
+
+   const app = express();
+   const PORT = process.env.PORT || 3000;
+
+   app.use(express.static(path.join(__dirname, '../public')));
+
+   app.get('/', (req, res) => {
+     res.sendFile(path.join(__dirname, '../public/index.html'));
+   });
+
+   app.listen(PORT, () => {
+     console.log(`Server is running on http://localhost:${PORT}`);
+   });
+   ```
+
+   Compila el servidor y los archivos TypeScript:
+
+   ```bash
+   npm run build:ts
+   ```
+
+   Inicia el servidor:
+
+   ```bash
+   npm start
+   ```
