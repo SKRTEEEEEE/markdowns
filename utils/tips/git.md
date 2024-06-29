@@ -710,3 +710,222 @@ git revert eb1307f
 ```
 
 Esto creará un nuevo commit que deshace los cambios introducidos por `eb1307f`.
+## Configuración usuarios
+### Ver configuracion usuario
+Para ver la configuración de tu Git como usuario, puedes utilizar el siguiente comando en la línea de comandos (terminal):
+
+```sh
+git config --list
+```
+
+Este comando muestra todas las configuraciones de Git, tanto globales como locales. Si deseas ver solo la configuración global (la que se aplica a todos tus repositorios), puedes usar:
+
+```sh
+git config --global --list
+```
+
+Para ver la configuración específica de un repositorio en el que estés trabajando, puedes utilizar:
+
+```sh
+git config --local --list
+```
+
+Si deseas ver una configuración específica, como tu nombre de usuario o correo electrónico, puedes usar:
+
+```sh
+git config user.name
+git config user.email
+```
+
+Estos comandos te mostrarán el nombre de usuario y el correo electrónico configurados, respectivamente.
+
+### Eliminar configuracion global y poner local
+#### Forma tradicional
+Si deseas trabajar con varios usuarios de GitHub en la misma máquina, puedes eliminar la configuración global del usuario y configurar el usuario correspondiente de manera local en cada repositorio. Aquí tienes los pasos detallados para hacerlo:
+
+1. **Eliminar la configuración global de usuario:**
+
+   Para eliminar la configuración global del usuario, puedes usar los siguientes comandos:
+
+   ```sh
+   git config --global --unset user.name
+   git config --global --unset user.email
+   ```
+
+2. **Configurar el usuario a nivel local en cada repositorio:**
+
+   Luego, puedes configurar el usuario correspondiente para cada proyecto de manera local. Ve al directorio del proyecto y usa los siguientes comandos para establecer el nombre y el correo electrónico:
+
+   ```sh
+   cd /ruta/a/tu/proyecto
+   git config user.name "Tu Nombre"
+   git config user.email "tu_email@example.com"
+   ```
+
+3. **Verificar la configuración local:**
+
+   Para asegurarte de que la configuración local se ha aplicado correctamente, puedes listar la configuración local del repositorio:
+
+   ```sh
+   git config --local --list
+   ```
+
+##### Ejemplo
+
+Supongamos que tienes dos proyectos: `proyectoA` y `proyectoB`. Quieres usar el usuario `usuario1` para `proyectoA` y `usuario2` para `proyectoB`.
+
+Para `proyectoA`:
+
+```sh
+cd /ruta/a/proyectoA
+git config user.name "Usuario1"
+git config user.email "usuario1@example.com"
+```
+
+Para `proyectoB`:
+
+```sh
+cd /ruta/a/proyectoB
+git config user.name "Usuario2"
+git config user.email "usuario2@example.com"
+```
+
+##### Github credentials
+
+Es posible que las credenciales almacenadas en tu sistema sean incorrectas o estén desactualizadas. Puedes actualizar o eliminar las credenciales almacenadas:
+
+**Verificar y actualizar las credenciales almacenadas:**
+
+- En Windows, ves a "Administrador de credenciales" y elimina las credenciales relacionadas con GitHub.
+- En macOS y Linux, puedes usar git credential-cache o git credential-store.
+
+Ahora ya no tienes credentials y deberas dar permisos con el nuevo github. Para dar credenciales a un proyecto y no a todo el sistema, puedes seguir los "tips" [Credenciales especificas para un repositorio](#credenciales-especificas-para-un-repositorio)
+
+
+
+#### Alternativa: Usar múltiples SSH keys
+
+Otra opción avanzada es configurar múltiples claves SSH para cada cuenta de GitHub y usar el archivo `~/.ssh/config` para manejar estas claves. Aquí tienes un resumen de los pasos:
+
+1. **Generar claves SSH para cada cuenta:**
+
+   ```sh
+   ssh-keygen -t rsa -C "tu_email1@example.com" -f ~/.ssh/id_rsa_usuario1
+   ssh-keygen -t rsa -C "tu_email2@example.com" -f ~/.ssh/id_rsa_usuario2
+   ```
+
+2. **Agregar las claves SSH a tu agente SSH:**
+
+   ```sh
+   ssh-add ~/.ssh/id_rsa_usuario1
+   ssh-add ~/.ssh/id_rsa_usuario2
+   ```
+
+3. **Configurar el archivo `~/.ssh/config`:**
+
+   Abre (o crea) el archivo `~/.ssh/config` y añade la configuración para cada cuenta:
+
+   ```sh
+   Host github-usuario1
+       HostName github.com
+       User git
+       IdentityFile ~/.ssh/id_rsa_usuario1
+
+   Host github-usuario2
+       HostName github.com
+       User git
+       IdentityFile ~/.ssh/id_rsa_usuario2
+   ```
+
+4. **Configurar el origen remoto en cada repositorio para usar el host adecuado:**
+
+   En `proyectoA`:
+
+   ```sh
+   cd /ruta/a/proyectoA
+   git remote set-url origin git@github-usuario1:usuario1/proyectoA.git
+   ```
+
+   En `proyectoB`:
+
+   ```sh
+   cd /ruta/a/proyectoB
+   git remote set-url origin git@github-usuario2:usuario2/proyectoB.git
+   ```
+
+Con estos pasos, puedes manejar múltiples cuentas de GitHub en la misma máquina de manera eficiente.
+
+## Credenciales especificas para un repositorio
+
+Para configurar las credenciales de Git para un solo proyecto en lugar de todo el sistema, puedes usar el almacenamiento de credenciales específico para ese repositorio. Aquí tienes una guía paso a paso:
+
+### Configurar credenciales específicas para un repositorio
+
+1. **Elimina las credenciales globales de GitHub:**
+   - En Windows, ve a "Administrador de credenciales" y elimina las credenciales relacionadas con GitHub.
+   - En macOS y Linux, puedes usar `git credential-cache` o `git credential-store` para eliminar las credenciales almacenadas.
+
+2. **Configura el almacenamiento de credenciales en tu repositorio específico:**
+   - Navega al directorio de tu repositorio:
+
+     ```sh
+     cd /ruta/a/tu/proyecto
+     ```
+
+   - Configura Git para usar un archivo de credenciales específico en este repositorio:
+
+     ```sh
+     git config credential.helper store
+     ```
+
+3. **Configura la URL remota para usar el token:**
+   - Configura la URL remota para incluir tu token de acceso personal. Esto almacenará el token solo para este repositorio:
+
+     ```sh
+     git remote set-url origin https://<your_token>@github.com/Study-JavaScript/markdowns.git
+     ```
+
+4. **Realiza una operación que requiera autenticación:**
+   - Realiza una operación que requiera autenticación, como un `git push`. Esto te pedirá las credenciales y las almacenará en el archivo de credenciales específico de este repositorio.
+
+     ```sh
+     git push origin study-javascript
+     ```
+
+### Alternativa: Usar un archivo de configuración local para almacenar las credenciales
+
+Otra opción es crear un archivo `.git-credentials` en el directorio del repositorio específico para almacenar las credenciales de manera local.
+
+1. **Navega al directorio de tu repositorio:**
+
+   ```sh
+   cd /ruta/a/tu/proyecto
+   ```
+
+2. **Crea un archivo `.git-credentials` en el directorio del repositorio:**
+
+   ```sh
+   echo "https://<your_token>@github.com" > .git-credentials
+   ```
+
+3. **Configura Git para usar este archivo de credenciales:**
+
+   ```sh
+   git config --local credential.helper 'store --file=.git-credentials'
+   ```
+
+### Verifica que las credenciales están configuradas correctamente
+
+Para asegurarte de que las credenciales están configuradas correctamente solo para este repositorio, puedes verificar la configuración local:
+
+```sh
+git config --local --list
+```
+
+Deberías ver algo como esto:
+
+```
+credential.helper=store --file=.git-credentials
+```
+
+Con estos pasos, las credenciales estarán configuradas únicamente para este repositorio específico y no afectarán a otros repositorios en tu sistema.
