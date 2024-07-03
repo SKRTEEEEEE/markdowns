@@ -11,9 +11,8 @@ npm install
 Asegúrate de configurar tu archivo `.env` o `.env.local` si es necesario para tu entorno de desarrollo.
 
 ## Compilación
-### Compilación de TypeScript
 **Si en el README principal NO hay especificaciones:**
-
+### Compilación de TypeScript
 Para compilar tu código TypeScript a JavaScript, utiliza el TypeScript Compiler (tsc). Asegúrate de tener TypeScript instalado como una dependencia de desarrollo:
 
 ```bash
@@ -26,16 +25,20 @@ Esto compilará todos los archivos TypeScript en tu proyecto según la configura
 npx tsc --watch
 ```
 ### Compilación de TailwindCss
-**Si en el README principal NO hay especificaciones:**
+Para compilar tu código para interpretar tus classes de Tailwind, ejecuta el comando:
 
-Para compilar tu código para interpretar tus classes de Tailwind, utilizaremos el comando:
-
-_Este template usa la bandera --watch para compilar el Tailwind._ 
 
 ```bash
 npm run build:css
 ```
+_Este comando usa la bandera --watch para compilar el Tailwind._ 
+### Compilación conjunta
+Para compilar todo el código (TailwindCss y TypeScript), ejecuta el comando:
 
+```bash
+npm run build
+```
+_Este comando usa la bandera --watch para compilar el Tailwind y TypeScript._ 
 ## Iniciar el Servidor de Desarrollo
 **Si en el README principal NO hay especificaciones:**
 
