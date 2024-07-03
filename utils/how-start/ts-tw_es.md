@@ -65,7 +65,7 @@ npm run dev
 
 ## Aprender Más
 
-Puedes aprender mas sobre estas tecnologías y otras, puedes visitar el repositorio de [Recursos](https://github.com/SKRTEEEEEE/markdowns), donde encontraras información sobre las tecnologías utilizadas.
+Para aprender mas sobre estas tecnologías y otras, puedes visitar el repositorio de [Recursos](https://github.com/SKRTEEEEEE/markdowns), donde encontraras información sobre las tecnologías utilizadas.
 
 ## Despliegue
 
