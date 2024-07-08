@@ -403,7 +403,7 @@ debouncedFunc(); // Se reinicia el temporizador
 function throttle(func: Function, limit: number) {
   let inThrottle: boolean;
   
-  return function(...args: any[]) {
+  return function(this: any, ...args: any[]) {
     if (!inThrottle) {
       func.apply(this, args);
       inThrottle = true;
@@ -449,8 +449,8 @@ La función throttle es una técnica utilizada en programación para limitar la 
 
 ### Ejemplos prácticos "cliente"
 
-#### Ejemplo JS simple
-Un ejemplo simple en JavaScript para entender el throttle:
+#### Ejemplo JS **Incompleto**
+Un ejemplo simple, incompleto, en JavaScript para entender el throttle:
 
 ```javascript
 function throttle(func, delay) {
@@ -474,8 +474,8 @@ const throttledScroll = throttle(handleScroll, 200);
 window.addEventListener("scroll", throttledScroll);
 ```
 
-#### Ejemplo TypeScript simple
-Un ejemplo simple en TypeScript para entender el throttle:
+#### Ejemplo TypeScript **incompleto**
+Un ejemplo simple, incompleto(no funciona al 100%), en TypeScript para entender el throttle:
 
 ```typescript
 function throttle(func: Function, delay: number) {
@@ -499,21 +499,21 @@ const throttledScroll = throttle(handleScroll, 200);
 window.addEventListener("scroll", throttledScroll);
 ```
 
+**En estos primeros ejemplos, la funcion throttle nos podria dar error ya que:**
+- `● throttle › should call the callback again after the throttle period`
+- `● throttle function › should call the function twice if delay has passed`
+
 #### Ejemplo JS estándar
 Un ejemplo más estándar en JavaScript usando un enfoque más completo:
 
 ```javascript
 function throttle(func, delay) {
-  let timeout;
-  return function() {
-    const context = this;
-    const args = arguments;
-    if (!timeout) {
-      timeout = setTimeout(() => {
-        func.apply(context, args);
-        timeout = null;
-      }, delay);
-    }
+  let last = 0;
+  return (...args) => {
+    const now = Date.now();
+    if (now - last < delay) return
+    last = now;
+    return func(...args);
   };
 }
 
@@ -531,20 +531,15 @@ window.addEventListener("resize", throttledResize);
 Un ejemplo estándar en TypeScript usando un enfoque más completo:
 
 ```typescript
-function throttle(func: Function, delay: number) {
-  let timeout: NodeJS.Timeout | null;
-  return function(this: any) {
-    const context = this;
-    const args = arguments;
-    if (!timeout) {
-      timeout = setTimeout(() => {
-        func.apply(context, args);
-        timeout = null;
-      }, delay);
-    }
+function throttle(func: FuncType, delay: number) {
+  let last = 0;
+  return (...args: any[]) => {
+    const now = Date.now();
+    if (now - last < delay) return
+    last = now;
+    return func(...args);
   };
 }
-
 // Uso del throttle
 function handleResize() {
   console.log("Resized!");
@@ -587,13 +582,12 @@ function intensiveOperation(param) {
 
 // Función throttle para limitar la ejecución de intensiveOperation a una vez cada 500ms
 function throttle(func, delay) {
-  let lastExecuted = 0;
-  return function(...args) {
+  let last = 0;
+  return (...args) => {
     const now = Date.now();
-    if (now - lastExecuted > delay) {
-      func.apply(this, args);
-      lastExecuted = now;
-    }
+    if (now - last < delay) return
+    last = now;
+    return func(...args);
   };
 }
 
@@ -626,14 +620,13 @@ function intensiveOperation(param: number) {
 }
 
 // Función throttle para limitar la ejecución de intensiveOperation a una vez cada 500ms
-function throttle(func: Function, delay: number) {
-  let lastExecuted = 0;
-  return function(this: any, ...args: any[]) {
+function throttle(func: FuncType, delay: number) {
+  let last = 0;
+  return (...args: any[]) => {
     const now = Date.now();
-    if (now - lastExecuted > delay) {
-      func.apply(this, args);
-      lastExecuted = now;
-    }
+    if (now - last < delay) return
+    last = now;
+    return func(...args);
   };
 }
 
