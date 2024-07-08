@@ -171,71 +171,10 @@ En TypeScript, utilizamos genéricos para asegurar que `debounce` funcione con c
 
 En resumen, las funciones `debounce` son una herramienta esencial en el kit de herramientas de cualquier desarrollador para mejorar la responsividad y el rendimiento de aplicaciones web. Permiten controlar con precisión la frecuencia de ejecución de funciones basadas en eventos, asegurando una experiencia de usuario más fluida y eficiente.
 
-## `.apply()`
-
-El método `.apply()` en JavaScript es una función incorporada que se utiliza para llamar a una función con un valor `this` y un array o un objeto iterable como argumentos. Básicamente, te permite llamar a una función con un contexto específico y pasar un array (o un objeto iterable convertido a array) como sus argumentos.
-
-### Sintaxis
-
-```javascript
-func.apply(thisArg, [argsArray])
-```
-
-- `func`: La función a la cual se va a llamar.
-- `thisArg`: El valor de `this` dentro de la función `func` cuando se ejecuta.
-- `argsArray`: Un array o un objeto iterable cuyos elementos serán pasados como argumentos a `func`.
-
-### Funcionamiento
-
-Cuando utilizas `.apply()`, la función `func` se ejecuta con el valor de `this` establecido como `thisArg`. Esto es útil cuando quieres ejecutar una función en un contexto específico que no es el contexto habitual donde se definía la función.
-
-El segundo argumento, `argsArray`, es opcional. Si se proporciona, los elementos de este array (o iterable) se pasan como argumentos a la función `func`. Si no se proporciona, la función se llama sin argumentos.
-
-### Ejemplos de Uso
-
-#### Ejemplo 1: Usar `.apply()` para llamar a una función con un array de argumentos
-
-```javascript
-function sum(a, b) {
-  return a + b;
-}
-
-const args = [1, 2];
-
-const result = sum.apply(null, args);
-console.log(result); // Output: 3
-```
-
-En este ejemplo:
-- `sum` es una función que toma dos argumentos `a` y `b` y devuelve su suma.
-- `args` es un array `[1, 2]`.
-- `sum.apply(null, args)` llama a la función `sum` con `null` como contexto (`this`), y los elementos de `args` (que son `1` y `2`) se pasan como los argumentos `a` y `b`, respectivamente.
-
-#### Ejemplo 2: Usar `.apply()` para ejecutar métodos de objetos con un array de argumentos
-
-```javascript
-const obj = {
-  name: 'John',
-  greet: function(greeting) {
-    return `${greeting}, ${this.name}!`;
-  }
-};
-
-const args = ['Hello'];
-
-const result = obj.greet.apply(obj, args);
-console.log(result); // Output: Hello, John!
-```
-
-En este ejemplo:
-- `obj` es un objeto que tiene una propiedad `name` y un método `greet`.
-- `args` es un array con el string `'Hello'`.
-- `obj.greet.apply(obj, args)` llama al método `greet` del objeto `obj`, con `obj` como contexto (`this`) y `'Hello'` como argumento `greeting`.
 
 
 
-
-### Uso en función `debounce`
+### `apply()` en función `debounce()`
 
 Recordemos primero la implementación básica de una función `debounce` en JavaScript:
 
