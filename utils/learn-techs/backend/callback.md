@@ -405,3 +405,83 @@ En este ejemplo:
 - `args` es un array con el string `'Hello'`.
 - `obj.greet.apply(obj, args)` llama al método `greet` del objeto `obj`, con `obj` como contexto (`this`) y `'Hello'` como argumento `greeting`.
 
+
+## `memoize`
+### Introducción a la Función Memoize
+Memoize es una técnica de programación utilizada para mejorar el rendimiento de funciones que realizan cálculos costosos o intensivos. La idea central es almacenar (o "cachear") los resultados de llamadas a funciones para evitar repetir cálculos ya realizados. Cuando una función memoizada se llama con un conjunto particular de argumentos, primero verifica si ya ha calculado el resultado para esos argumentos. Si es así, devuelve el resultado almacenado en lugar de recalcularlo. Si no, calcula el resultado, lo almacena y luego lo devuelve.
+
+#### ¿Para qué Funciona Memoize?
+Memoize es especialmente útil en escenarios donde:
+- Se realizan cálculos complejos y repetitivos.
+- Los resultados de las funciones son deterministas, es decir, la misma entrada siempre produce la misma salida.
+- Se desea optimizar el rendimiento y la eficiencia del código, especialmente en aplicaciones de alto rendimiento o en contextos donde los recursos computacionales son limitados.
+
+#### Ventajas de Usar Memoize
+- **Mejora de rendimiento:** Al evitar cálculos redundantes, memoize puede acelerar significativamente el tiempo de ejecución de una aplicación.
+- **Eficiencia en el uso de recursos:** Reduce la carga computacional, lo que puede ser crucial en sistemas con recursos limitados.
+- **Facilidad de implementación:** La técnica es relativamente sencilla de implementar y puede integrarse en aplicaciones existentes con poco esfuerzo.
+
+#### Inconvenientes de Usar Memoize
+- **Consumo de memoria:** Almacenar los resultados de las funciones puede incrementar el uso de memoria, lo cual puede ser problemático en sistemas con restricciones de memoria.
+- **Complejidad en el manejo de la caché:** Se debe considerar cuándo y cómo limpiar la caché para evitar un uso excesivo de memoria.
+- **Limitaciones con funciones no puras:** Memoize no es adecuado para funciones que dependen de estados externos o tienen efectos secundarios, ya que sus resultados no son siempre consistentes para las mismas entradas.
+
+#### Ejemplos de Uso Teórico
+Considera una función que calcula los números de Fibonacci de manera recursiva. Sin memoize, la función recalcula los mismos valores múltiples veces, lo que resulta en una complejidad exponencial. Con memoize, cada valor de Fibonacci se calcula una sola vez y se almacena para futuros usos, lo que reduce drásticamente la complejidad a lineal.
+
+### Ejemplos
+
+
+#### Ejemplo en JavaScript
+
+```javascript
+function memoize(fn) {
+    const cache = {};
+    return function(...args) {
+        const key = JSON.stringify(args);
+        if (cache[key]) {
+            return cache[key];
+        }
+        const result = fn(...args);
+        cache[key] = result;
+        return result;
+    };
+}
+
+// Ejemplo de uso:
+const factorial = memoize(function(n) {
+    if (n <= 1) return 1;
+    return n * factorial(n - 1);
+});
+
+console.log(factorial(5)); // 120
+```
+
+#### Ejemplo en TypeScript
+
+```typescript
+type AnyFunction = (...args: any[]) => any;
+
+function memoize<T extends AnyFunction>(fn: T): T {
+    const cache: { [key: string]: ReturnType<T> } = {};
+    return function(...args: Parameters<T>): ReturnType<T> {
+        const key = JSON.stringify(args);
+        if (cache[key]) {
+            return cache[key];
+        }
+        const result = fn(...args);
+        cache[key] = result;
+        return result;
+    } as T;
+}
+
+// Ejemplo de uso:
+const gcd = memoize(function(a: number, b: number): number {
+    if (b === 0) return a;
+    return gcd(b, a % b);
+});
+
+console.log(gcd(48, 18)); // 6
+```
+
+En estos ejemplos, hemos memoizado funciones que realizan cálculos recursivos costosos, mostrando cómo la técnica memoize puede optimizar el rendimiento al evitar cálculos repetitivos.
