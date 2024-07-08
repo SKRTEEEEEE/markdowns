@@ -1,6 +1,9 @@
-# Herrramientas
+# Herramientas
 
 ## Desarrollo
+### TailwindCss
+- [Playground](https://play.tailwindcss.com/o9XwW4SHca): Tailwind playground for test
+- [Tailwind Flex](https://tailwindflex.com/): Tailwind tested components
 ### CDN
 - [CDN JS](https://cdnjs.com/): cdnjs is a free and open-source CDN service _you can find here library for js_
 - [CDN Font Awesome](https://cdnjs.com/libraries/font-awesome): cdnjs inject font awesome in js
