@@ -1,6 +1,3 @@
-
-
-
 # Enums y Aserciones
 
 ## Enums

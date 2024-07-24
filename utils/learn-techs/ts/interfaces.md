@@ -1,5 +1,3 @@
-
-
 # Interfaces y más
 ## Interfaces
 ### Introducción

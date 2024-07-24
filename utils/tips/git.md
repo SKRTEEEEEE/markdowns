@@ -1,5 +1,5 @@
 # Git tips
-## Estandar commits
+## Estándar commits
 ![commits-standard.png](../../img/tips/commits-standard.png "commits-standard.png")
 - Estructura general:
 ![commits-structure.jpg](../../img/tips/commits-structure.jpg)
@@ -929,3 +929,168 @@ credential.helper=store --file=.git-credentials
 ```
 
 Con estos pasos, las credenciales estarán configuradas únicamente para este repositorio específico y no afectarán a otros repositorios en tu sistema.
+
+## Cambiar un commit (descripcion) ya pusheado
+
+Sí, es posible cambiar el mensaje de un commit que ya ha sido pushado a GitHub. Sin embargo, hay que tener en cuenta que modificar el historial de commits puede causar problemas para otros desarrolladores que estén trabajando en el mismo repositorio. Aquí tienes los pasos para cambiar el mensaje de un commit que ya has pushado:
+
+1. **Modificar el mensaje del commit:**
+   Usa `git rebase` para modificar el mensaje del commit en cuestión. Por ejemplo, si quieres cambiar el mensaje del último commit, puedes usar:
+
+   ```sh
+   git commit --amend -m "Nuevo mensaje del commit"
+   ```
+
+   Si quieres cambiar el mensaje de un commit más antiguo, puedes iniciar una rebase interactiva:
+
+   ```sh
+   git rebase -i HEAD~n
+   ```
+
+   Donde `n` es el número de commits hacia atrás que quieres rebasar. En el editor que se abre, cambia `pick` a `reword` en el commit que quieres modificar. Guarda y cierra el editor, y luego cambia el mensaje en el siguiente editor que se abre.
+
+2. **Forzar el push al repositorio remoto:**
+   Después de modificar el mensaje del commit, necesitarás forzar el push al repositorio remoto para actualizar el historial de commits:
+
+   ```sh
+   git push --force origin nombre_de_la_rama
+   ```
+
+   Ten en cuenta que el `--force` sobrescribirá el historial en el repositorio remoto, lo cual puede causar problemas para otros colaboradores. Si varios desarrolladores están trabajando en la misma rama, es mejor comunicarles antes de hacer este cambio.
+
+### Ejemplo paso a paso:
+
+1. Modificar el mensaje del último commit:
+
+   ```sh
+   git commit --amend -m "Nuevo mensaje del commit"
+   ```
+
+2. Forzar el push:
+
+   ```sh
+   git push --force origin nombre_de_la_rama
+   ```
+
+### Consideraciones adicionales:
+
+- **Notificar a tus compañeros de equipo:** Si estás trabajando en una rama compartida, asegúrate de notificar a tus compañeros de equipo sobre el cambio, ya que tendrán que sincronizar sus repositorios locales con el nuevo historial.
+- **Evitar problemas de rebase:** Si no estás familiarizado con el rebase, asegúrate de revisar la documentación y realizar estos cambios en una rama de prueba primero para evitar problemas.
+
+Modificar commits que ya han sido pushados debe hacerse con cuidado para evitar conflictos y problemas de sincronización en el equipo.
+
+
+## Nueva rama sin commits anteriores
+
+Para crear una nueva rama que no mantenga los commits de las ramas actuales y que pase a ser la principal, puedes seguir estos pasos. Este proceso implica crear una nueva rama a partir del estado actual de tu repositorio y luego cambiar la rama principal a esta nueva rama. Aquí tienes un paso a paso para hacerlo:
+
+### 1. Crear una nueva rama desde el estado deseado
+
+Primero, decide desde qué punto del historial quieres que parta tu nueva rama. Puedes hacer esto desde un commit específico, desde un estado limpio del repositorio, o simplemente desde un nuevo inicio sin ningún commit previo.
+
+#### Opción A: Crear una rama desde el estado actual
+
+Si quieres crear la nueva rama desde el estado actual del repositorio (y por lo tanto, sin ningún commit anterior):
+
+1. **Asegúrate de estar en la rama principal actual (por ejemplo, `main` o `master`):**
+
+   ```sh
+   git checkout main
+   ```
+
+2. **Crear una nueva rama:**
+
+   ```sh
+   git checkout --orphan nueva-rama
+   ```
+
+   El flag `--orphan` crea una nueva rama sin historial, lo que significa que la nueva rama no tendrá ninguna historia previa. Estarás en un estado limpio.
+
+3. **Eliminar todos los archivos del directorio de trabajo (si deseas empezar desde cero):**
+
+   ```sh
+   git rm -rf .
+   ```
+
+4. **Agregar nuevos archivos y hacer un commit inicial (si es necesario):**
+
+   ```sh
+   touch README.md
+   git add README.md
+   git commit -m "Primer commit en nueva rama"
+   ```
+
+#### Opción B: Crear una rama desde un commit específico
+
+Si prefieres crear la nueva rama desde un commit específico (por ejemplo, desde el commit más reciente o desde otro commit):
+
+1. **Encuentra el hash del commit desde el cual quieres empezar la nueva rama:**
+
+   ```sh
+   git log
+   ```
+
+2. **Crear una nueva rama desde ese commit:**
+
+   ```sh
+   git checkout -b nueva-rama <hash-del-commit>
+   ```
+
+   Cambia `<hash-del-commit>` por el hash del commit deseado.
+
+### 2. Hacer que la nueva rama sea la principal
+
+Para hacer que la nueva rama se convierta en la principal (por ejemplo, `main`):
+
+1. **Sube la nueva rama al repositorio remoto:**
+
+   ```sh
+   git push -u origin nueva-rama
+   ```
+
+2. **Cambiar la rama principal en el repositorio remoto:**
+
+   Ve a la configuración del repositorio en GitHub (o en tu plataforma de control de versiones) y cambia la rama predeterminada a `nueva-rama`.
+
+   - En GitHub, ve a **Settings** > **Branches** y selecciona la nueva rama como la predeterminada.
+
+3. **Eliminar la antigua rama principal (opcional):**
+
+   Si quieres eliminar la antigua rama principal (`main` o `master`), hazlo con:
+
+   ```sh
+   git push origin --delete main
+   ```
+
+   Nota: Asegúrate de que nadie esté trabajando en esa rama antes de eliminarla.
+
+4. **Actualizar tu repositorio local para reflejar los cambios:**
+
+   Cambia a la nueva rama principal en tu repositorio local:
+
+   ```sh
+   git checkout nueva-rama
+   ```
+
+   Elimina la referencia local a la antigua rama principal:
+
+   ```sh
+   git branch -D main
+   ```
+
+   Sincroniza los cambios:
+
+   ```sh
+   git fetch --all --prune
+   ```
+
+   Esto debería actualizar tu repositorio local para reflejar la nueva configuración.
+
+### Resumen
+
+- **Crear una nueva rama** a partir del estado deseado.
+- **Hacer la nueva rama la principal** tanto en el repositorio local como en el remoto.
+- **Eliminar la antigua rama principal** si es necesario.
+
+Estos pasos te permitirán iniciar con una nueva rama limpia y convertirla en la rama principal de tu proyecto.
+

@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "48a8c94b70ea924d",
+        "id": "551ab435d41d4024",
         "type": "tabs",
         "children": [
           {
-            "id": "a6d32924941380c6",
+            "id": "a3e841d7752f03d0",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "utils/learn-techs/blockchain/solidity/proxy-storage.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -65,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 323.5
   },
   "right": {
     "id": "e20e04d2e5217f6d",
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "utils/learn-techs/blockchain/solidity/proxy-storage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "utils/learn-techs/blockchain/solidity/proxy-storage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "utils/learn-techs/blockchain/solidity/proxy-storage.md"
+              }
             }
           }
         ]
@@ -138,9 +146,37 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "a6d32924941380c6",
+  "active": "e54622dedf087ac8",
   "lastOpenFiles": [
-    "2024-07-15.md",
-    "README.md"
+    "utils/learn-techs/where/next.md",
+    "utils/learn-techs/blockchain/solidity/proxy-storage.md",
+    "utils/learn-techs/blockchain/solidity",
+    "utils/learn-techs/blockchain",
+    "utils/learn-techs/ts/clases/index.md",
+    "utils/learn-techs/ts/interfaces.md",
+    "utils/learn-techs/ts/asercion.md",
+    "utils/learn-techs/ts/arrays.md",
+    "utils/learn-techs/ts/2.inferencia.md",
+    "utils/learn-techs/ts/func-obj.md",
+    "utils/learn-techs/ts/1.intro.md",
+    "utils/learn-techs/ts/index.md",
+    "utils/learn-techs/ts/clases/2.implementacion.md",
+    "utils/learn-techs/ts/clases/respuestas-alternativas.md",
+    "utils/learn-techs/ts/clases/3.polimorfismo-composicion.md",
+    "utils/learn-techs/ts/clases/1.intro.md",
+    "utils/learn-techs/test/tdd-ts/configuracion.md",
+    "utils/learn-techs/ts/clases/ej-extra.md",
+    "utils/learn-techs/test/tdd-ts/desarrollo.md",
+    "utils/learn-techs/test/tdd-ts/fundamentos.md",
+    "utils/learn-web3/projects-info/fantom-ecosystem.md",
+    "utils/soft-skills/autocandidatura.md",
+    "utils/tips/shortcuts.md",
+    "utils/tips/nextjs.md",
+    "utils/tips/markdown.md",
+    "utils/tips/git.md",
+    "notes/thirdweb-inspired.md",
+    "notes/tailwind-grids.md",
+    "Sin título.canvas",
+    "utils/learn-techs/ts/clases"
   ]
 }
