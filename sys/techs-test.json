@@ -28,20 +28,20 @@
   },
   {
     "name": "Next.js",
-    "afinidad": 100,
+    "afinidad": 95,
     "value": "Máxima",
-    "experiencia": 92.5,
+    "experiencia": 87.5,
     "valueexp": "Máxima",
     "usogithub": 13.99,
     "valueuso": "Superior"
   },
   {
-    "name": "NextUI",
-    "afinidad": 85,
+    "name": "Next.js",
+    "afinidad": 95,
     "value": "Máxima",
-    "experiencia": 55,
-    "valueexp": "Moderada",
-    "usogithub": 1.89,
-    "valueuso": "Moderado"
+    "experiencia": 87.5,
+    "valueexp": "Máxima",
+    "usogithub": 13.99,
+    "valueuso": "Superior"
   }
 ]
