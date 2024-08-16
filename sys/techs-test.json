@@ -5,7 +5,7 @@
     "value": "Máxima",
     "experiencia": 80,
     "valueexp": "Alta",
-    "usogithub": 3.75,
+    "usogithub": 3.74,
     "valueuso": "Notable"
   },
   {
@@ -23,7 +23,7 @@
     "value": "Alta",
     "experiencia": 82.5,
     "valueexp": "Máxima",
-    "usogithub": 3.62,
+    "usogithub": 3.61,
     "valueuso": "Notable"
   },
   {
@@ -34,14 +34,5 @@
     "valueexp": "Máxima",
     "usogithub": 13.99,
     "valueuso": "Superior"
-  },
-  {
-    "name": "NextUI",
-    "afinidad": 95,
-    "value": "Máxima",
-    "experiencia": 77.5,
-    "valueexp": "Alta",
-    "usogithub": 1.89,
-    "valueuso": "Moderado"
   }
 ]
