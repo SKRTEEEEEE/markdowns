@@ -5,16 +5,8 @@
     "value": "Máxima",
     "experiencia": 80,
     "valueexp": "Alta",
+    "img": "https://utfs.io/f/d252d025-77be-4d72-a393-17e699e5cd7f-8lz3g1.webp",
     "usogithub": 3.74,
     "valueuso": "Notable"
-  },
-  {
-    "name": "Typescript",
-    "afinidad": 75,
-    "value": "Alta",
-    "experiencia": 87.5,
-    "valueexp": "Máxima",
-    "usogithub": 12.17,
-    "valueuso": "Superior"
   }
 ]
