@@ -12,11 +12,6 @@ _Documentación de lenguajes, tecnologías (frameworks, librerías...) de progra
 ***
 <br>
 
->- ## dasdadaad
->![Afinidad](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$[?(@.name=='dsaa')].value&label=%F0%9F%92%97%20Afinidad&color=dsadaad&style=flat&logo=dsaa)![Afinidad %](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$[?(@.name=='dsaa')].afinidad&color=dsadaad&style=flat&label=%20&suffix=%25)
-        ![Experiencia](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$[?(@.name=='dsaa')].valueexp&label=%F0%9F%8F%85%20Experiencia&color=dsadaad&style=flat&logo=dsaa)![Experiencia %](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$[?(@.name=='dsaa')].experiencia&color=dsadaad&style=flat&label=%20&suffix=%25)
-        ![Uso En Github](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$[?(@.name=='dsaa')].valueuso&label=%F0%9F%98%BB%20Uso%20en%20github&color=dsadaad&style=flat&logo=dsaa)![Uso en Github %](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$[?(@.name=='dsaa')].usogithub&color=dsadaad&style=flat&label=%20&suffix=%25)
-
 
 
 >- ## [![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/es/docs/Web/JavaScript)
