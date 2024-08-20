@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "utils/learn-techs/blockchain/solidity/proxy-storage.md",
+                "file": "utils/learn-techs/ts/clases/0.extra.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "utils/learn-techs/blockchain/solidity/proxy-storage.md",
+                "file": "utils/learn-techs/ts/clases/0.extra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "utils/learn-techs/blockchain/solidity/proxy-storage.md",
+                "file": "utils/learn-techs/ts/clases/0.extra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "utils/learn-techs/blockchain/solidity/proxy-storage.md"
+                "file": "utils/learn-techs/ts/clases/0.extra.md"
               }
             }
           }
@@ -146,13 +146,16 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "e54622dedf087ac8",
+  "active": "a3e841d7752f03d0",
   "lastOpenFiles": [
-    "utils/learn-techs/where/next.md",
+    "utils/learn-techs/ts/clases/index.md",
+    "utils/learn-techs/ts/clases/0.extra.md",
+    "utils/tips/git.md",
+    "utils/tips/git-submodules.md",
     "utils/learn-techs/blockchain/solidity/proxy-storage.md",
+    "utils/learn-techs/where/next.md",
     "utils/learn-techs/blockchain/solidity",
     "utils/learn-techs/blockchain",
-    "utils/learn-techs/ts/clases/index.md",
     "utils/learn-techs/ts/interfaces.md",
     "utils/learn-techs/ts/asercion.md",
     "utils/learn-techs/ts/arrays.md",
@@ -173,9 +176,6 @@
     "utils/tips/shortcuts.md",
     "utils/tips/nextjs.md",
     "utils/tips/markdown.md",
-    "utils/tips/git.md",
-    "notes/thirdweb-inspired.md",
-    "notes/tailwind-grids.md",
     "Sin título.canvas",
     "utils/learn-techs/ts/clases"
   ]
