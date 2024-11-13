@@ -1,20 +1,18 @@
-[
-  {
-    "name": "Javascript",
-    "afinidad": 90,
-    "value": "Máxima",
-    "experiencia": 80,
-    "valueexp": "Alta",
-    "usogithub": 3.74,
-    "valueuso": "Notable"
-  },
-  {
-    "name": "Typescript",
-    "afinidad": 90,
-    "value": "Máxima",
-    "experiencia": 87.5,
-    "valueexp": "Máxima",
-    "usogithub": 12.17,
-    "valueuso": "Superior"
-  }
-]
+{
+    "Javascript": {
+        "afinidad": 90,
+        "value": "Máxima",
+        "experiencia": 80,
+        "valueexp": "Alta",
+        "usogithub": 3.74,
+        "valueuso": "Notable"
+    },
+    "Typescript": {
+        "afinidad": 90,
+        "value": "Máxima",
+        "experiencia": 87.5,
+        "valueexp": "Máxima",
+        "usogithub": 12.17,
+        "valueuso": "Superior"
+    }
+}
