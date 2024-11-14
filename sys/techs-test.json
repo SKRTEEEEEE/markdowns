@@ -7,23 +7,5 @@
     "valueexp": "Alta",
     "usogithub": 3.74,
     "valueuso": "Notable"
-  },
-  "Nodedotjs": {
-    "name": "Nodedotjs",
-    "afinidad": 80,
-    "value": "Alta",
-    "experiencia": 85,
-    "valueexp": "Máxima",
-    "usogithub": 0,
-    "valueuso": "Ninguno"
-  },
-  "Typescript": {
-    "name": "Typescript",
-    "afinidad": 65,
-    "value": "Alta",
-    "experiencia": 75,
-    "valueexp": "Alta",
-    "usogithub": 12.17,
-    "valueuso": "Superior"
   }
 }
