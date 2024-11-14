@@ -12,6 +12,11 @@ _Documentación de lenguajes, tecnologías (frameworks, librerías...) de progra
 ***
 <br>
 
+>- ## [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/docs/)
+>![Afinidad](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$.Typescript.value&label=%F0%9F%92%97%20Afinidad&color=3178C6&style=flat&logo=Typescript)![Afinidad %](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$.Typescript.afinidad&color=3178C6&style=flat&label=%20&suffix=%25)
+        ![Experiencia](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$.Typescript.valueexp&label=%F0%9F%8F%85%20Experiencia&color=3178C6&style=flat&logo=Typescript)![Experiencia %](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$.Typescript.experiencia&color=3178C6&style=flat&label=%20&suffix=%25)
+        ![Uso En Github](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$.Typescript.valueuso&label=%F0%9F%98%BB%20Uso%20en%20github&color=3178C6&style=flat&logo=Typescript)![Uso en Github %](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$.Typescript.usogithub&color=3178C6&style=flat&label=%20&suffix=%25)
+
 
 
 >- ## [![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/es/docs/Web/JavaScript)
