@@ -28,10 +28,10 @@
   },
   "nextdotjs": {
     "name": "nextdotjs",
-    "afinidad": 80,
-    "value": "Alta",
-    "experiencia": 77.5,
-    "valueexp": "Alta",
+    "afinidad": 100,
+    "value": "Máxima",
+    "experiencia": 92.5,
+    "valueexp": "Máxima",
     "usogithub": 0,
     "valueuso": "Ninguno"
   },
