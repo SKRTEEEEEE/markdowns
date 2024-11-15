@@ -19,8 +19,8 @@
   },
   "nodedotjs": {
     "name": "nodedotjs",
-    "afinidad": 60,
-    "value": "Moderada",
+    "afinidad": 85,
+    "value": "Máxima",
     "experiencia": 67.5,
     "valueexp": "Alta",
     "usogithub": 0,
