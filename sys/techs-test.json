@@ -30,18 +30,9 @@
     "name": "nextdotjs",
     "afinidad": 100,
     "value": "Máxima",
-    "experiencia": 90,
+    "experiencia": 87.5,
     "valueexp": "Máxima",
     "usogithub": 0,
     "valueuso": "Ninguno"
-  },
-  "nextui": {
-    "name": "nextui",
-    "afinidad": 90,
-    "value": "Máxima",
-    "experiencia": 82.5,
-    "valueexp": "Máxima",
-    "usogithub": 1.89,
-    "valueuso": "Moderado"
   }
 }
