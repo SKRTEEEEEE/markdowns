@@ -34,5 +34,14 @@
     "valueexp": "Alta",
     "usogithub": 0,
     "valueuso": "Ninguno"
+  },
+  "nextui": {
+    "name": "nextui",
+    "afinidad": 85,
+    "value": "Máxima",
+    "experiencia": 67.5,
+    "valueexp": "Alta",
+    "usogithub": 1.89,
+    "valueuso": "Moderado"
   }
 }
