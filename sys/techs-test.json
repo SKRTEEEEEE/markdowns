@@ -8,15 +8,6 @@
     "usogithub": 3.74,
     "valueuso": "Notable"
   },
-  "nodedotjs": {
-    "name": "nodedotjs",
-    "afinidad": 80,
-    "value": "Alta",
-    "experiencia": 90,
-    "valueexp": "Máxima",
-    "usogithub": 0,
-    "valueuso": "Ninguno"
-  },
   "typescript": {
     "name": "typescript",
     "afinidad": 75,
