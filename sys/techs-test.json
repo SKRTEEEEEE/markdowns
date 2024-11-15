@@ -17,15 +17,6 @@
     "usogithub": 12.17,
     "valueuso": "Superior"
   },
-  "nodedotjs": {
-    "name": "nodedotjs",
-    "afinidad": 95,
-    "value": "Máxima",
-    "experiencia": 62.5,
-    "valueexp": "Alta",
-    "usogithub": 0,
-    "valueuso": "Ninguno"
-  },
   "nextdotjs": {
     "name": "nextdotjs",
     "afinidad": 100,
