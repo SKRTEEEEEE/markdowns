@@ -12,6 +12,12 @@ _Documentación de lenguajes, tecnologías (frameworks, librerías...) de progra
 ***
 <br>
 
+>- ## [![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
+>![Afinidad](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$.nodedotjs.value&label=%F0%9F%92%97%20Afinidad&color=216321&style=flat&logo=nodedotjs)![Afinidad %](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$.nodedotjs.afinidad&color=216321&style=flat&label=%20&suffix=%25)
+        ![Experiencia](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$.nodedotjs.valueexp&label=%F0%9F%8F%85%20Experiencia&color=216321&style=flat&logo=nodedotjs)![Experiencia %](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$.nodedotjs.experiencia&color=216321&style=flat&label=%20&suffix=%25)
+        ![Uso En Github](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$.nodedotjs.valueuso&label=%F0%9F%98%BB%20Uso%20en%20github&color=216321&style=flat&logo=nodedotjs)![Uso en Github %](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$.nodedotjs.usogithub&color=216321&style=flat&label=%20&suffix=%25)
+>
+>![New Badge](https://img.shields.io/badge/%C2%A1_novedad_%F0%9F%91%8D_!-NEW_%F0%9F%93%A5_%F0%9F%97%92%EF%B8%8F-blue?style=social)
 
 
 >- ## [![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/es/docs/Web/JavaScript)
