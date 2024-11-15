@@ -16,5 +16,14 @@
     "valueexp": "Máxima",
     "usogithub": 12.17,
     "valueuso": "Superior"
+  },
+  "nodedotjs": {
+    "name": "nodedotjs",
+    "afinidad": 30,
+    "value": "Baja",
+    "experiencia": 25,
+    "valueexp": "Baja",
+    "usogithub": 0,
+    "valueuso": "Ninguno"
   }
 }
