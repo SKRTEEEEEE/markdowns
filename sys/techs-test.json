@@ -44,15 +44,6 @@
     "usogithub": 1.89,
     "valueuso": "Moderado"
   },
-  "react": {
-    "name": "react",
-    "afinidad": 90,
-    "value": "Máxima",
-    "experiencia": 67.5,
-    "valueexp": "Alta",
-    "usogithub": 2.43,
-    "valueuso": "Moderado"
-  },
   "astro": {
     "name": "astro",
     "afinidad": 95,
