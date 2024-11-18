@@ -52,5 +52,14 @@
     "valueexp": "Alta",
     "usogithub": 2.43,
     "valueuso": "Moderado"
+  },
+  "astro": {
+    "name": "astro",
+    "afinidad": 95,
+    "value": "Máxima",
+    "experiencia": 77.5,
+    "valueexp": "Alta",
+    "usogithub": 0,
+    "valueuso": "Ninguno"
   }
 }
