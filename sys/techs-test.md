@@ -12,6 +12,12 @@ _Documentación de lenguajes, tecnologías (frameworks, librerías...) de progra
 ***
 <br>
 
+>- ## [![Next.js](https://img.shields.io/badge/Next.js-%23111111.svg?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/docs)
+>![Afinidad](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$.nextdotjs.value&label=%F0%9F%92%97%20Afinidad&color=170b00&style=flat&logo=nextdotjs)![Afinidad %](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$.nextdotjs.afinidad&color=170b00&style=flat&label=%20&suffix=%25)
+        ![Experiencia](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$.nextdotjs.valueexp&label=%F0%9F%8F%85%20Experiencia&color=170b00&style=flat&logo=nextdotjs)![Experiencia %](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$.nextdotjs.experiencia&color=170b00&style=flat&label=%20&suffix=%25)
+        ![Uso En Github](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$.nextdotjs.valueuso&label=%F0%9F%98%BB%20Uso%20en%20github&color=170b00&style=flat&logo=nextdotjs)![Uso en Github %](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$.nextdotjs.usogithub&color=170b00&style=flat&label=%20&suffix=%25)
+>
+>![New Badge](https://img.shields.io/badge/%C2%A1_novedad_%F0%9F%91%8D_!-NEW_%F0%9F%93%A5_%F0%9F%97%92%EF%B8%8F-blue?style=social)
 
 
 >- ## [![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/es/docs/Web/JavaScript)
