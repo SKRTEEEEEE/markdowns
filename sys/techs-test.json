@@ -26,24 +26,6 @@
     "usogithub": 0,
     "valueuso": "Ninguno"
   },
-  "nextdotjs": {
-    "name": "nextdotjs",
-    "afinidad": 100,
-    "value": "Máxima",
-    "experiencia": 97.5,
-    "valueexp": "Máxima",
-    "usogithub": 0,
-    "valueuso": "Ninguno"
-  },
-  "nextui": {
-    "name": "nextui",
-    "afinidad": 85,
-    "value": "Máxima",
-    "experiencia": 67.5,
-    "valueexp": "Alta",
-    "usogithub": 1.89,
-    "valueuso": "Moderado"
-  },
   "react": {
     "name": "react",
     "afinidad": 85,
