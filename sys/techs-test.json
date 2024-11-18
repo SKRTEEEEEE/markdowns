@@ -25,5 +25,14 @@
     "valueexp": "Máxima",
     "usogithub": 0,
     "valueuso": "Ninguno"
+  },
+  "nextdotjs": {
+    "name": "nextdotjs",
+    "afinidad": 100,
+    "value": "Máxima",
+    "experiencia": 92.5,
+    "valueexp": "Máxima",
+    "usogithub": 0,
+    "valueuso": "Ninguno"
   }
 }
