@@ -70,5 +70,14 @@
     "valueexp": "Moderada",
     "usogithub": 1.26,
     "valueuso": "Menor"
+  },
+  "threedotjs": {
+    "name": "threedotjs",
+    "afinidad": 90,
+    "value": "Máxima",
+    "experiencia": 62.5,
+    "valueexp": "Alta",
+    "usogithub": 0,
+    "valueuso": "Ninguno"
   }
 }
