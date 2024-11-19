@@ -94,7 +94,7 @@
 
 > ### [Chainlink Bootcamp 2024](https://collectors.poap.xyz/token/7063140)  
 >
-> <img alt="certificate chainlink bootcamp 2024" src="https://assets.poap.xyz/232a27ca-cc01-44a0-9729-108ed05765e1.png" width="35px">  
+> <img alt="certificate chainlink bootcamp 2024" src="https://assets.poap.xyz/232a27ca-cc01-44a0-9729-108ed05765e1.png" width="35px" />  
 >
 > ![Chainlink](https://img.shields.io/badge/-Chainlink-2C3A42?style=for-the-badge&logo=chainlink&logoColor=white) ![Blockchain](https://img.shields.io/badge/-Blockchain-121D33?style=for-the-badge&logo=blockchain.com&logoColor=white) ![Solidity](https://img.shields.io/badge/-Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white)  ![ERC721](https://img.shields.io/badge/-ERC721-363636?style=for-the-badge)  
 > ![ERC20](https://img.shields.io/badge/-ERC20-363636?style=for-the-badge)  ![Blockchain Oracles](https://img.shields.io/badge/-Oracles-121D33?style=for-the-badge&logo=blockchain.com) ![CCIP](https://img.shields.io/badge/-CCIP-2C3A42?style=for-the-badge&logo=chainlink&logoColor=white)  ![Chainlink Functions](https://img.shields.io/badge/-Chainlink%20Functions-2C3A42?style=for-the-badge&logo=chainlink&logoColor=white)
