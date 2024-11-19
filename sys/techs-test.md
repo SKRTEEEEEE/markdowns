@@ -10,7 +10,6 @@ _Documentación de lenguajes, tecnologías (frameworks, librerías...) de progra
 
 
 ***
-<br>
 
 >- ## [![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white)](https://threejs.org/)
 >![Afinidad](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$.threedotjs.value&label=%F0%9F%92%97%20Afinidad&color=000100&style=flat&logo=threedotjs)![Afinidad %](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$.threedotjs.afinidad&color=000100&style=flat&label=%20&suffix=%25)
