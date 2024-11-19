@@ -61,5 +61,14 @@
     "valueexp": "Alta",
     "usogithub": 2.43,
     "valueuso": "Moderado"
+  },
+  "chakraui": {
+    "name": "chakraui",
+    "afinidad": 65,
+    "value": "Alta",
+    "experiencia": 47.5,
+    "valueexp": "Moderada",
+    "usogithub": 1.26,
+    "valueuso": "Menor"
   }
 }
