@@ -79,23 +79,5 @@
     "valueexp": "neut",
     "usogithub": 0,
     "valueuso": "Ninguno"
-  },
-  "css3": {
-    "name": "css3",
-    "afinidad": 85,
-    "value": "max",
-    "experiencia": 72.5,
-    "valueexp": "high",
-    "usogithub": 0,
-    "valueuso": "Ninguno"
-  },
-  "bootstrap": {
-    "name": "bootstrap",
-    "afinidad": 25,
-    "value": "low",
-    "experiencia": 55,
-    "valueexp": "neut",
-    "usogithub": 3.6,
-    "valueuso": "Notable"
   }
 }
