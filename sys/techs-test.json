@@ -91,9 +91,9 @@
   },
   "bootstrap": {
     "name": "bootstrap",
-    "afinidad": 45,
-    "value": "neut",
-    "experiencia": 50,
+    "afinidad": 25,
+    "value": "low",
+    "experiencia": 55,
     "valueexp": "neut",
     "usogithub": 3.6,
     "valueuso": "Notable"
