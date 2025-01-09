@@ -2,91 +2,100 @@
   "Javascript": {
     "name": "Javascript",
     "afinidad": 90,
-    "value": "max",
+    "value": "Máxima",
     "experiencia": 80,
-    "valueexp": "high",
+    "valueexp": "Alta",
     "usogithub": 3.72,
     "valueuso": "Notable"
   },
   "typescript": {
     "name": "typescript",
     "afinidad": 90,
-    "value": "max",
+    "value": "Máxima",
     "experiencia": 87.5,
-    "valueexp": "max",
+    "valueexp": "Máxima",
     "usogithub": 12.18,
     "valueuso": "Superior"
   },
   "nodedotjs": {
     "name": "nodedotjs",
     "afinidad": 100,
-    "value": "max",
+    "value": "Máxima",
     "experiencia": 87.5,
-    "valueexp": "max",
+    "valueexp": "Máxima",
     "usogithub": 0,
     "valueuso": "Ninguno"
   },
   "nextdotjs": {
     "name": "nextdotjs",
     "afinidad": 100,
-    "value": "max",
+    "value": "Máxima",
     "experiencia": 92.5,
-    "valueexp": "max",
+    "valueexp": "Máxima",
     "usogithub": 0,
     "valueuso": "Ninguno"
   },
   "nextui": {
     "name": "nextui",
     "afinidad": 80,
-    "value": "high",
+    "value": "Alta",
     "experiencia": 67.5,
-    "valueexp": "high",
+    "valueexp": "Alta",
     "usogithub": 1.96,
     "valueuso": "Moderado"
   },
   "astro": {
     "name": "astro",
     "afinidad": 95,
-    "value": "max",
+    "value": "Máxima",
     "experiencia": 77.5,
-    "valueexp": "high",
+    "valueexp": "Alta",
     "usogithub": 0,
     "valueuso": "Ninguno"
   },
   "react": {
     "name": "react",
     "afinidad": 85,
-    "value": "max",
+    "value": "Máxima",
     "experiencia": 72.5,
-    "valueexp": "high",
+    "valueexp": "Alta",
     "usogithub": 2.42,
     "valueuso": "Moderado"
   },
   "chakraui": {
     "name": "chakraui",
     "afinidad": 65,
-    "value": "high",
+    "value": "Alta",
     "experiencia": 75,
-    "valueexp": "high",
+    "valueexp": "Alta",
     "usogithub": 1.25,
     "valueuso": "Menor"
   },
   "threedotjs": {
     "name": "threedotjs",
     "afinidad": 90,
-    "value": "max",
+    "value": "Máxima",
     "experiencia": 57.5,
-    "valueexp": "neut",
+    "valueexp": "Moderada",
     "usogithub": 0,
     "valueuso": "Ninguno"
   },
   "css3": {
     "name": "css3",
     "afinidad": 30,
-    "value": "low",
+    "value": "Baja",
     "experiencia": 25,
-    "valueexp": "low",
+    "valueexp": "Baja",
     "usogithub": 0,
     "valueuso": "Ninguno"
+  },
+  "bootstrap": {
+    "name": "bootstrap",
+    "afinidad": 20,
+    "value": "Baja",
+    "experiencia": 25,
+    "valueexp": "Baja",
+    "usogithub": 3.6,
+    "valueuso": "Notable"
   }
 }
