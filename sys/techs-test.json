@@ -79,23 +79,5 @@
     "valueexp": "Moderada",
     "usogithub": 0,
     "valueuso": "Ninguno"
-  },
-  "css3": {
-    "name": "css3",
-    "afinidad": 30,
-    "value": "Baja",
-    "experiencia": 25,
-    "valueexp": "Baja",
-    "usogithub": 0,
-    "valueuso": "Ninguno"
-  },
-  "bootstrap": {
-    "name": "bootstrap",
-    "afinidad": 20,
-    "value": "Baja",
-    "experiencia": 25,
-    "valueexp": "Baja",
-    "usogithub": 3.6,
-    "valueuso": "Notable"
   }
 }
