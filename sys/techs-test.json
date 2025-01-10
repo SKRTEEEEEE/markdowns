@@ -55,7 +55,7 @@
   },
   "react": {
     "name": "react",
-    "afinidad": 45,
+    "afinidad": 55,
     "value": "Moderada",
     "experiencia": 75,
     "valueexp": "Alta",
