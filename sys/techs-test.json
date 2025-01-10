@@ -52,32 +52,5 @@
     "valueexp": "Alta",
     "usogithub": 0,
     "valueuso": "Ninguno"
-  },
-  "react": {
-    "name": "react",
-    "afinidad": 85,
-    "value": "Máxima",
-    "experiencia": 72.5,
-    "valueexp": "Alta",
-    "usogithub": 2.42,
-    "valueuso": "Moderado"
-  },
-  "chakraui": {
-    "name": "chakraui",
-    "afinidad": 65,
-    "value": "Alta",
-    "experiencia": 75,
-    "valueexp": "Alta",
-    "usogithub": 1.25,
-    "valueuso": "Menor"
-  },
-  "threedotjs": {
-    "name": "threedotjs",
-    "afinidad": 90,
-    "value": "Máxima",
-    "experiencia": 57.5,
-    "valueexp": "Moderada",
-    "usogithub": 0,
-    "valueuso": "Ninguno"
   }
 }
