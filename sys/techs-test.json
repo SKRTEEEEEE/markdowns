@@ -53,6 +53,15 @@
     "usogithub": 0,
     "valueuso": "Ninguno"
   },
+  "react": {
+    "name": "react",
+    "afinidad": 30,
+    "value": "Baja",
+    "experiencia": 75,
+    "valueexp": "Alta",
+    "usogithub": 2.42,
+    "valueuso": "Moderado"
+  },
   "css3": {
     "name": "css3",
     "afinidad": 30,
