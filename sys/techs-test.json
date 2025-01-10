@@ -55,8 +55,8 @@
   },
   "react": {
     "name": "react",
-    "afinidad": 30,
-    "value": "Baja",
+    "afinidad": 45,
+    "value": "Moderada",
     "experiencia": 75,
     "valueexp": "Alta",
     "usogithub": 2.42,
