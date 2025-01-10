@@ -61,5 +61,14 @@
     "valueexp": "Moderada",
     "usogithub": 0,
     "valueuso": "Ninguno"
+  },
+  "bootstrap": {
+    "name": "bootstrap",
+    "afinidad": 30,
+    "value": "Baja",
+    "experiencia": 30,
+    "valueexp": "Baja",
+    "usogithub": 3.6,
+    "valueuso": "Notable"
   }
 }
