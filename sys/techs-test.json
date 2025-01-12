@@ -1,1 +1,11 @@
-{}
+{
+  "JavaScript": {
+    "name": "JavaScript",
+    "afinidad": 25,
+    "value": "Baja",
+    "experiencia": 62.5,
+    "valueexp": "Alta",
+    "usogithub": 3.72,
+    "valueuso": "Notable"
+  }
+}
