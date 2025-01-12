@@ -1,5 +1,5 @@
 {
-  "JavaScript": {
+  "javascript": {
     "name": "JavaScript",
     "afinidad": 25,
     "value": "Baja",
@@ -8,7 +8,7 @@
     "usogithub": 3.72,
     "valueuso": "Notable"
   },
-  "TypeScript": {
+  "typescript": {
     "name": "TypeScript",
     "afinidad": 25,
     "value": "Baja",
@@ -17,7 +17,7 @@
     "usogithub": 12.18,
     "valueuso": "Superior"
   },
-  "Node.js": {
+  "nodedotjs": {
     "name": "Node.js",
     "afinidad": 95,
     "value": "Máxima",
@@ -26,7 +26,7 @@
     "usogithub": 3.59,
     "valueuso": "Notable"
   },
-  "Next.js": {
+  "nextdotjs": {
     "name": "Next.js",
     "afinidad": 25,
     "value": "Baja",
@@ -35,7 +35,7 @@
     "usogithub": 13.99,
     "valueuso": "Superior"
   },
-  "Apache Hive": {
+  "apachehive": {
     "name": "Apache Hive",
     "afinidad": 25,
     "value": "Baja",
