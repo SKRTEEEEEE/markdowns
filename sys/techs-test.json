@@ -19,9 +19,9 @@
   },
   "Node.js": {
     "name": "Node.js",
-    "afinidad": 50,
-    "value": "Moderada",
-    "experiencia": 72.5,
+    "afinidad": 95,
+    "value": "Máxima",
+    "experiencia": 67.5,
     "valueexp": "Alta",
     "usogithub": 3.59,
     "valueuso": "Notable"
