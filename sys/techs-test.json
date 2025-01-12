@@ -34,14 +34,5 @@
     "valueexp": "Mínima",
     "usogithub": 13.99,
     "valueuso": "Superior"
-  },
-  "apachehive": {
-    "name": "Apache Hive",
-    "afinidad": 25,
-    "value": "Baja",
-    "experiencia": 50,
-    "valueexp": "Moderada",
-    "usogithub": 0,
-    "valueuso": "Ninguno"
   }
 }
