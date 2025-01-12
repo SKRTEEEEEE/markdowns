@@ -35,6 +35,15 @@
     "usogithub": 13.99,
     "valueuso": "Superior"
   },
+  "nextui": {
+    "name": "NextUI",
+    "afinidad": 85,
+    "value": "Máxima",
+    "experiencia": 55,
+    "valueexp": "Moderada",
+    "usogithub": 1.96,
+    "valueuso": "Moderado"
+  },
   "react": {
     "name": "React",
     "afinidad": 85,
