@@ -7,5 +7,23 @@
     "valueexp": "Alta",
     "usogithub": 3.72,
     "valueuso": "Notable"
+  },
+  "TypeScript": {
+    "name": "TypeScript",
+    "afinidad": 25,
+    "value": "Baja",
+    "experiencia": 60,
+    "valueexp": "Moderada",
+    "usogithub": 12.18,
+    "valueuso": "Superior"
+  },
+  "Node.js": {
+    "name": "Node.js",
+    "afinidad": 50,
+    "value": "Moderada",
+    "experiencia": 72.5,
+    "valueexp": "Alta",
+    "usogithub": 3.59,
+    "valueuso": "Notable"
   }
 }
