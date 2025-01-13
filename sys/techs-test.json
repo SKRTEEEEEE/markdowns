@@ -7,5 +7,14 @@
     "valueexp": "Alta",
     "usogithub": 3.72,
     "valueuso": "Notable"
+  },
+  "typescript": {
+    "name": "TypeScript",
+    "afinidad": 70,
+    "value": "Alta",
+    "experiencia": 85,
+    "valueexp": "Máxima",
+    "usogithub": 12.18,
+    "valueuso": "Superior"
   }
 }
