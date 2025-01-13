@@ -34,5 +34,14 @@
     "valueexp": "Alta",
     "usogithub": 13.99,
     "valueuso": "Superior"
+  },
+  "nextui": {
+    "name": "NextUI",
+    "afinidad": 65,
+    "value": "Alta",
+    "experiencia": 60,
+    "valueexp": "Moderada",
+    "usogithub": 1.96,
+    "valueuso": "Moderado"
   }
 }
