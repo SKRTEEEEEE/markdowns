@@ -7,32 +7,5 @@
     "valueexp": "Alta",
     "usogithub": 3.72,
     "valueuso": "Notable"
-  },
-  "nodedotjs": {
-    "name": "Node.js",
-    "afinidad": 95,
-    "value": "Máxima",
-    "experiencia": 67.5,
-    "valueexp": "Alta",
-    "usogithub": 3.59,
-    "valueuso": "Notable"
-  },
-  "nextdotjs": {
-    "name": "Next.js",
-    "afinidad": 25,
-    "value": "Baja",
-    "experiencia": 10,
-    "valueexp": "Mínima",
-    "usogithub": 13.99,
-    "valueuso": "Superior"
-  },
-  "nextui": {
-    "name": "NextUI",
-    "afinidad": 85,
-    "value": "Máxima",
-    "experiencia": 55,
-    "valueexp": "Moderada",
-    "usogithub": 1.96,
-    "valueuso": "Moderado"
   }
 }
