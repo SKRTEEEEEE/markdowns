@@ -8,15 +8,6 @@
     "usogithub": 3.72,
     "valueuso": "Notable"
   },
-  "typescript": {
-    "name": "TypeScript",
-    "afinidad": 25,
-    "value": "Baja",
-    "experiencia": 60,
-    "valueexp": "Moderada",
-    "usogithub": 12.18,
-    "valueuso": "Superior"
-  },
   "nodedotjs": {
     "name": "Node.js",
     "afinidad": 95,
