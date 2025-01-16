@@ -70,5 +70,14 @@
     "valueexp": "Máxima",
     "usogithub": 2.42,
     "valueuso": "Moderado"
+  },
+  "chakraui": {
+    "name": "Chakra UI",
+    "afinidad": 90,
+    "value": "Máxima",
+    "experiencia": 77.5,
+    "valueexp": "Alta",
+    "usogithub": 0,
+    "valueuso": "Ninguno"
   }
 }
