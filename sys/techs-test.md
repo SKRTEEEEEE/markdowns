@@ -12,10 +12,7 @@ _Documentación de lenguajes, tecnologías (frameworks, librerías...) de progra
 ***
 
 
-[![Chakra UI]([object Object])](https://github.com/chakra-ui/chakra-ui/blob/327e1624d22936abb43068e1f57054e43c9c6819/logo/logomark-colored.svg)
->![Afinidad](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$.chakraui.value&label=%F0%9F%92%97%20Afinidad&color=319795&style=flat&logo=chakraui)![Afinidad %](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$.chakraui.afinidad&color=319795&style=flat&label=%20&suffix=%25)
-![Experiencia](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$.chakraui.valueexp&label=%F0%9F%8F%85%20Experiencia&color=319795&style=flat&logo=chakraui)![Experiencia %](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$.chakraui.experiencia&color=319795&style=flat&label=%20&suffix=%25)
-![Uso En Github](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$.chakraui.valueuso&label=%F0%9F%98%BB%20Uso%20en%20github&color=319795&style=flat&logo=chakraui)![Uso en Github %](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$.chakraui.usogithub&color=319795&style=flat&label=%20&suffix=%25)
+
 
 >- ## [![JavaScript]([object Object])](https://github.com/voodootikigod/logo.js/blob/1544bdeed6d618a6cfe4f0650d04ab8d9cfa76d9/js.svg)
 >![Afinidad](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$.javascript.value&label=%F0%9F%92%97%20Afinidad&color=F7DF1E&style=flat&logo=javascript)![Afinidad %](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$.javascript.afinidad&color=F7DF1E&style=flat&label=%20&suffix=%25)
