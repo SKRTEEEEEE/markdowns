@@ -70,14 +70,5 @@
     "valueexp": "Alta",
     "usogithub": 2.42,
     "valueuso": "Moderado"
-  },
-  "css": {
-    "name": "CSS",
-    "afinidad": 50,
-    "value": "Moderada",
-    "experiencia": 45,
-    "valueexp": "Moderada",
-    "usogithub": 3.67,
-    "valueuso": "Notable"
   }
 }
