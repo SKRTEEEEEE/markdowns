@@ -2,11 +2,11 @@
 _Documentación de lenguajes, tecnologías (frameworks, librerías...) de programación que utilizo._
 
 
-    <p align="center">
-    <a href="#">
-        <img src="https://skillicons.dev/icons?i=solidity,ipfs,git,github,md,html,css,styledcomponents,tailwind,js,ts,mysql,mongodb,firebase,vercel,nextjs,nodejs,express,react,redux,threejs,py,bash,powershell,npm,vscode,ableton,discord&perline=14" />
-    </a>
-    </p>
+<p align="center">
+<a href="#">
+<img src="https://skillicons.dev/icons?i=solidity,ipfs,git,github,md,html,css,styledcomponents,tailwind,js,ts,mysql,mongodb,firebase,vercel,nextjs,nodejs,express,react,redux,threejs,py,bash,powershell,npm,vscode,ableton,discord&perline=14" />
+</a>
+</p>
 
 
 ***
@@ -47,11 +47,6 @@ _Documentación de lenguajes, tecnologías (frameworks, librerías...) de progra
 >![Afinidad](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$.threedotjs.value&label=%F0%9F%92%97%20Afinidad&color=000000&style=flat&logo=threedotjs)![Afinidad %](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$.threedotjs.afinidad&color=000000&style=flat&label=%20&suffix=%25)
 ![Experiencia](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$.threedotjs.valueexp&label=%F0%9F%8F%85%20Experiencia&color=000000&style=flat&logo=threedotjs)![Experiencia %](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$.threedotjs.experiencia&color=000000&style=flat&label=%20&suffix=%25)
 ![Uso En Github](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$.threedotjs.valueuso&label=%F0%9F%98%BB%20Uso%20en%20github&color=000000&style=flat&logo=threedotjs)![Uso en Github %](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$.threedotjs.usogithub&color=000000&style=flat&label=%20&suffix=%25)
-
-> ### [![React](https://img.shields.io/badge/-React-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
->![Afinidad](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$.react.value&label=%F0%9F%92%97%20Afinidad&color=61DAFB&style=flat&logo=react)![Afinidad %](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$.react.afinidad&color=61DAFB&style=flat&label=%20&suffix=%25)
-![Experiencia](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$.react.valueexp&label=%F0%9F%8F%85%20Experiencia&color=61DAFB&style=flat&logo=react)![Experiencia %](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$.react.experiencia&color=61DAFB&style=flat&label=%20&suffix=%25)
-![Uso En Github](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$.react.valueuso&label=%F0%9F%98%BB%20Uso%20en%20github&color=61DAFB&style=flat&logo=react)![Uso en Github %](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$.react.usogithub&color=61DAFB&style=flat&label=%20&suffix=%25)
 
 >- ## [![CSS](https://img.shields.io/badge/-CSS-663399?style=for-the-badge&logo=css&logoColor=white)](https://github.com/CSS-Next/logo.css/blob/bacc20878227204b283c68a6b935f8279e06b0cd/css.svg)
 >![Afinidad](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$.css.value&label=%F0%9F%92%97%20Afinidad&color=663399&style=flat&logo=css)![Afinidad %](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$.css.afinidad&color=663399&style=flat&label=%20&suffix=%25)
