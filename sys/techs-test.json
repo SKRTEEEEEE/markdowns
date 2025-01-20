@@ -26,24 +26,6 @@
     "usogithub": 3.59,
     "valueuso": "Notable"
   },
-  "nextdotjs": {
-    "name": "Next.js",
-    "afinidad": 70,
-    "value": "Alta",
-    "experiencia": 80,
-    "valueexp": "Alta",
-    "usogithub": 13.99,
-    "valueuso": "Superior"
-  },
-  "nextui": {
-    "name": "NextUI",
-    "afinidad": 65,
-    "value": "Alta",
-    "experiencia": 60,
-    "valueexp": "Moderada",
-    "usogithub": 1.96,
-    "valueuso": "Moderado"
-  },
   "threedotjs": {
     "name": "Three.js",
     "afinidad": 85,
