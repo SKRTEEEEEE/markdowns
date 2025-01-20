@@ -39,8 +39,8 @@
     "name": "Astro",
     "afinidad": 65,
     "value": "Alta",
-    "experiencia": 52.5,
-    "valueexp": "Moderada",
+    "experiencia": 40,
+    "valueexp": "Baja",
     "usogithub": 0,
     "valueuso": "Ninguno"
   },
