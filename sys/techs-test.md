@@ -2,22 +2,17 @@
 _Documentación de lenguajes, tecnologías (frameworks, librerías...) de programación que utilizo._
 
 
-<p align="center">
-<a href="#">
-    <img src="https://skillicons.dev/icons?i=solidity,ipfs,git,github,md,html,css,styledcomponents,tailwind,js,ts,mysql,mongodb,firebase,vercel,nextjs,nodejs,express,react,redux,threejs,py,bash,powershell,npm,vscode,ableton,discord&perline=14" />
-</a>
-</p>
+    <p align="center">
+    <a href="#">
+        <img src="https://skillicons.dev/icons?i=solidity,ipfs,git,github,md,html,css,styledcomponents,tailwind,js,ts,mysql,mongodb,firebase,vercel,nextjs,nodejs,express,react,redux,threejs,py,bash,powershell,npm,vscode,ableton,discord&perline=14" />
+    </a>
+    </p>
 
 
 ***
 
 
->- ## [![Tailwind CSS](https://img.shields.io/badge/-TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=black)](https://tailwindcss.com/brand)
->![Afinidad](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$.tailwindcss.value&label=%F0%9F%92%97%20Afinidad&color=06B6D4&style=flat&logo=tailwindcss)![Afinidad %](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$.tailwindcss.afinidad&color=06B6D4&style=flat&label=%20&suffix=%25)
-![Experiencia](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$.tailwindcss.valueexp&label=%F0%9F%8F%85%20Experiencia&color=06B6D4&style=flat&logo=tailwindcss)![Experiencia %](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$.tailwindcss.experiencia&color=06B6D4&style=flat&label=%20&suffix=%25)
-![Uso En Github](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$.tailwindcss.valueuso&label=%F0%9F%98%BB%20Uso%20en%20github&color=06B6D4&style=flat&logo=tailwindcss)![Uso en Github %](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$.tailwindcss.usogithub&color=06B6D4&style=flat&label=%20&suffix=%25)
->
->![New Badge](https://img.shields.io/badge/%C2%A1_novedad_%F0%9F%91%8D_!-NEW_%F0%9F%93%A5_%F0%9F%97%92%EF%B8%8F-blue?style=social)
+
 
 >- ## [![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://github.com/voodootikigod/logo.js/blob/1544bdeed6d618a6cfe4f0650d04ab8d9cfa76d9/js.svg)
 >![Afinidad](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$.javascript.value&label=%F0%9F%92%97%20Afinidad&color=F7DF1E&style=flat&logo=javascript)![Afinidad %](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$.javascript.afinidad&color=F7DF1E&style=flat&label=%20&suffix=%25)
@@ -57,12 +52,13 @@ _Documentación de lenguajes, tecnologías (frameworks, librerías...) de progra
 >![Afinidad](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$.react.value&label=%F0%9F%92%97%20Afinidad&color=61DAFB&style=flat&logo=react)![Afinidad %](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$.react.afinidad&color=61DAFB&style=flat&label=%20&suffix=%25)
 ![Experiencia](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$.react.valueexp&label=%F0%9F%8F%85%20Experiencia&color=61DAFB&style=flat&logo=react)![Experiencia %](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$.react.experiencia&color=61DAFB&style=flat&label=%20&suffix=%25)
 ![Uso En Github](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$.react.valueuso&label=%F0%9F%98%BB%20Uso%20en%20github&color=61DAFB&style=flat&logo=react)![Uso en Github %](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$.react.usogithub&color=61DAFB&style=flat&label=%20&suffix=%25)
-> - #### [![Chakra UI](https://img.shields.io/badge/-ChakraUI-319795?style=for-the-badge&logo=chakraui&logoColor=white)](https://www.chakra-ui.com/)
->![Afinidad](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$.chakraui.value&label=%F0%9F%92%97%20Afinidad&color=319795&style=flat&logo=chakraui)![Afinidad %](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$.chakraui.afinidad&color=319795&style=flat&label=%20&suffix=%25)
-![Experiencia](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$.chakraui.valueexp&label=%F0%9F%8F%85%20Experiencia&color=319795&style=flat&logo=chakraui)![Experiencia %](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$.chakraui.experiencia&color=319795&style=flat&label=%20&suffix=%25)
-![Uso En Github](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$.chakraui.valueuso&label=%F0%9F%98%BB%20Uso%20en%20github&color=319795&style=flat&logo=chakraui)![Uso en Github %](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$.chakraui.usogithub&color=319795&style=flat&label=%20&suffix=%25)
 
 >- ## [![CSS](https://img.shields.io/badge/-CSS-663399?style=for-the-badge&logo=css&logoColor=white)](https://github.com/CSS-Next/logo.css/blob/bacc20878227204b283c68a6b935f8279e06b0cd/css.svg)
 >![Afinidad](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$.css.value&label=%F0%9F%92%97%20Afinidad&color=663399&style=flat&logo=css)![Afinidad %](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$.css.afinidad&color=663399&style=flat&label=%20&suffix=%25)
 ![Experiencia](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$.css.valueexp&label=%F0%9F%8F%85%20Experiencia&color=663399&style=flat&logo=css)![Experiencia %](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$.css.experiencia&color=663399&style=flat&label=%20&suffix=%25)
 ![Uso En Github](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$.css.valueuso&label=%F0%9F%98%BB%20Uso%20en%20github&color=663399&style=flat&logo=css)![Uso en Github %](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$.css.usogithub&color=663399&style=flat&label=%20&suffix=%25)
+
+> ### [![Tailwind CSS](https://img.shields.io/badge/-TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=black)](https://tailwindcss.com/brand)
+>![Afinidad](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$.tailwindcss.value&label=%F0%9F%92%97%20Afinidad&color=06B6D4&style=flat&logo=tailwindcss)![Afinidad %](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$.tailwindcss.afinidad&color=06B6D4&style=flat&label=%20&suffix=%25)
+![Experiencia](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$.tailwindcss.valueexp&label=%F0%9F%8F%85%20Experiencia&color=06B6D4&style=flat&logo=tailwindcss)![Experiencia %](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$.tailwindcss.experiencia&color=06B6D4&style=flat&label=%20&suffix=%25)
+![Uso En Github](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$.tailwindcss.valueuso&label=%F0%9F%98%BB%20Uso%20en%20github&color=06B6D4&style=flat&logo=tailwindcss)![Uso en Github %](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/profile-page/sys/techs-test.json&query=$.tailwindcss.usogithub&color=06B6D4&style=flat&label=%20&suffix=%25)
