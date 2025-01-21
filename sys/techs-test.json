@@ -79,14 +79,5 @@
     "valueexp": "Alta",
     "usogithub": 0,
     "valueuso": "Ninguno"
-  },
-  "akasaair": {
-    "name": "Akasa Air",
-    "afinidad": 75,
-    "value": "Alta",
-    "experiencia": 77.5,
-    "valueexp": "Alta",
-    "usogithub": 0,
-    "valueuso": "Ninguno"
   }
 }
