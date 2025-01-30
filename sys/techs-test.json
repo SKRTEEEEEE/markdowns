@@ -62,6 +62,15 @@
     "usogithub": 0,
     "valueuso": "Ninguno"
   },
+  "chakraui": {
+    "name": "Chakra UI",
+    "afinidad": 85,
+    "value": "Maximum",
+    "experiencia": 72.5,
+    "valueexp": "High",
+    "usogithub": 0,
+    "valueuso": "Ninguno"
+  },
   "nextdotjs": {
     "name": "Next.js",
     "afinidad": 85,
