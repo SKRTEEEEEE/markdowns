@@ -71,6 +71,15 @@
     "usogithub": 0,
     "valueuso": "Ninguno"
   },
+  "thirdweb": {
+    "name": "thirdweb",
+    "afinidad": 70,
+    "value": "High",
+    "experiencia": 75,
+    "valueexp": "High",
+    "usogithub": 1.74,
+    "valueuso": "Moderado"
+  },
   "nextdotjs": {
     "name": "Next.js",
     "afinidad": 85,
