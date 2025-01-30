@@ -106,5 +106,14 @@
     "valueexp": "High",
     "usogithub": 0,
     "valueuso": "Ninguno"
+  },
+  "solidity": {
+    "name": "Solidity",
+    "afinidad": 75,
+    "value": "High",
+    "experiencia": 60,
+    "valueexp": "Moderate",
+    "usogithub": 1.76,
+    "valueuso": "Moderado"
   }
 }
