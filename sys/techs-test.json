@@ -2,81 +2,90 @@
   "javascript": {
     "name": "JavaScript",
     "afinidad": 85,
-    "value": "Máxima",
+    "value": "Maximum",
     "experiencia": 92.5,
-    "valueexp": "Máxima",
+    "valueexp": "Maximum",
     "usogithub": 3.72,
     "valueuso": "Notable"
   },
   "typescript": {
     "name": "TypeScript",
     "afinidad": 70,
-    "value": "Alta",
+    "value": "High",
     "experiencia": 85,
-    "valueexp": "Máxima",
+    "valueexp": "Maximum",
     "usogithub": 12.18,
     "valueuso": "Superior"
   },
   "nodedotjs": {
     "name": "Node.js",
     "afinidad": 90,
-    "value": "Máxima",
+    "value": "Maximum",
     "experiencia": 87.5,
-    "valueexp": "Máxima",
+    "valueexp": "Maximum",
     "usogithub": 3.59,
     "valueuso": "Notable"
   },
   "threedotjs": {
     "name": "Three.js",
     "afinidad": 85,
-    "value": "Máxima",
+    "value": "Maximum",
     "experiencia": 52.5,
-    "valueexp": "Moderada",
+    "valueexp": "Moderate",
     "usogithub": 3.62,
     "valueuso": "Notable"
   },
   "astro": {
     "name": "Astro",
     "afinidad": 65,
-    "value": "Alta",
+    "value": "High",
     "experiencia": 40,
-    "valueexp": "Baja",
+    "valueexp": "Low",
     "usogithub": 0,
     "valueuso": "Ninguno"
   },
   "react": {
     "name": "React",
     "afinidad": 85,
-    "value": "Máxima",
+    "value": "Maximum",
     "experiencia": 67.5,
-    "valueexp": "Alta",
+    "valueexp": "High",
     "usogithub": 2.42,
     "valueuso": "Moderado"
+  },
+  "styledcomponents": {
+    "name": "styled-components",
+    "afinidad": 85,
+    "value": "Maximum",
+    "experiencia": 82.5,
+    "valueexp": "Maximum",
+    "usogithub": 0,
+    "valueuso": "Ninguno"
   },
   "nextdotjs": {
     "name": "Next.js",
     "afinidad": 85,
-    "value": "Máxima",
+    "value": "Maximum",
     "experiencia": 92.5,
-    "valueexp": "Máxima",
+    "valueexp": "Maximum",
     "usogithub": 13.99,
     "valueuso": "Superior"
   },
   "css3": {
     "name": "CSS3",
     "afinidad": 45,
-    "value": "Moderada",
+    "value": "Moderate",
     "experiencia": 67.5,
-    "valueexp": "Alta",
+    "valueexp": "High",
     "usogithub": 0,
     "valueuso": "Ninguno"
   },
   "tailwindcss": {
     "name": "Tailwind CSS",
     "afinidad": 95,
-    "value": "Máxima",
+    "value": "Maximum",
     "experiencia": 75,
-    "valueexp": "Alta",
+    "valueexp": "High",
     "usogithub": 0,
     "valueuso": "Ninguno"
   }
