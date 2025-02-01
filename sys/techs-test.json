@@ -26,15 +26,6 @@
     "usogithub": 3.59,
     "valueuso": "Notable"
   },
-  "threedotjs": {
-    "name": "Three.js",
-    "afinidad": 85,
-    "value": "Màxima",
-    "experiencia": 52.5,
-    "valueexp": "Moderada",
-    "usogithub": 3.62,
-    "valueuso": "Notable"
-  },
   "astro": {
     "name": "Astro",
     "afinidad": 65,
