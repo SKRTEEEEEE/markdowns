@@ -34,5 +34,14 @@
     "valueexp": "Alta",
     "usogithub": 3.59,
     "valueuso": "Notable"
+  },
+  "react": {
+    "name": "React",
+    "afinidad": 85,
+    "value": "Máxima",
+    "experiencia": 90,
+    "valueexp": "Máxima",
+    "usogithub": 2.37,
+    "valueuso": "Moderado"
   }
 }
