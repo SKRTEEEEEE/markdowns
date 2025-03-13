@@ -1,1 +1,38 @@
-
+{
+  "javascript": {
+    "name": "JavaScript",
+    "afinidad": 85,
+    "value": "Máxima",
+    "experiencia": 92.5,
+    "valueexp": "Máxima",
+    "usogithub": 3.72,
+    "valueuso": "Notable"
+  },
+  "typescript": {
+    "name": "TypeScript",
+    "afinidad": 70,
+    "value": "Alta",
+    "experiencia": 92.5,
+    "valueexp": "Máxima",
+    "usogithub": 12.18,
+    "valueuso": "Superior"
+  },
+  "solidity": {
+    "name": "Solidity",
+    "afinidad": 75,
+    "value": "Alta",
+    "experiencia": 60,
+    "valueexp": "Moderada",
+    "usogithub": 1.76,
+    "valueuso": "Moderado"
+  },
+  "nodedotjs": {
+    "name": "Node.js",
+    "afinidad": 85,
+    "value": "Máxima",
+    "experiencia": 80,
+    "valueexp": "Alta",
+    "usogithub": 3.59,
+    "valueuso": "Notable"
+  }
+}
