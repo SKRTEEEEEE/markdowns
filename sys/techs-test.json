@@ -2,9 +2,9 @@
   "javascript": {
     "name": "JavaScript",
     "afinidad": 85,
-    "value": "Màxima",
+    "value": "Máxima",
     "experiencia": 92.5,
-    "valueexp": "Màxima",
+    "valueexp": "Máxima",
     "usogithub": 3.72,
     "valueuso": "Notable"
   },
@@ -13,16 +13,16 @@
     "afinidad": 70,
     "value": "Alta",
     "experiencia": 92.5,
-    "valueexp": "Màxima",
+    "valueexp": "Máxima",
     "usogithub": 12.18,
     "valueuso": "Superior"
   },
   "nodedotjs": {
     "name": "Node.js",
     "afinidad": 90,
-    "value": "Màxima",
+    "value": "Máxima",
     "experiencia": 87.5,
-    "valueexp": "Màxima",
+    "valueexp": "Máxima",
     "usogithub": 3.59,
     "valueuso": "Notable"
   },
@@ -31,14 +31,14 @@
     "afinidad": 65,
     "value": "Alta",
     "experiencia": 40,
-    "valueexp": "Baixa",
+    "valueexp": "Baja",
     "usogithub": 0,
     "valueuso": "Ninguno"
   },
   "react": {
     "name": "React",
     "afinidad": 85,
-    "value": "Màxima",
+    "value": "Máxima",
     "experiencia": 67.5,
     "valueexp": "Alta",
     "usogithub": 2.42,
@@ -47,9 +47,9 @@
   "styledcomponents": {
     "name": "styled-components",
     "afinidad": 85,
-    "value": "Màxima",
+    "value": "Máxima",
     "experiencia": 82.5,
-    "valueexp": "Màxima",
+    "valueexp": "Máxima",
     "usogithub": 0,
     "valueuso": "Ninguno"
   },
@@ -74,11 +74,20 @@
   "nextdotjs": {
     "name": "Next.js",
     "afinidad": 85,
-    "value": "Màxima",
+    "value": "Máxima",
     "experiencia": 92.5,
-    "valueexp": "Màxima",
+    "valueexp": "Máxima",
     "usogithub": 13.99,
     "valueuso": "Superior"
+  },
+  "nextui": {
+    "name": "NextUI",
+    "afinidad": 95,
+    "value": "Máxima",
+    "experiencia": 92.5,
+    "valueexp": "Máxima",
+    "usogithub": 1.97,
+    "valueuso": "Moderado"
   },
   "solidity": {
     "name": "Solidity",
