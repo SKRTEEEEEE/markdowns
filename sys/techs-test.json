@@ -35,42 +35,6 @@
     "usogithub": 0,
     "valueuso": "Ninguno"
   },
-  "react": {
-    "name": "React",
-    "afinidad": 85,
-    "value": "Máxima",
-    "experiencia": 67.5,
-    "valueexp": "Alta",
-    "usogithub": 2.42,
-    "valueuso": "Moderado"
-  },
-  "styledcomponents": {
-    "name": "styled-components",
-    "afinidad": 85,
-    "value": "Máxima",
-    "experiencia": 82.5,
-    "valueexp": "Máxima",
-    "usogithub": 0,
-    "valueuso": "Ninguno"
-  },
-  "chakraui": {
-    "name": "Chakra UI",
-    "afinidad": 55,
-    "value": "Moderada",
-    "experiencia": 72.5,
-    "valueexp": "Alta",
-    "usogithub": 0,
-    "valueuso": "Ninguno"
-  },
-  "thirdweb": {
-    "name": "thirdweb",
-    "afinidad": 70,
-    "value": "Alta",
-    "experiencia": 75,
-    "valueexp": "Alta",
-    "usogithub": 1.74,
-    "valueuso": "Moderado"
-  },
   "nextdotjs": {
     "name": "Next.js",
     "afinidad": 85,
