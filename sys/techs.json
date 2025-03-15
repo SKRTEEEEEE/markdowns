@@ -44,6 +44,15 @@
     "usogithub": 2.37,
     "valueuso": "Moderado"
   },
+  "nextdotjs": {
+    "name": "Next.js",
+    "afinidad": 100,
+    "value": "Maximum",
+    "experiencia": 97.5,
+    "valueexp": "Maximum",
+    "usogithub": 15.72,
+    "valueuso": "Dominante"
+  },
   "css": {
     "name": "CSS",
     "afinidad": 65,
