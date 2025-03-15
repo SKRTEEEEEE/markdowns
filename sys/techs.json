@@ -2,63 +2,72 @@
   "javascript": {
     "name": "JavaScript",
     "afinidad": 85,
-    "value": "Máxima",
+    "value": "Maximum",
     "experiencia": 92.5,
-    "valueexp": "Máxima",
+    "valueexp": "Maximum",
     "usogithub": 3.72,
     "valueuso": "Notable"
   },
   "typescript": {
     "name": "TypeScript",
     "afinidad": 70,
-    "value": "Alta",
+    "value": "High",
     "experiencia": 92.5,
-    "valueexp": "Máxima",
+    "valueexp": "Maximum",
     "usogithub": 12.18,
     "valueuso": "Superior"
   },
   "solidity": {
     "name": "Solidity",
     "afinidad": 75,
-    "value": "Alta",
+    "value": "High",
     "experiencia": 60,
-    "valueexp": "Moderada",
+    "valueexp": "Moderate",
     "usogithub": 1.76,
     "valueuso": "Moderado"
   },
   "nodedotjs": {
     "name": "Node.js",
     "afinidad": 85,
-    "value": "Máxima",
+    "value": "Maximum",
     "experiencia": 80,
-    "valueexp": "Alta",
+    "valueexp": "High",
     "usogithub": 3.59,
     "valueuso": "Notable"
   },
   "react": {
     "name": "React",
     "afinidad": 85,
-    "value": "Máxima",
+    "value": "Maximum",
     "experiencia": 90,
-    "valueexp": "Máxima",
+    "valueexp": "Maximum",
     "usogithub": 2.37,
     "valueuso": "Moderado"
   },
   "css": {
     "name": "CSS",
     "afinidad": 65,
-    "value": "Alta",
+    "value": "High",
     "experiencia": 70,
-    "valueexp": "Alta",
+    "valueexp": "High",
     "usogithub": 2.95,
     "valueuso": "Notable"
   },
   "tailwindcss": {
     "name": "Tailwind CSS",
     "afinidad": 75,
-    "value": "Alta",
+    "value": "High",
     "experiencia": 92.5,
-    "valueexp": "Máxima",
+    "valueexp": "Maximum",
+    "usogithub": 0,
+    "valueuso": "Ninguno"
+  },
+  "shadcnui": {
+    "name": "shadcn/ui",
+    "afinidad": 80,
+    "value": "High",
+    "experiencia": 75,
+    "valueexp": "High",
     "usogithub": 0,
     "valueuso": "Ninguno"
   }
