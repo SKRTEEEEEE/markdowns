@@ -44,6 +44,15 @@
     "usogithub": 2.37,
     "valueuso": "Moderado"
   },
+  "chakraui": {
+    "name": "Chakra UI",
+    "afinidad": 90,
+    "value": "Maximum",
+    "experiencia": 82.5,
+    "valueexp": "Maximum",
+    "usogithub": 0,
+    "valueuso": "Ninguno"
+  },
   "css": {
     "name": "CSS",
     "afinidad": 65,
