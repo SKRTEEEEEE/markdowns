@@ -52,5 +52,14 @@
     "valueexp": "Alta",
     "usogithub": 2.95,
     "valueuso": "Notable"
+  },
+  "tailwindcss": {
+    "name": "Tailwind CSS",
+    "afinidad": 75,
+    "value": "Alta",
+    "experiencia": 92.5,
+    "valueexp": "Máxima",
+    "usogithub": 0,
+    "valueuso": "Ninguno"
   }
 }
