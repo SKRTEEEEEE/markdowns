@@ -62,6 +62,15 @@
     "usogithub": 15.72,
     "valueuso": "Dominante"
   },
+  "nextui": {
+    "name": "NextUI",
+    "afinidad": 75,
+    "value": "Alta",
+    "experiencia": 65,
+    "valueexp": "Alta",
+    "usogithub": 0,
+    "valueuso": "Ninguno"
+  },
   "css": {
     "name": "CSS",
     "afinidad": 65,
