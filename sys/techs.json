@@ -106,5 +106,14 @@
     "valueexp": "Alta",
     "usogithub": 0,
     "valueuso": "Ninguno"
+  },
+  "arduino": {
+    "name": "Arduino",
+    "afinidad": 80,
+    "value": "Alta",
+    "experiencia": 35,
+    "valueexp": "Baja",
+    "usogithub": 0,
+    "valueuso": "Ninguno"
   }
 }
