@@ -115,5 +115,14 @@
     "valueexp": "Baja",
     "usogithub": 0,
     "valueuso": "Ninguno"
+  },
+  "rapid": {
+    "name": "Rapid",
+    "afinidad": 75,
+    "value": "Alta",
+    "experiencia": 25,
+    "valueexp": "Baja",
+    "usogithub": 0,
+    "valueuso": "Ninguno"
   }
 }
