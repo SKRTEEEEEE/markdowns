@@ -2,9 +2,9 @@
   "javascript": {
     "name": "JavaScript",
     "afinidad": 85,
-    "value": "Máxima",
+    "value": "Màxima",
     "experiencia": 92.5,
-    "valueexp": "Máxima",
+    "valueexp": "Màxima",
     "usogithub": 3.72,
     "valueuso": "Notable"
   },
@@ -13,7 +13,7 @@
     "afinidad": 70,
     "value": "Alta",
     "experiencia": 92.5,
-    "valueexp": "Máxima",
+    "valueexp": "Màxima",
     "usogithub": 12.18,
     "valueuso": "Superior"
   },
@@ -29,7 +29,7 @@
   "nodedotjs": {
     "name": "Node.js",
     "afinidad": 85,
-    "value": "Máxima",
+    "value": "Màxima",
     "experiencia": 80,
     "valueexp": "Alta",
     "usogithub": 3.59,
@@ -38,27 +38,27 @@
   "react": {
     "name": "React",
     "afinidad": 85,
-    "value": "Máxima",
+    "value": "Màxima",
     "experiencia": 90,
-    "valueexp": "Máxima",
+    "valueexp": "Màxima",
     "usogithub": 2.37,
     "valueuso": "Moderado"
   },
   "chakraui": {
     "name": "Chakra UI",
     "afinidad": 90,
-    "value": "Máxima",
+    "value": "Màxima",
     "experiencia": 82.5,
-    "valueexp": "Máxima",
+    "valueexp": "Màxima",
     "usogithub": 0,
     "valueuso": "Ninguno"
   },
   "nextdotjs": {
     "name": "Next.js",
     "afinidad": 100,
-    "value": "Máxima",
+    "value": "Màxima",
     "experiencia": 95,
-    "valueexp": "Máxima",
+    "valueexp": "Màxima",
     "usogithub": 15.72,
     "valueuso": "Dominante"
   },
@@ -94,7 +94,7 @@
     "afinidad": 75,
     "value": "Alta",
     "experiencia": 92.5,
-    "valueexp": "Máxima",
+    "valueexp": "Màxima",
     "usogithub": 0,
     "valueuso": "Ninguno"
   },
@@ -112,7 +112,7 @@
     "afinidad": 80,
     "value": "Alta",
     "experiencia": 35,
-    "valueexp": "Baja",
+    "valueexp": "Baixa",
     "usogithub": 0,
     "valueuso": "Ninguno"
   },
@@ -121,7 +121,16 @@
     "afinidad": 75,
     "value": "Alta",
     "experiencia": 25,
-    "valueexp": "Baja",
+    "valueexp": "Baixa",
+    "usogithub": 0,
+    "valueuso": "Ninguno"
+  },
+  "testin": {
+    "name": "Testin",
+    "afinidad": 25,
+    "value": "Baixa",
+    "experiencia": 10,
+    "valueexp": "Mínima",
     "usogithub": 0,
     "valueuso": "Ninguno"
   }
