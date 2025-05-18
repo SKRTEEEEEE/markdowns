@@ -107,21 +107,21 @@
     "usogithub": 0,
     "valueuso": "Ninguno"
   },
-  "arduino": {
-    "name": "Arduino",
-    "afinidad": 80,
-    "value": "Alta",
-    "experiencia": 35,
-    "valueexp": "Baixa",
-    "usogithub": 0,
-    "valueuso": "Ninguno"
-  },
   "rapid": {
     "name": "Rapid",
     "afinidad": 75,
     "value": "Alta",
     "experiencia": 25,
     "valueexp": "Baixa",
+    "usogithub": 0,
+    "valueuso": "Ninguno"
+  },
+  "testin": {
+    "name": "Testin",
+    "afinidad": 25,
+    "value": "Baixa",
+    "experiencia": 10,
+    "valueexp": "Mínima",
     "usogithub": 0,
     "valueuso": "Ninguno"
   }
