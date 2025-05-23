@@ -71,15 +71,6 @@
     "usogithub": 0,
     "valueuso": "Ninguno"
   },
-  "astro": {
-    "name": "Astro",
-    "afinidad": 60,
-    "value": "Moderada",
-    "experiencia": 72.5,
-    "valueexp": "Alta",
-    "usogithub": 0.06,
-    "valueuso": "Minúsculo"
-  },
   "css": {
     "name": "CSS",
     "afinidad": 65,
