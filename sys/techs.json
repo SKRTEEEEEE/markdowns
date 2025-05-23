@@ -97,14 +97,5 @@
     "valueexp": "Baixa",
     "usogithub": 0,
     "valueuso": "Ninguno"
-  },
-  "testin": {
-    "name": "Testin",
-    "afinidad": 25,
-    "value": "Baixa",
-    "experiencia": 10,
-    "valueexp": "Mínima",
-    "usogithub": 0,
-    "valueuso": "Ninguno"
   }
 }
