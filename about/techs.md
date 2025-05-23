@@ -12,7 +12,12 @@ _Documentación de lenguajes, tecnologías (frameworks, librerías...) de progra
 ***
 
 
-
+>- ## [![Google Scholar](https://img.shields.io/badge/-Google%20Scholar-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white)](https://commons.wikimedia.org/wiki/File:Google_Scholar_logo.svg)
+>![Afinidad](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/main/sys/techs.json&query=$.googlescholar.value&label=%F0%9F%92%97%20Afinidad&color=4285F4&style=flat&logo=googlescholar)![Afinidad %](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/main/sys/techs.json&query=$.googlescholar.afinidad&color=4285F4&style=flat&label=%20&suffix=%25)
+![Experiencia](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/main/sys/techs.json&query=$.googlescholar.valueexp&label=%F0%9F%8F%85%20Experiencia&color=4285F4&style=flat&logo=googlescholar)![Experiencia %](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/main/sys/techs.json&query=$.googlescholar.experiencia&color=4285F4&style=flat&label=%20&suffix=%25)
+![Uso En Github](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/main/sys/techs.json&query=$.googlescholar.valueuso&label=%F0%9F%98%BB%20Uso%20en%20github&color=4285F4&style=flat&logo=googlescholar)![Uso en Github %](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/main/sys/techs.json&query=$.googlescholar.usogithub&color=4285F4&style=flat&label=%20&suffix=%25)
+>
+>![New Badge](https://img.shields.io/badge/%C2%A1_novedad_%F0%9F%91%8D_!-NEW_%F0%9F%93%A5_%F0%9F%97%92%EF%B8%8F-blue?style=social)
 
 >- ## [![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/es/docs/Web/JavaScript)
 >![Afinidad](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/main/sys/techs.json&query=$.javascript.value&label=%F0%9F%92%97%20Afinidad&color=F7DF1E&style=flat&logo=javascript)![Afinidad %](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SKRTEEEEEE/markdowns/main/sys/techs.json&query=$.javascript.afinidad&color=F7DF1E&style=flat&label=%20&suffix=%25)
