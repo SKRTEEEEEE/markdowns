@@ -98,15 +98,6 @@
     "usogithub": 0,
     "valueuso": "Ninguno"
   },
-  "shadcnui": {
-    "name": "shadcn/ui",
-    "afinidad": 80,
-    "value": "Alta",
-    "experiencia": 75,
-    "valueexp": "Alta",
-    "usogithub": 0,
-    "valueuso": "Ninguno"
-  },
   "rapid": {
     "name": "Rapid",
     "afinidad": 75,
