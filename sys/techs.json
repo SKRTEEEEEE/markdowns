@@ -116,8 +116,8 @@
     "usogithub": 0,
     "valueuso": "Ninguno"
   },
-  "jinja": {
-    "name": "Jinja",
+  "testin": {
+    "name": "Testin",
     "afinidad": 25,
     "value": "Baixa",
     "experiencia": 10,
