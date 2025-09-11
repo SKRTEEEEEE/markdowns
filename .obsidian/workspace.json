@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "utils/learn-techs/ts/clases/0.extra.md",
+                "file": "utils/learn-techs/ts/clases/1.intro.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "utils/learn-techs/ts/clases/0.extra.md",
+                "file": "utils/learn-techs/ts/clases/1.intro.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "utils/learn-techs/ts/clases/0.extra.md",
+                "file": "utils/learn-techs/ts/clases/1.intro.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "utils/learn-techs/ts/clases/0.extra.md"
+                "file": "utils/learn-techs/ts/clases/1.intro.md"
               }
             }
           }
@@ -148,34 +148,34 @@
   },
   "active": "a3e841d7752f03d0",
   "lastOpenFiles": [
-    "utils/learn-techs/ts/clases/index.md",
+    "utils/learn-techs/ts/clases/2.implementacion.md",
+    "utils/learn-techs/ts/clases/3.polimorfismo-composicion.md",
+    "utils/learn-techs/frontend/next-theme.md",
+    "utils/learn-techs/frontend/tailwind-config.md",
+    "utils/learn-techs/ts/clases/1.intro.md",
+    "utils/learn-techs/ts/2.inferencia.md",
+    "utils/learn-techs/ts/1.intro.md",
+    "utils/learn-techs/ts/func-obj.md",
+    "utils/learn-techs/ts/index.md",
+    "utils/learn-techs/ts/interfaces.md",
+    "utils/learn-techs/db/mongodb/atlas/tips.md",
+    "utils/learn-techs/ts/asercion.md",
+    "utils/learn-techs/ts/arrays.md",
     "utils/learn-techs/ts/clases/0.extra.md",
+    "utils/learn-techs/ts/clases/index.md",
     "utils/tips/git.md",
     "utils/tips/git-submodules.md",
     "utils/learn-techs/blockchain/solidity/proxy-storage.md",
     "utils/learn-techs/where/next.md",
     "utils/learn-techs/blockchain/solidity",
     "utils/learn-techs/blockchain",
-    "utils/learn-techs/ts/interfaces.md",
-    "utils/learn-techs/ts/asercion.md",
-    "utils/learn-techs/ts/arrays.md",
-    "utils/learn-techs/ts/2.inferencia.md",
-    "utils/learn-techs/ts/func-obj.md",
-    "utils/learn-techs/ts/1.intro.md",
-    "utils/learn-techs/ts/index.md",
-    "utils/learn-techs/ts/clases/2.implementacion.md",
     "utils/learn-techs/ts/clases/respuestas-alternativas.md",
-    "utils/learn-techs/ts/clases/3.polimorfismo-composicion.md",
-    "utils/learn-techs/ts/clases/1.intro.md",
     "utils/learn-techs/test/tdd-ts/configuracion.md",
     "utils/learn-techs/ts/clases/ej-extra.md",
     "utils/learn-techs/test/tdd-ts/desarrollo.md",
     "utils/learn-techs/test/tdd-ts/fundamentos.md",
     "utils/learn-web3/projects-info/fantom-ecosystem.md",
     "utils/soft-skills/autocandidatura.md",
-    "utils/tips/shortcuts.md",
-    "utils/tips/nextjs.md",
-    "utils/tips/markdown.md",
     "Sin título.canvas",
     "utils/learn-techs/ts/clases"
   ]
