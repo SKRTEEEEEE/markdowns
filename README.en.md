@@ -25,7 +25,7 @@
 
 
 <details>
-<summary ><pre>  ℹ️  Folders <b>Structure </b></pre></summary>
+<summary ><pre>  ℹ️  Folders <b>Structure</b></pre></summary>
 
 <h2 align="center"> About </h2>
 <p> Info about me <i>like a dev</i> </p>
@@ -44,6 +44,13 @@
 <li><h3>Learn <i>about</i> techs</h3></li>
 <!-- <li><h3>Learn <i>about</i> web3</h3></li> -->
 </ul>
+
+<h2 align="center"> Img <i>(Images)</i> </h2>
+<p>SYSTEM FOLDER - <i>Contains images used internally by project files</i></p>
+
+<h2 align="center"> Sys </h2>
+<p>SYSTEM FOLDER - <i>Contains other support files used internally by the project</i></p>
+
 </details>
 
 >  # 🌩️ Fast **Links to**

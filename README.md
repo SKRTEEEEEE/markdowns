@@ -44,7 +44,16 @@
 <li><h3>Learn techs <i>(Aprender sobre tecnologías)</i></h3></li>
 <!-- <li><h3>Aprender <i>sobre</i> web3</h3></li> -->
 </ul>
+
+<h2 align="center"> Img <i>(Imágenes)</i> </h2>
+<p>CARPETA DEL SISTEMA - <i>Contiene imágenes utilizadas internamente por los archivos del proyecto</i></p>
+
+<h2 align="center"> Sys </h2>
+<p>CARPETA DEL SISTEMA - <i>Contiene otros archivos de soporte utilizados internamente por el proyecto</i></p>
+
 </details>
+
+
 
 > # 🌩️ Enlaces **Rápidos**
 >
