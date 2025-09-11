@@ -1,8 +1,10 @@
+
+
 <a href="#"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
 
 <div id="user-content-toc">
   <ul align="center">
-    <h1 style="display: inline-block">SKRTEEEEEE Resources</h1>
+    <h1 style="display: inline-block">Recursos SKRTEEEEEE</h1>
   </ul>
 </div>
 
@@ -14,40 +16,46 @@
 
 <!--Intro start-->
 
-- 🗒️Developer tips
+* 🗒️ Consejos para desarrolladores
+* ☁️ Recursos de aprendizaje
 
-- ☁️ Learn resources
+<!-- - 💬 Pregúntame sobre **solidity, react, nextjs, nodejs, mongoDB..** -->
 
-<!-- - 💬 Ask me about **solidity, react, nextjs, nodejs, mongoDB..** -->
-
-- 📫 **[Feel free to reach me out](mailto:adanreh.m@gmail.com)**
-
-
+* 📫 **[No dudes en contactarme](mailto:adanreh.m@gmail.com)**
 
 <details>
-<summary ><pre>  ℹ️  Folders <b>Structure </b></pre></summary>
+<summary ><pre>  ℹ️  Estructura de <b>Carpetas</b></pre></summary>
 
-<h2 align="center"> About </h2>
-<p> Info about me <i>like a dev</i> </p>
+<h2 align="center"> About<i> (Acerca de mi)</i> </h2>
+<p> Información sobre mí <i>como desarrollador</i> </p>
 
-<h2 align="center"> Utils </h2>
-<p> Things that help <i>like a dev</i> </p>
+<h2 align="center"> Utils <i>(utilidades)</i> </h2>
+<p> Cosas útiles <i>como desarrollador</i> </p>
+
 <ul align="center">
-<li><h3>How Start <i>with techs</i></h3></li>
-<li><h3>Learn <i>about</i> techs</h3></li>
-<li><h3>Learn <i>about</i> web3</h3></li>
+<li>
+<h3> How start <i>(Cómo empezar con tecnologías)</i></h3>
+<!-- <p><i>Cl</i></p> -->
+</li>
+<li>
+<h3>Tips <i>(Ayudas rápidas)</i></h3>
+<!-- <p><i>Cl</i></p> -->
+</li>
+<li><h3>Learn techs <i>(Aprender sobre tecnologías)</i></h3></li>
+<!-- <li><h3>Aprender <i>sobre</i> web3</h3></li> -->
 </ul>
 </details>
 
->  # 🌩️ Fast **Links to**
->   
-> [Standard Commits](utils/tips/git.md#estandar-commits) | [Used tools](/utils/tools.md) 
-> |---|---|
+> # 🌩️ Enlaces **Rápidos**
+>
+> | [Estándar para Commits ](utils/tips/git.md#estandar-commits) | [Herramientas Usadas](/utils/tools.md) |
+> | ------------------------------------------------------ | -------------------------------------- |
 
 <!--tech stack icons-->
+
 <div id="user-content-toc">
   <ul align="center">
-    <h2 style="display: inline-block">Technologies That I Use👨🏻‍💻</h2>
+    <h2 style="display: inline-block">Tecnologías que Uso 👨🏻‍💻</h2>
   </ul>
 </div>
 
@@ -57,7 +65,3 @@
  </a>
 </p>
 </br>
-
-<!--Stats--!>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">

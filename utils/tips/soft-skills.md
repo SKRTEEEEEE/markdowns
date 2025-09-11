@@ -1,8 +1,9 @@
-# Auto-candidatura
+# Soft skills
+## Auto-candidatura
 
-## Enviar cv
+### Enviar cv
 A la hora de enviar un cv a empresas utilizaremos esta estructura, en el cuerpo del correo.
-### Estructura
+#### Estructura
 - 1. Saludo
 - 2. Presentación y justificación 
     _hay oferta o no, explicar diferente_
@@ -16,7 +17,7 @@ A la hora de enviar un cv a empresas utilizaremos esta estructura, en el cuerpo 
     - Leer cv para realizar una entrevista
 - 5. Cierre: saludo y cierre
 - 6. Firma: nombre, numero y correo
-## Linked in 
+### Linked in 
 A la vez de enviar el cv, podemos buscar los CEO o CTO, etc, de la empresa. Ahi, escribirles y avisarles de que hemos enviado un cv. Podemos utilizar la estructura anterior modificando-la de una forma mas personal.
 
 >_"Te escribo porque estoy buscando ampliar mi red de contactos, ya que estoy buscando empleo como desarrollador web.."_
