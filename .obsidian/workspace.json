@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "551ab435d41d4024",
+        "id": "468af1bcc3355a7a",
         "type": "tabs",
         "children": [
           {
-            "id": "a3e841d7752f03d0",
+            "id": "8ad31c8f4f4c863e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "utils/learn-techs/ts/clases/1.intro.md",
+                "file": "utils/learn-techs/ts/tips/esm-vs-cjs.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "esm-vs-cjs"
             }
           }
         ]
@@ -38,8 +40,11 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
-              }
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
             }
           },
           {
@@ -54,7 +59,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
             }
           },
           {
@@ -62,7 +69,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
             }
           }
         ]
@@ -85,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "utils/learn-techs/ts/clases/1.intro.md",
+                "file": "utils/learn-techs/ts/tips/esm-vs-cjs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +102,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Enlaces entrantes de esm-vs-cjs"
             }
           },
           {
@@ -102,10 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "utils/learn-techs/ts/clases/1.intro.md",
+                "file": "utils/learn-techs/ts/tips/esm-vs-cjs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Enlaces salientes de esm-vs-cjs"
             }
           },
           {
@@ -115,8 +128,12 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
-              }
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
             }
           },
           {
@@ -125,8 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "utils/learn-techs/ts/clases/1.intro.md"
-              }
+                "file": "utils/learn-techs/ts/tips/esm-vs-cjs.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Esquema de esm-vs-cjs"
             }
           }
         ]
@@ -138,6 +160,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Crear nueva base": false,
       "switcher:Abrir selector rápido": false,
       "graph:Abrir vista gráfica": false,
       "canvas:Crear nuevo lienzo": false,
@@ -146,13 +169,14 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "a3e841d7752f03d0",
+  "active": "8ad31c8f4f4c863e",
   "lastOpenFiles": [
+    "utils/learn-techs/Sin título.md",
+    "utils/learn-techs/ts/clases/1.intro.md",
     "utils/learn-techs/ts/clases/2.implementacion.md",
     "utils/learn-techs/ts/clases/3.polimorfismo-composicion.md",
     "utils/learn-techs/frontend/next-theme.md",
     "utils/learn-techs/frontend/tailwind-config.md",
-    "utils/learn-techs/ts/clases/1.intro.md",
     "utils/learn-techs/ts/2.inferencia.md",
     "utils/learn-techs/ts/1.intro.md",
     "utils/learn-techs/ts/func-obj.md",
@@ -175,7 +199,6 @@
     "utils/learn-techs/test/tdd-ts/desarrollo.md",
     "utils/learn-techs/test/tdd-ts/fundamentos.md",
     "utils/learn-web3/projects-info/fantom-ecosystem.md",
-    "utils/soft-skills/autocandidatura.md",
     "Sin título.canvas",
     "utils/learn-techs/ts/clases"
   ]
